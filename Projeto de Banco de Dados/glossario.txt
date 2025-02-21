@@ -1,0 +1,23 @@
+1)Banco de dados e a relação com sistema gerenciador de banco de dados(sgdb)
+  BANCO DE DADOS --> armazena dados de forma estruturada, facilando o acesso a informações e a relação entre dados
+  SISTEMA GERENCIADOR DE BANCO DE DADOS --> software que gerencia o banco de dados
+    * criar, manipular e organizar os dados (eficiencia no armazenamento)
+    * INTEGRIDADE DE DADOS E CONTROLE DE SEGURANÇA -->garente que apenas usuarios autorizados acessem os dados
+    * facilitar ao usuario o acesso aos dados e interação entre eles.
+    * backup  
+
+2)MODELO RELACIONAL DE BANCO DE DADOS--> modo de organizar e estruturar os dados, em geral em forma de tabelas, em que as informações são armazenadas de acordo com relações (tabelas) e a relação entre as informações são feitas por meio de relacionamentos.
+  tabela --> os dados são armazenados em tabelas, ou relações. 
+  Linha = tuplas --> representa uma instancia de um dado, registro
+  Coluna = atributos --> atributo especifico do dado, nome, idade,...
+                     --> cada coluna possui um atributo que define o tipo de dado a ser amazenado, inteiro, texto,...
+  Chave primaria--> atributos que identificam de forma unica cada registro, ID do cliente, garantindo que não haverá registros duplos
+  Chave Estrangeira --> atributo em uma tabela que informa a chave primaria de outra tabela, estabelecendo assim relação entre tabelas 
+*O modelo relacional permite a criação de relacionamentos entre diferentes tabelas
+  
+
+3)MICROSERVIÇO  -->descentraliza o serviço 
+  arquitetura de software
+dividi o serviço em serviços menores e independentes -> autonomos e descentralizados
+
+4)SaaS - Software como Serviço
