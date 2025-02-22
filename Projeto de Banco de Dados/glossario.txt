@@ -1,4 +1,4 @@
-1)Banco de dados e a relação com sistema gerenciador de banco de dados(sgdb)
+#1)Banco de dados e a relação com sistema gerenciador de banco de dados(sgdb)
   BANCO DE DADOS --> armazena dados de forma estruturada, facilando o acesso a informações e a relação entre dados
   SISTEMA GERENCIADOR DE BANCO DE DADOS --> software que gerencia o banco de dados
     * criar, manipular e organizar os dados (eficiencia no armazenamento)
@@ -6,7 +6,7 @@
     * facilitar ao usuario o acesso aos dados e interação entre eles.
     * backup  
 
-2)MODELO RELACIONAL DE BANCO DE DADOS--> modo de organizar e estruturar os dados, em geral em forma de tabelas, em que as informações são armazenadas de acordo com relações (tabelas) e a relação entre as informações são feitas por meio de relacionamentos.
+#2)MODELO RELACIONAL DE BANCO DE DADOS--> modo de organizar e estruturar os dados, em geral em forma de tabelas, em que as informações são armazenadas de acordo com relações (tabelas) e a relação entre as informações são feitas por meio de relacionamentos.
   tabela --> os dados são armazenados em tabelas, ou relações. 
   Linha = tuplas --> representa uma instancia de um dado, registro
   Coluna = atributos --> atributo especifico do dado, nome, idade,...
@@ -16,8 +16,31 @@
 *O modelo relacional permite a criação de relacionamentos entre diferentes tabelas
   
 
-3)MICROSERVIÇO  -->descentraliza o serviço 
-  arquitetura de software
-dividi o serviço em serviços menores e independentes -> autonomos e descentralizados
+#3)MICROSERVIÇO  -->descentraliza o serviço 
+    * estilo de arquitetura de software
+    * dividi um sistema em serviços menores e independentes -> serviços independentes, ou seja são autônomo e pode ser desenvolvido, implantado e       
+                                                               escalados de forma separada.
+                                                            -> cada serviço tem seu própio banco de dados, evitando assim dependência.
+                                                            -> apenas os serviços que precisam de mais recurso são escalados, diminuindo custos.
+    * segurança -> se um serviço falhar ou cair não derruba todo o sistema
+    * Desvantagens -> complexidade, comunicação entre os serviços pode ser muito complexa, o que  gera desafios
+                   -> banco de dados separados exigem um maior controle sobre os dados
+                   -> cada serviço precisa ser monitorado de forma individual
 
-4)SaaS - Software como Serviço
+#4)SaaS - Software como Serviço
+  * modelo de distribuição de software --> aplicação é hospedada na nuvem e acessada via internet, não precisa estar instalada no dispositivo. 
+                                          Ex: gmail, google drive.
+  * caracteristicas -> atualizações automáticas, o provedor do serviço é responsável por atualizações e manutenções
+                    -> atende desde de pequenos usuários até grande corporações
+                    -> compartilhamento de recursos, vários usuários utilizam a mesma infraestrutura.
+  * vantagens -> accesso de qualquer lugar desde que tenha internet
+              -> segurança, provedores oferecem backups e proteção contra ataques
+              -> colaboração facilitada, vários usuários podem trabalhar ao mesmo tempo
+
+
+
+
+
+
+
+
