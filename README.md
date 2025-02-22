@@ -1,5 +1,5 @@
 # 3-Semestre
-Matérias cursadas no 3° semestre
+Matérias cursadas no 3° semestre do curso de Ciência de Computação - 2025
 
 * Comunicação de Dados - Professor: Sylvio Andre Garcia Vieira
 * Engenharia e Requisitos de Software - Professor: Herysson Rodrigues Figueiredo
