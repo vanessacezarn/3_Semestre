@@ -41,7 +41,7 @@ int main(){
  }
 
      for(i=0; i<a; i++){
-        fprintf(fp, "%d\t", v[i]);
+        fprintf(fp,"%d\n", v[i]);
 
 
      }
