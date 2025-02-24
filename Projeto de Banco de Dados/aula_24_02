@@ -8,7 +8,7 @@ MODELAR --> conceitual --> lógico --> fisico
 
 modelo conceitual de entidade relacionamento --> modelo ER --> DIAGRAMA ER ( ex: ordem de serviço )
 
-proprietario. engenheiro, pedreiro, obra --> entidades
+**entidades --> proprietario. engenheiro, pedreiro, obra.
 **chave primaria = atributo identificador
 **atributos = nome, endereço,...
 **cardianalidade
@@ -23,3 +23,10 @@ Proprietario  <--------------------------1..n-->   OBRA < --0...n---------------
                                                PEDREIRO * CPF(chave primaria)
                                                          *nome 
                                                          *endereço
+
+***EXERCÍCIO***
+
+1)a definição do fator de bloco de um arquivo faz parte do modelo conceitual, do modelo lógico ou do modelo físico? FÍSICO
+2)a definição do tipo de um dado(numerico, afanumerico,...) faz parte do modelo conceitual, do modelo lógico ou do modelo físico ? FÍSICO
+
+
