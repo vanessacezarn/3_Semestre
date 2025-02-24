@@ -11,7 +11,7 @@ modelo conceitual de entidade relacionamento --> modelo ER --> DIAGRAMA ER ( ex:
 **entidades --> proprietario. engenheiro, pedreiro, obra.
 **chave primaria = atributo identificador
 **atributos = nome, endereço,...
-**cardianalidade
+**cardinalidade
 
 Proprietario  <--------------------------1..n-->   OBRA < --0...n-------------------> Engenheiro                                           
         *CPF (chave primaria)                        |                         *Cpf/Cnpj(chave primaria)
@@ -28,5 +28,11 @@ Proprietario  <--------------------------1..n-->   OBRA < --0...n---------------
 
 1)a definição do fator de bloco de um arquivo faz parte do modelo conceitual, do modelo lógico ou do modelo físico? FÍSICO
 2)a definição do tipo de um dado(numerico, afanumerico,...) faz parte do modelo conceitual, do modelo lógico ou do modelo físico ? FÍSICO
+
+MODELAGEM CONCEITUAL
+1)identificar entidades
+2)identificar atributos, identificador
+3)identificar relaciomantos --> qual entidade se relaciona com qual(ias)
+4)mapear cardinalidade
 
 
