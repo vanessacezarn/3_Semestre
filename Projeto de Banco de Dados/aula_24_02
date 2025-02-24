@@ -5,3 +5,21 @@ MODELAR --> conceitual --> lógico --> fisico
 
  estatística --> amostra --> tendência geral
  mineração --> todo -- >tendência de um 
+
+modelo conceitual de entidade relacionamento --> modelo ER --> DIAGRAMA ER ( ex: ordem de serviço )
+
+proprietario. engenheiro, pedreiro, obra --> entidades
+**chave primaria = atributo identificador
+**atributos = nome, endereço,...
+**cardianalidade
+
+Proprietario  <--------------------------1..n-->   OBRA < --0...n-------------------> Engenheiro                                           
+        *CPF (chave primaria)                              |                         *Cpf/Cnpj(chave primaria)
+        *nome                                              |                         *nome
+        * endereço ...                                     |                         *endereço
+                                                           |                         *CREA
+                                                           |
+                                                           |
+                                                       PEDREIRO * CPF(chave primaria)
+                                                                 *nome 
+                                                                 *endereço
