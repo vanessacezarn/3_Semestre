@@ -14,12 +14,12 @@ proprietario. engenheiro, pedreiro, obra --> entidades
 **cardianalidade
 
 Proprietario  <--------------------------1..n-->   OBRA < --0...n-------------------> Engenheiro                                           
-        *CPF (chave primaria)                              |                         *Cpf/Cnpj(chave primaria)
-        *nome                                              |                         *nome
-        * endereço ...                                     |                         *endereço
-                                                           |                         *CREA
-                                                           |
-                                                           |
-                                                       PEDREIRO * CPF(chave primaria)
-                                                                 *nome 
-                                                                 *endereço
+        *CPF (chave primaria)                        |                         *Cpf/Cnpj(chave primaria)
+        *nome                                        |                         *nome
+        * endereço ...                               |                         *endereço
+                                                     |                         *CREA
+                                                     |
+                                                     |
+                                               PEDREIRO * CPF(chave primaria)
+                                                         *nome 
+                                                         *endereço
