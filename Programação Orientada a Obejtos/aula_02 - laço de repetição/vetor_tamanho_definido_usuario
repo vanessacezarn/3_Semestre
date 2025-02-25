@@ -1,0 +1,31 @@
+package vetor;
+
+import java.util.Scanner;
+
+public class Vetortamanho {
+
+	public static void main(String[] args) {
+		int [] vetorDinamico;
+		
+		
+		int n;
+		
+		Scanner teclado= new Scanner(System.in);
+		System.out.print("DIGITE O TAMANHO DO VETOR:");
+		n=teclado.nextInt();
+		vetorDinamico = new int[n];
+		
+		for(int i=0;i<n;i++) {
+			System.out.print("Digite o elemento"+i+":");
+			vetorDinamico[i] = teclado.nextInt();
+		}
+		
+		for(int i=0;i<n;i++) {
+			System.out.print("ELEMENTO "+i+": ");
+			System.out.println(vetorDinamico[i]);
+		}
+		
+		teclado.close();
+	}
+
+}
