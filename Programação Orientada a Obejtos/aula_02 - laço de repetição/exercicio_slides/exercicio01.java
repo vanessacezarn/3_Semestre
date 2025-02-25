@@ -1,4 +1,4 @@
-
+//1 - Escreva um programa Java que use um laço imprimir os números de 1 a 10.
 package aula02;
 
 public class A1 {
