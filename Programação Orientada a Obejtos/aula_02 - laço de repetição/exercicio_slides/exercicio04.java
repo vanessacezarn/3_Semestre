@@ -1,3 +1,4 @@
+ //4 - Escreva um programa Java que use um laço para somar os números de 1 a 100.
 package exercicio04;
 
 public class Exercicio04 {
