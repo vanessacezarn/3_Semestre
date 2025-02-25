@@ -1,3 +1,5 @@
+//6- Escreva um programa Java que use um laço para ler uma sequência de números inteiros do usuário até que o número 0 seja lido.
+
 package exercicio06;
 import java.util.Scanner;
 
