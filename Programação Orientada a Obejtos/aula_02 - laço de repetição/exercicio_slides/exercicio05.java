@@ -1,3 +1,4 @@
+// 5 - Escreva um programa Java que use um laço para calcular o fatorial de umnúmero inteiro.
 package exercicio05;
 import java.util.Scanner;
 
