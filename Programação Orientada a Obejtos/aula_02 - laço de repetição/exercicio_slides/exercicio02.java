@@ -1,3 +1,5 @@
+//2 - Escreva um programa Java que use um laço para imprimir os números pares de 2 a 20.
+
 package exercicio02;
 
 public class Exercicio02 {
