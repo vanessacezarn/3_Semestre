@@ -1,3 +1,4 @@
+//3 - Escreva um programa Java que use um laço para imprimir a tabuada do 7.
 package exercicio03;
 
 public class Exercicio03 {
