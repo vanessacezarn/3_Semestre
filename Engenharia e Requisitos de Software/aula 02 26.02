@@ -16,3 +16,18 @@ Engenharia de SOFTWARE
       * Software para linha de produtos, prover capacidades especificas de utilização por clientes diferentes, exemplo: controle de estoque, planilha eletrônica,...
       * Aplicações para WEB, webApps
       * Software de inteligência artificial, algoritmos não númericos, soluciona problemas complexos. exemplo: robótica, sistemas especialistas,...
+
+##AULA##
+       ENGENHARIA de software               **pirâmede**                       *exemplo de sala: construção de uma casa
+                                                 --Ferramentas--
+          |                                    ---- Metodos ----
+      (processo)                             -----  Processo -----
+          |                             ---- foco na  Qualidade (base)----
+  abordagem sistemática
+          |
+          |
+-->Comunicação: REQUISITOS, características
+    -->Planejamanto: custo, tempo,... --> CROONOGRAMA  
+        -->Modelagem/Projeto: U.M.L (padrão de modelagem)
+            -->
+                -->
