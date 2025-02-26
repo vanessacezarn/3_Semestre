@@ -1,9 +1,18 @@
+###REVISÃO AULA 01
 Engenharia de SOFTWARE
                   |
               (produto)
                   | --> Instruções, dados , descritivos
 
 ---> SOFTWARE       X        PRODUTO TRADICIONAL  **graficos slides 
-  *materialidade - sem forma física                  
-  *processo de fabricação - desenvolvimento de uma ideia
-  *desgaste, como não é fisico não ocorre desgaste com o uso.
+      *materialidade - sem forma física                  
+      *processo de fabricação - desenvolvimento de uma ideia
+      *desgaste, como não é fisico não ocorre desgaste com o uso.
+---> CAMPOS DE APLICAÇÃO DE SOFTWARE
+      * Software de sistemas, atende a outro programas, exemplo: componentes de sistema operacional, drivers.
+      * Software de aplicação - ERP, exemplo: venda em mercados, controle de fabricação.
+      * Software cientifico/de engenharia, processamento númerico pesado. exemplo: astronomia, biologia molecular.
+      * Software embutido, implementa e controla caracteristicas e funções para o usuario e para o própio sistema. exemplo: funções digitas dos carros, combustivel, pneu, luz,...
+      * Software para linha de produtos, prover capacidades especificas de utilização por clientes diferentes, exemplo: controle de estoque, planilha eletrônica,...
+      * Aplicações para WEB, webApps
+      * Software de inteligência artificial, algoritmos não númericos, soluciona problemas complexos. exemplo: robótica, sistemas especialistas,...
