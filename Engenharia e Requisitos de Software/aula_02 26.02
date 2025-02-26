@@ -17,7 +17,7 @@ Engenharia de SOFTWARE
       * Aplicações para WEB, webApps
       * Software de inteligência artificial, algoritmos não númericos, soluciona problemas complexos. exemplo: robótica, sistemas especialistas,...
 
-##AULA##
+##AULA## - SLIDES AULA 01- SOFTWARE E ENGENHARIA DE SOFTWARE
        ENGENHARIA de software               **pirâmede**                       *exemplo de sala: construção de uma casa
                                                  --Ferramentas--
           |                                    ---- Metodos ----
@@ -26,8 +26,31 @@ Engenharia de SOFTWARE
   abordagem sistemática
           |
           |
--->Comunicação: REQUISITOS, características
-    -->Planejamanto: custo, tempo,... --> CROONOGRAMA  
-        -->Modelagem/Projeto: U.M.L (padrão de modelagem)
-            -->
-                -->
+PROCESSO DE ENGENGHARIA - ciclo de vida de desenvolvimento de software
+  -->Comunicação: REQUISITOS, características
+      -->Planejamanto: custo, tempo,... --> CROONOGRAMA  
+          -->Modelagem/Projeto: U.M.L (padrão de linguagem de modelagem)
+              -->Construção: geração de código e testes necessários -->IMPLEMENTAÇÃO 
+                  -->Emprego/Entrega: manutenção, cliente da um feedback -->IMPLANTAÇÃO
+PRINCIPIOS GERAL DO PROJETO (
+1°se não tem o pq não crie
+2°KISS = faça o básico, bem feito.
+3°mantenha o que planejado no inicio
+4°o que um produz outros consomem
+5°organização para possiveis manutenções futuras
+6°planejamento antes de começar
+7°pense duas vezes
+
+*** ATIVIDADE DINÂMICA PROXIMA AULA ***
+
+
+
+
+
+
+
+
+
+
+
+
