@@ -30,6 +30,14 @@
             -> um grande comprimento total de xabo é permitido, pelo fato de cada estação ser um repetidor de sinal.
             -> fluxo de dados em única direção 
 
+    *ESTRELA**  -> a que é mais utilizada atualmente
+                -> necessidade de um nó central ou concetrador
+                -> confiabilidade da rede depende extremamente do nó central
+                -> tamanho da rede depende do comprimento máximo do cabo entre o nó central e uma estação, comprimento máximo = 100m
+                -> número de estações limitadas pelo nó central
+                -> fluxo de dados entre o nó central ...
+
+    *HIBRIDA*
 
 
 
