@@ -3,7 +3,7 @@ ESTRUTURA DE DADOS - linguagens  (java, c#, c++, python)
       -- tipos de variaveis: int, double, float, char, boolean
       -- define o tamanho de memória alocada
           * são dependentes de linguagens 
-  --> ABSTRATAS:    
+  --> ABSTRATAS (coleções):    
       # algoritmos de gestão de memória (CRUD) #
           -- inserção (add, Add, append, push_back)
           -- percurso:
@@ -29,4 +29,4 @@ ESTRUTURA DE DADOS - linguagens  (java, c#, c++, python)
           -- árvores: tem todas as operações - busca 
                 * Tree
           -- grafos: muda completamente o foco, pois o objetivo é mapear pontos ou definir rotas (melhor caminho), como em mapas rodoviários, mapa infraestrutura tecnológica, fases de jogos
-                * 
+                
