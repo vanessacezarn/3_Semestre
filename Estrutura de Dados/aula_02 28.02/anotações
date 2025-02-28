@@ -1,0 +1,32 @@
+ESTRUTURA DE DADOS - linguagens  (java, c#, c++, python)
+  --> FÍSICA:
+      -- tipos de variaveis: int, double, float, char, boolean
+      -- define o tamanho de memória alocada
+          * são dependentes de linguagens 
+  --> ABSTRATAS:    
+      # algoritmos de gestão de memória (CRUD) #
+          -- inserção (add, Add, append, push_back)
+          -- percurso:
+                   * exibir( print, System.out.print, Console.print)
+                   * contar/definir tamanho (size/Count)
+                   * localizar (contains, Contains, in)
+                   * remover (delete, Delete, delete)
+          -- atualização (update)
+          -- remoção
+
+      # lineares #
+          -- lista: todas as operações - armazenar e exibir (relatórios)
+                * ArrayList, List, [], vector
+          -- pilha: Last In, First Out (LIFO) - somente operações de inserção e remoção no topo 
+                * Stack
+                      - inserção: push ou add
+                      - Remoção: pop ou delete
+          -- filas:Firt In, Fisrt Out (LIFO) - somente operações de inserção (cauda ou fim) e remoção(cabeça ou inicio)
+                * inserção: add ou append
+                * remoção : delete ou remove
+
+      # não lineares #
+          -- árvores: tem todas as operações - busca 
+                * Tree
+          -- grafos: muda completamente o foco, pois o objetivo é mapear pontos ou definir rotas (melhor caminho), como em mapas rodoviários, mapa infraestrutura tecnológica, fases de jogos
+                * 
