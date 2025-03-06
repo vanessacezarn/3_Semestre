@@ -16,10 +16,36 @@ EQUIPAMENTOS
     - placas de rede:
     - hub: 16 portas, cada pacote transmitido por uma porta são enviados para todas as outras portas,exceto a porta que enviou, cada porta verifica se ela é o endereço de destino (executa a tarefa do pacote) ou não (descarta o pacote) = mais rapido que o switch pois joga para todos 
         **se tiver muitas máquinas ligadas a mesma rede o hub não é indicado pois pode haver muita colisão de pacotes
-    - switchers: cada pacote é transmitiodo apenas para seu destino, o switch tem o endereço fisico de todos os computadores ligados a ele por isso consegue mandar a informação diretamente 
+    - switchers: cada pacote é transmitiodo apenas para seu destino, o switch tem o endereço fisico de todos os computadores ligados a ele por isso consegue mandar a informação diretamente, ele consegue gerenciar as informações 
         **principal diferença entre switch e hub é que uma transmite o pacote para todos as portas e outro apenas para a porta destino
-    - roteaadores:
-    - bridges:
+    - roteaadores: 
+    - bridges: conversor de midia, extensor de midia, 
     - repetidores:
-    - modens:
+    - modens: sempre tem que ter um na saida
+
+**Mac Address = 
+
+
+##ARQUITETUR DE UMA REDE##
+- estrutura que inclui o hardware, as camdas funcionais,as interfaces e os protocolos usados para estabelecer comunicação......
+* arquitetura CLIENTE/SERVIDOR - esse modelo envolve solicitações e respostas
+    - cliente = entidade que solicita o serviço
+    - servidor = entidade que presta o serviço - servidor dedicado: não tem mouse e teclado disponiveis, uso exclusivo para a rede
+                                               - servidor não dedicado: 
+    tipos de servidore: 
+    - arquivos: serviços de armazenamento e acesso às informações
+    - banco de dados,
+    - impressão,
+    - comunicação,
+    - gerenciamento
+
+*Arquitetura PEER-TO-PEER (ponto a ponto): interação entre dispositivos no mesmo nível de comunicação
+    - um ponto pode ser servidor e cliente ao mesmo tempo
+
+##PROTOCOLOS##
+
+
+
+
+
 
