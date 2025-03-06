@@ -1,1 +1,13 @@
-.
+###MEIOS DE TRANSMISSÃO
+analógico = apresenta variações continuas de amplitude.  modulação de onda= amplitude, comprimento de onda, frequência 
+    X
+digital = amplitude fixa, dois niveis discretos de tensão para representar os valores lógicos "0" ou "1". utiliza binário para realizar a transmissão.
+
+principais meios de transmissão atuais: ar, cabo, fibra ótica.
+meios de transimissão: - cabo coaxial  = antena de tv.
+                       - par traçado = cabo de internet - 8 fios traçados,cada um de uma cor sólida e com branco, sequência estabelecida BeLaranja, laranja, BeVerde,verde,azul,BeAzul,verde,BeMarrom,marrom - cada trança cria seu propio campo eletrico, fazendo com que um não interfira no outro possibilitando um maior fluxo.
+                       - fibra ótica = em uma ponta (modem) é injetado luz em uma ponta e ela é refletida até chegar na  próxima ponta
+                       - radiofusão =  torres de antenas
+                                      * tansmissão por satélite tambem é feita por radiofusão, entretanto a distância é muito grande logo a transmissão é mais demorada  - antena parabólica
+                       - backbone(não é um meio de transmissão, mas não deixa de ser uma forma de transmissão).
+
