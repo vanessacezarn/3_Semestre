@@ -14,8 +14,10 @@ MEIOS DE TRANSMISSÃO: - cabo coaxial  = antena de tv.
                             -espinha dorsal da internet, esquema de ligações centrais de um sistema de rede mais ampla, importante para infraestruturas das telecomunicações.
 EQUIPAMENTOS
     - placas de rede:
-    - hub: 16 portas, cada pacote transmitido por uma porta são enviados para todas as outras portas,exceto a porta que enviou, cada porta verifica se ela é o endereço de destino (executa a tarefa do pacote) ou não (descarta o pacote)
-    - switchers:
+    - hub: 16 portas, cada pacote transmitido por uma porta são enviados para todas as outras portas,exceto a porta que enviou, cada porta verifica se ela é o endereço de destino (executa a tarefa do pacote) ou não (descarta o pacote) = mais rapido que o switch pois joga para todos 
+        **se tiver muitas máquinas ligadas a mesma rede o hub não é indicado pois pode haver muita colisão de pacotes
+    - switchers: cada pacote é transmitiodo apenas para seu destino, o switch tem o endereço fisico de todos os computadores ligados a ele por isso consegue mandar a informação diretamente 
+        **principal diferença entre switch e hub é que uma transmite o pacote para todos as portas e outro apenas para a porta destino
     - roteaadores:
     - bridges:
     - repetidores:
