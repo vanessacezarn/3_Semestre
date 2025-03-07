@@ -6,7 +6,7 @@ namespace PrimeiroProjeto
         {
             int num;
             Console.Write("Digite um valor: ");
-            num = int.Parse(Console.ReadLine());
+            num = int.Parse(Console.ReadLine()); //.Parse = converte a string para int //.ReadLine = le a entrada como string
             Console.WriteLine("Numero digitado = " +num); //line = \n
 
             double num2;
