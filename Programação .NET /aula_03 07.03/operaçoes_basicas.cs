@@ -18,19 +18,19 @@ namespace aula
 
             double soma;
             soma = num1 + num2;
-            Console.WriteLine("SOMA dos valores digitado: "+num1+" + "+num2 +" = "+ soma);
+            Console.WriteLine("SOMA dos valores digitado: "+num1+" + "+num2 +" = "+ soma.ToString("N2"));
 
             double diferenca;
             diferenca = num1 - num2;
-            Console.WriteLine("SUBTRAÇÃO dos valores digitado = " + num1 + " - " + num2 + " = " + diferenca);
+            Console.WriteLine("SUBTRAÇÃO dos valores digitado = " + num1 + " - " + num2 + " = " + diferenca.ToString("N2"));
 
             double multi;
             multi = num1 * num2;
-            Console.WriteLine("MULTIPLICAÇÃO dos valores digitado = " + num1 + " * " + num2 + " = " + multi);
+            Console.WriteLine("MULTIPLICAÇÃO dos valores digitado = " + num1 + " * " + num2 + " = " + multi.ToString("N2"));
 
             double divisao;
             divisao = num1 / num2;
-            Console.WriteLine("DIVISÃO dos valores digitado = " + num1 + " / " + num2 + " = " + divisao);
+            Console.WriteLine("DIVISÃO dos valores digitado = " + num1 + " / " + num2 + " = " + divisao.ToString("N2"));
 
 
 
