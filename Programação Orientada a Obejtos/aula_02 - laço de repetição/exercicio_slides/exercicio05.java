@@ -1,27 +1,24 @@
 // 5 - Escreva um programa Java que use um laço para calcular o fatorial de umnúmero inteiro.
-package exercicio05;
+package exercicio05_repeticao;
 import java.util.Scanner;
 
-
-public class Exercicio05 {
+public class Ex5 {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
+		int n,i,fatorial=1;
 		
-		int n,i,res=1;
-		
-		System.out.println("Digite um numero para calcular o fatorial:");
+		System.out.print("Digite um número para calcular o seu fatorial: ");
 		n=teclado.nextInt();
 		
 		for(i=n;i>=1;i--) {
-		res *= i;
-			
+			fatorial=fatorial*i;
 		}
-		System.out.println(res);
-	
+		
+		System.out.println(n+"! = "+fatorial);
+		
 		teclado.close();
 	}
-	
 
 }
-
