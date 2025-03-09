@@ -1,5 +1,4 @@
 //1 - Escreva um programa Java que use um vetor para ler 5 nomes de pessoas e depois os imprima na tela.
-
 package vetor_matriz_ex01;
 
 import java.util.Scanner;
@@ -15,7 +14,7 @@ public class Exercicio01 {
 		
 		for (i=0;i<5;i++) {
 			System.out.print("Digite um nome:");
-			nomes[i] = teclado.next();	
+			nomes[i] = teclado.nextLine();	
 		}
 		
 		System.out.println("\tNOMES DIGITADOS");
@@ -27,5 +26,7 @@ public class Exercicio01 {
 		
 		teclado.close();
 	}
-
+	
 }
+
+
