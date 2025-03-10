@@ -60,8 +60,8 @@ REVISÃO AULAS ANTERIORES
                   • treinadores com nome, dataNacimento, apelido, codigo do conselho,...   🢂 treinador é uma pessoa + tipo+ cod do conselho(licença)
                   • preparador fisico com nome, dataNacimento, apelido, tipo, codigo conselho,...   🢂 preparador é uma pessoa + tipo+ cod do conselho
                   • jogadores com nomes, dataNacimento, posição, altura, sexo, apelido,   🢂 jogador é uma pessoa + posição + altura
-            times com nomes, lista de patrocinadores, clube, endereço, lista de centro de treinamento.
-            jogos com 2 times, data, hora, clube, arbitro principal, arbitro secundario, arbitro de mesa, arbitro reserva, placar_1_SetCasa, placar_1_SetVisitante, placar_2_SetCasa, placar_2_SetVisitante, 
+            ➜ times com nomes, lista de patrocinadores, clube, endereço, lista de centro de treinamento.
+            ➜ jogos com 2 times, data, hora, clube, arbitro principal, arbitro secundario, arbitro de mesa, arbitro reserva, placar_1_SetCasa, placar_1_SetVisitante, placar_2_SetCasa, placar_2_SetVisitante, 
             placar_3_SetCasa,placar_3_SetVisitante placar_4_SetCasa,placar_4_SetVisitante placar_5_SetCasa,placar_5_SetVisitante
             **desenho no caderno = modelagem conceitual
 
