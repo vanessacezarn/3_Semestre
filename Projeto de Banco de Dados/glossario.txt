@@ -36,7 +36,9 @@
   * vantagens -> accesso de qualquer lugar desde que tenha internet
               -> segurança, provedores oferecem backups e proteção contra ataques
               -> colaboração facilitada, vários usuários podem trabalhar ao mesmo tempo
-
+#5)BANCO DE DADOS RELACIONAIS E NÃO RELACIONAIS
+  *banco de dados relacionais = estrutura organizada em tabela (linha e coluna), esquema de modelo rígido, utilização de SQL, utilizam chaves primárias e estrangeira para segurança dos dados. --> dados bem estruturados e altamente consistente
+  *banco de dados não relacionais = estrutura flexível, documentos, grafo,..., sem esquema fixo, utilização de APIs, escabilidade, melhor para grndes volumes de dados e distribuição de dados. --> alta performace, flexibilidade e escabilidade
 
 
 
