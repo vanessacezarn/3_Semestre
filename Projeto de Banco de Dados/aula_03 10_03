@@ -12,4 +12,9 @@ REVISÃO AULAS ANTERIORES
                 • dependência
           ➜cardinalidade ➝ quantidade de um elemento de uma tabela que se relaciona com elementos de outra tabela
                 • FUNDAMENTAL para definir as chaves estrangeiras ➝ foreign kay
-                • tipos: 1 ... 1, 1...* ou n                                                             
+                • tipos: 1 ... 1, 1...* ou 1...n, *...* OU n...n.
+   ➤ MODELAGEM LÓGICA:
+         ➜ transformação de entidades em tabelas 
+         ➜ definição de chaves estrangeiras a partir da cardinalidade                      
+                • 1...1 ➝ a chave estrangeira pode estar em qualquer uma das entidades
+                • 1...n ➝ a chave estrangeira
