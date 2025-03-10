@@ -34,7 +34,7 @@ REVISÃO AULAS ANTERIORES
           *Exemplo 2 de tabela 1...n : aluno de universidade federal
             ➜ Aluno 0...n  ---------------------------------------------- 1...1Curso
               um curso pode ter de 0 a n alunos                um aluno tem que estar em pelo menos um curso
-           ➜ Curso (codCurso,nome,...)
+            ➜ Curso (codCurso,nome,...)
               Aluno (codAluno,nome,...)
 
           *Exemplo 3*
@@ -54,15 +54,31 @@ REVISÃO AULAS ANTERIORES
                         codVeiculo referncia veiculo, codPessoa referncia pessoa
 
         *Exemplo 5*: Sistema de gestão de jogos,equi´pes,ranking,clubes da superliga de volei:
-          ➜ Pessoa com nome, dataNascimento,apelido,cpf,sexo,telefone,email ➜ pessoa é uma herança
-                • treinadores com nome, dataNacimento, apelido, codigo do conselho,...   🢂 treinador é uma pessoa + cod do conselho
-                • preparador fisico com nome, dataNacimento, apelido, tipo, codigo conselho,...   🢂 preparador é uma pessoa + tipo+ cod do conselho
-                • jogadores com nomes, dataNacimento, posição, altura, sexo, apelido,   🢂 jogador é uma pessoa + posição + altura
-          times com nomes, lista de patrocinadores, clube, endereço, lista de centro de treinamento.
-          jogos com 2 times, data, hora, clube, arbitro principal, arbitro secundario, arbitro de mesa, arbitro reserva, placar_1_SetCasa, placar_1_SetVisitante, placar_2_SetCasa, placar_2_SetVisitante, 
+          ➜MODELO CONCEITUAL
+              ➜ Pessoa com nome, dataNascimento,apelido,cpf,sexo,telefone,email ➜ pessoa é uma herança
+                  • treinadores com nome, dataNacimento, apelido, codigo do conselho,...   🢂 treinador é uma pessoa + tipo+ cod do conselho(licença)
+                  • preparador fisico com nome, dataNacimento, apelido, tipo, codigo conselho,...   🢂 preparador é uma pessoa + tipo+ cod do conselho
+                  • jogadores com nomes, dataNacimento, posição, altura, sexo, apelido,   🢂 jogador é uma pessoa + posição + altura
+            times com nomes, lista de patrocinadores, clube, endereço, lista de centro de treinamento.
+            jogos com 2 times, data, hora, clube, arbitro principal, arbitro secundario, arbitro de mesa, arbitro reserva, placar_1_SetCasa, placar_1_SetVisitante, placar_2_SetCasa, placar_2_SetVisitante, 
             placar_3_SetCasa,placar_3_SetVisitante placar_4_SetCasa,placar_4_SetVisitante placar_5_SetCasa,placar_5_SetVisitante
+            **desenho no caderno = modelagem conceitual
+
+    ➜ MODELO LÓGICO
+      • Patrocinador(ᐞcodPatrocinadorᐞ, nome, endereço, campo)
+      • Time()
+      • TipoPessoa (ᐞcodTipoPessoaᐞ,descrição),  *tipo= treinador, jogador,preparador,arbitro
+      • Pessoa (ᐞcodPessoaᐞou ᐞcpfᐞ, nome🠐, dataNascimento🠐, apelido, tipo,licençaTreinador,codigoConselhoPreparador,posiçãoJogador,alturaJogador,licençaArbitro)   
+                                                          *tipo referencia TipoPessoa(codTipoPessoa)
+🠐 = atributos obrigatórios
+frontend = gerencia o que aparece na tela --> se o tipo for treinador os atributos não obrigatorios devem ser filtrados e aparecer apenas os referente a treinador, os demais atributos não obrigatorio deve ser nuul 
+ᐞ = chave primária
 
         ##MVP= Minimun Value Product = produto que está funcionando minimamente para seu uso
+        #regra do negocio = saber sobre o assunto do qual vai ser criado o banco
+        #quanto menos tabelas melhor = pois deixa o banco mais rápido pois não precisa acessar varias vezes
+
+
 
 
 
