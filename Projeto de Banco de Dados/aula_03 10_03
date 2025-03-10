@@ -1,6 +1,7 @@
 REVISÃO AULAS ANTERIORES
   • MODELAGEM - elencar/identificar/destacar requisitos (estruturais e funcionais) 
     --> 3 tipos de modelagem:
+
     ➤ MODELAGEM CONCEITUAL (diagrama ER): 
           ➜ entidades ➝ tabelas                  
           ➜ atributos ➝ variáveis/colunas
@@ -13,8 +14,66 @@ REVISÃO AULAS ANTERIORES
           ➜cardinalidade ➝ quantidade de um elemento de uma tabela que se relaciona com elementos de outra tabela
                 • FUNDAMENTAL para definir as chaves estrangeiras ➝ foreign kay
                 • tipos: 1 ... 1, 1...* ou 1...n, *...* OU n...n.
+
+
    ➤ MODELAGEM LÓGICA:
          ➜ transformação de entidades em tabelas 
          ➜ definição de chaves estrangeiras a partir da cardinalidade                      
                 • 1...1 ➝ a chave estrangeira pode estar em qualquer uma das entidades
-                • 1...n ➝ a chave estrangeira
+                • 1...n ➝ a chave estrangeira vai para o lado da entidade que tem o n
+                • n...n ➝ cria-se uma terceira tabela, onde as chaves primárias das duas tabelas vão se unir/juntar na tabela criada
+
+          *Exemplo 1* de tabela 1...n
+          ➜ Area (codArea,Descrição)              ➜ Projeto (codProjeto, titulo,...,codArea)
+                                                            codArea referencia Area
+              Area(1,Tecnologia)                        Projeto(100,"Sensores de desempenho",...,1)
+              Area(2,saude)                             Projeto(101,"Aldeia indigena",...,4)
+              Area(3,sociais)                           Projeto(102,"Sensores de sono",...,1)
+              Area(4,humanas)                           Projeto(103,"Sensores agricolas",...,1)
+
+          *Exemplo 2 de tabela 1...n : aluno de universidade federal
+            ➜ Aluno 0...n  ---------------------------------------------- 1...1Curso
+              um curso pode ter de 0 a n alunos                um aluno tem que estar em pelo menos um curso
+           ➜ Curso (codCurso,nome,...)
+              Aluno (codAluno,nome,...)
+
+          *Exemplo 3*
+           • Designer (Coddesigner,nome,codMesa) - codMesa referencia mesa
+           • Mesa(codMesa,dimensões,finalidade)
+              Designer n ... 1 Mesa: - um designer ocupa 1 mesa, uma mesa pode ser ocupada por n designer
+              *** n SEMPRE PUXA A CARDINALIDADE
+
+          *Exemplo 4* n...n : locação de veiculo
+            ➜ modelagem conceitual
+            Pessoa(0...*) ----------------------------------------------------(1...*)Veiculo
+            um veiculo pode estar locado de 0 a n pessoas                 uma pessoa pode locar n veiculos
+            ➜ modelagem Lógica
+                • Pessoa(codPessoa,nome,...,cnh)
+                • Veículo(codVeiculo,tipo,placa)
+                • Locação(codLocação,codVeiculo,codPessoa,dataRetirada,dataDevolução) - cria-se codLocaçao para tornar o programa mais agil
+                        codVeiculo referncia veiculo, codPessoa referncia pessoa
+
+        *Exemplo 5*: Sistema de gestão de jogos,equi´pes,ranking,clubes da superliga de volei:
+          ➜ Pessoa com nome, dataNascimento,apelido,cpf,sexo,telefone,email ➜ pessoa é uma herança
+                • treinadores com nome, dataNacimento, apelido, codigo do conselho,...   🢂 treinador é uma pessoa + cod do conselho
+                • preparador fisico com nome, dataNacimento, apelido, tipo, codigo conselho,...   🢂 preparador é uma pessoa + tipo+ cod do conselho
+                • jogadores com nomes, dataNacimento, posição, altura, sexo, apelido,   🢂 jogador é uma pessoa + posição + altura
+
+          times com nomes, lista de patrocinadores, clube, endereço, lista de centro de treinamento.
+          jogos com 2 times, data, hora, clube, arbitro principal, arbitro secundario, arbitro de mesa, arbitro reserva, placar,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
