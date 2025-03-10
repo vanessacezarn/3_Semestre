@@ -1,0 +1,15 @@
+REVISÃO AULAS ANTERIORES
+  • MODELAGEM - elencar/identificar/destacar requisitos (estruturais e funcionais) 
+    --> 3 tipos de modelagem:
+    ➤ MODELAGEM CONCEITUAL (diagrama ER): 
+          ➜ entidades ➝ tabelas                  
+          ➜ atributos ➝ variáveis/colunas
+                • identificadores ➝ chaves primárias ➝ primary kay
+                • ordinários ➝ não são identificadores
+          ➜ relacionamenetos
+                • associação
+                • herança
+                • dependência
+          ➜cardinalidade ➝ quantidade de um elemento de uma tabela que se relaciona com elementos de outra tabela
+                • FUNDAMENTAL para definir as chaves estrangeiras ➝ foreign kay
+                • tipos: 1 ... 1, 1...* ou n                                                             
