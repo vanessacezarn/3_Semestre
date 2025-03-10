@@ -54,6 +54,7 @@ REVISÃO AULAS ANTERIORES
                         codVeiculo referncia veiculo, codPessoa referncia pessoa
 
         *Exemplo 5*: Sistema de gestão de jogos,equi´pes,ranking,clubes da superliga de volei:
+
           ➜MODELO CONCEITUAL
               ➜ Pessoa com nome, dataNascimento,apelido,cpf,sexo,telefone,email ➜ pessoa é uma herança
                   • treinadores com nome, dataNacimento, apelido, codigo do conselho,...   🢂 treinador é uma pessoa + tipo+ cod do conselho(licença)
@@ -65,15 +66,36 @@ REVISÃO AULAS ANTERIORES
             **desenho no caderno = modelagem conceitual
 
         ➜ MODELO LÓGICO
-            • Patrocinador(ᐞcodPatrocinadorᐞ, nome, endereço, campo
-            • TipoPessoa (ᐞcodTipoPessoaᐞ,descrição),  *tipo= treinador, jogador,preparador,arbitro
-            • Pessoa (ᐞcodPessoaᐞou ᐞcpfᐞ, nome⬅, dataNascimento⬅, apelido, tipo,licençaTreinador,codigoConselhoPreparador,posiçãoJogador,alturaJogador,licençaArbitro)   
-                                                          *tipo referencia TipoPessoa(codTipoPessoa)
+            • Patrocinador(codPatrocinador, ᐞnomeᐞ, endereço, campo) 
+                        ➝nome é chave primaria devido a ser unico
+            • TipoPessoa (codTipoPessoa,ᐞdescriçãoᐞ),  *tipo= treinador, jogador,preparador,arbitro
+            • Pessoa (ᐞcodPessoaᐞou ᐞcpfᐞ, nome⬅, dataNascimento⬅, apelido, tipo, licençaTreinador, codigoConselhoPreparador, posiçãoJogador, alturaJogador, licençaArbitro)   
+                                                                            ➝ tipo referencia TipoPessoa(codTipoPessoa)
            • Time(ᐞcodTime ou cnpjᐞ, nome, cidade )
-           • Pessoa_Time (treinador,time, dataInicio,dataFim ) --> tabela gerada a partir de Pessoa e Time
-                        treinador refencia Pessoa (cpf) e time referencia Time(cnpj)
+           • Pessoa_Time (ᐞpessoaᐞ,ᐞtimeᐞ, ᐞdataInicioᐞ,dataFim ) --> tabela gerada a partir de Pessoa e Time
+                        ➝pessoa refencia Pessoa (cpf) e
+                        ➝time referencia Time(cnpj) 
+                        ➝ pessoa, time, dataInicio = os 3 são chaves primárias 
+           • Jogo(codJogo,data,hora,timeCasa,timeVisitante,arbitroPrincipal,arbitroSecundario,placar)
+               ➝ codJogo é a chave primaria
+               ➝ timeCasa refencia Time(cnpj)
+               ➝ timeVisitante refencia Time(cnpj)
+               ➝ arbitroPrincipal refencia Pessoa(cpf)
+               ➝ arbitroSecundario refencia Pessoa(cpf)
+                *placar não tem chave estrangeira
 
+          **exemplo:TIME : 12014,suzano,sao paulo
+                           12015,interzinho, santa maria
+                  
+                  PESSOA :  100,alex,treinador
+                            101,vanessa.jogador,
+                            102,cassio,jogador
+                            103,pedro,preparador 
 
+                  PESSOA_TIME :  100,12014,13/10/1997
+                                 101,12014,
+                                 102,12014
+                                 100,12014,10/03/2025 - datas diferentes
 ⬅ = atributos obrigatórios
 frontend = gerencia o que aparece na tela --> se o tipo for treinador os atributos não obrigatorios devem ser filtrados e aparecer apenas os referente a treinador, os demais atributos não obrigatorio deve ser nuul 
 ᐞ = chave primária
