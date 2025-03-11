@@ -3,12 +3,19 @@ package exercicio2;
 import java.util.Scanner;
 
 public class ComputadorExecut {
+	
+		public String marca;
+		public String modelo;
+		public String tipo;
+		public double preco;
+
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		
-		Computador c1= new Computador();
+		ComputadorExecut c1= new ComputadorExecut();
 		System.out.println("COMPUTADOR 1");
 		System.out.print("Digite a marca:");
 		c1.marca = teclado.nextLine();
@@ -19,7 +26,7 @@ public class ComputadorExecut {
 		System.out.println("Digite o preço:");
 		c1.preco = teclado.nextDouble();
 		
-		Computador c2 = new Computador();
+		ComputadorExecut c2 = new ComputadorExecut();
 		c2.marca = "Dell";
 		c2.modelo = "Gamer Dell G15";
 		c2.tipo = "Notebook";
