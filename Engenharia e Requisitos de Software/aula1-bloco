@@ -1,0 +1,28 @@
+### ENGENHARIA DE SOFTWARE ###
+
+é o estabelecimento e o emprego de sólidos princípios de engenharia de modo a obter software.
+é a aplicação de uma abordagem sistemática, quantificável no desenvolvimento, operação e manutenção de software.
+é uma tecnologia em camadas, fundamentada em comprometimento organizacional com QUALIDADE (pedra fundamental)
+
+ferramentas(topo da pirâmide) - métodos- processos - foco na qualidade(base da pirâmide)
+
+base para engenharia de software é a camada de processos, o processo define uma metodologia que deve ser estabelecida para a entrega efetiva de tecnologia de engenharia de software.
+ 
+PROCESSO de software = base para controle do gerenciamento de projetos de software e estabelece o contexto no qual são aplicados métodos técnicos, produzidos produtos derivados, estabelecidos marcos, a qualidade é garantida e mudanças são gerenciadas de forma apropriada. 
+
+MÉTODOS fornecem as informações técnicas para desenvolver software. envolvem uma ampla gama de tarefas, comunicação, analise de requisitos, modelagem,...
+
+FERRAMENTAS = fornecem suporte automatizados ou semiautomatizados para o processo e para os métodos
+
+
+Processo de software
+𛈇 COMUNICAÇÃO = conversar com o cliente, compreender os objetivos e realizar o levantamento das necessidades para melhor definir as funções e características do software.
+
+𛈇PLANEJAMENTO = "mapa" para guiar o projeto, descreve as tarefas técnicas, riscos prováveis, recursos necessários, produtos resultantes a serem produzidos, cronograma de trabalho
+
+𛈇MODELAGEM = esboço do projeto que está sendo desenvolvido, constrói-se uma ideia do todo, a partir do primeiro esboço vão sendo criados outros esboços com mais detalhes para compreender os detalhes e os problemas do projeto e como resolvê-los.
+
+𛈇CONSTRUÇÃO = geração de código + teste para revelar possíveis erros. momento de realmente começar o desenvolvimento do software
+
+𛈇EMPREGO = entrega do software ao cliente, avaliação por parte do cliente do projeto, suporte para possiveis problemas futuros
+
