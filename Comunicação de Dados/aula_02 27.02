@@ -1,51 +1,54 @@
-Mundo globalizado
-	- acelerado desenvolvimento tecnologico
-	- expansão acentuada das redes de comunicação
-	- "qualquer coisa para qualquer um em qualquer lugar e qualque hora"
+➤ Mundo globalizado	➞  ➣  ▶  ➨  ➪  🡺 🢂  🡺 ➤
+	🡺 acelerado desenvolvimento tecnologico
+	🡺 expansão acentuada das redes de comunicação
+	🡺 "qualquer coisa para qualquer um em qualquer lugar e qualque hora"
 
-***REDE DE COMPUTADORES***
- --> definição: consiste na interconexão entre dois ou mais computadores e dispositivos complementares por meio de recursos de comunicação, geograficamente distribuidos, permitindo a troca de dados entre estas unidades e otimizando recursos de hardware e software.
+➤REDE DE COMPUTADORES
+ 	🡺 definição: consiste na interconexão entre dois ou mais computadores e dispositivos complementares por meio de recursos de comunicação, geograficamente distribuidos, permitindo a troca de dados entre estas unidades e otimizando recursos de hardware e software.
 
-**DISTRIBUIÇÃO GEOGRÁFICA **
-# PANs (personal area networks) --> dispositivos se comunicam em uma área bastante limitada, exemplo: bluetooth e wifi domésticos.
+➤DISTRIBUIÇÃO GEOGRÁFICA 
+	🡺 PANs (personal area networks) 
+		• dispositivos se comunicam em uma área bastante limitada, exemplo: bluetooth e wifi domésticos.
 
-# LAN (local area networks)-->equipamentos interligados operando em curtas distâncias, por meio de uma linha de comunicação comum com o propósito de compatilhar recursos, dados 
-	- alta velocidade
-	- distribuidos geralmente entre um único prédio ou prédios vizinhos
+	🡺 LAN (local area networks) 
+		• equipamentos interligados operando em curtas distâncias, por meio de uma linha de comunicação comum com o propósito de compatilhar recursos, dados 
+		• alta velocidade
+		• distribuidos geralmente entre um único prédio ou prédios vizinhos
 
-# MAN(metropolitan area networks)--> abrange uma área geograficamente específica como uma cidade ou região metropolitana, diversas cidades pequenas ou vários bairros
- -pode estar interligando varias redes locais 
- - infraestrtura de transmissão =  fundamentada em tecnologias de transmissão de alta capacidade ex:fibra optica
+	🡺 MAN(metropolitan area networks) 
+		• abrange uma área geograficamente específica como uma cidade ou região metropolitana, diversas cidades pequenas ou vários bairros
+ 		• pode estar interligando varias redes locais 
+ 		• infraestrtura de transmissão =  fundamentada em tecnologias de transmissão de alta capacidade ex:fibra optica
 
-# WAN (wide area networks) -> cobre áreas dispersas.
-        ->estrutura de maior custo e complexidade.   
-        -> interconexão de vários sub-redes de comunicação.
-	- conecta computadores em grandes distancias 
-
+	🡺 WAN (wide area networks) 
+		• cobre áreas dispersas.
+       		• estrutura de maior custo e complexidade.   
+        	• interconexão de vários sub-redes de comunicação.
+		• conecta computadores em grandes distancias 
 
 **claro,oi,vivo...não fazem wan  
 **download x upload !!!!!!
 #tipos de rede -> cliente - servidor
     aula 03    -> P2P (peer to peer) - ponto a ponto 
 
-##TOPOLOGIAS 
-  -->Tipos de arranjos: 
-	- Ponto a Ponto: conecta dois lugares, ligação direta entre dois equipamentos.
-muito utilizado em ligar computadores, servidores e impressoras de uma rede.
- exemplo: repetidor de internet 
- 	- Multiponto: conecta vários lugares, exemplo: televisão, rádio (antena),...
- 	ligaçao entre vários equipamentos
-	possibilita que vários usuários sejam atendidos simultaneamente por ponto base o qual é posicionado em um local estratégico. 
+➤TOPOLOGIAS 
+  	▶Tipos de arranjos: 
+		🡺 Ponto a Ponto: conecta dois lugares, ligação direta entre dois equipamentos.
+			• muito utilizado em ligar computadores, servidores e impressoras de uma rede.
+ 			• exemplo: repetidor de internet 
+ 		🡺 Multiponto: conecta vários lugares, exemplo: televisão, rádio (antena),...
+ 			• ligaçao entre vários equipamentos
+			• possibilita que vários usuários sejam atendidos simultaneamente por ponto base o qual é posicionado em um local estratégico. 
 
-  -->Topologias Físicas : Barra, Anel, Estrela, Hibridas
+	  ▶Topologias Físicas : Barra, Anel, Estrela, Hibridas
 
-      *BARRA* 
-	-> todas as estações estão ligadas em paralelo ao cabo (cabo único = barramento)
-        -> problema em uma parte do circuito ocorre problema em toda rede
-        -> atualmente pouca utilizada, necessidade de aplificadores, custo de manutenção alto, fibra optica é melhor
-        -> o comprimento do cabo e o número máximo de estações em uma rede é determinada: 
-			- .atenuação. do sinal no cabo
-                                                                                           			- qualidade das placas de rede
+      	   	🡺 BARRA
+			• todas as estações estão ligadas em paralelo ao cabo (cabo único = barramento)
+        		• problema em uma parte do circuito ocorre problema em toda rede
+        		• atualmente pouca utilizada, necessidade de aplificadores, custo de manutenção alto, fibra optica é melhor
+       			• o comprimento do cabo e o número máximo de estações em uma rede é determinada: 
+				➞.atenuação. do sinal no cabo
+                                ➞ qualidade das placas de rede
             -> fluxo de dados bidimensional 
             -> as extremidades do barramento são terminadores dos sinais, tem como função absorver sinais livres, para que após os dados chegarem  a seu destino o cabo seja liberado para os demais cabos enviarem dados.
 	   -> problema: conectar varios dispositivos a rede pode causar problemas de desempenho, o tráfego de dados pode ficar congestionado e pode ocorrer colisão de dados.
