@@ -1,43 +1,81 @@
-# MAN -> abrange uma área geograficamente especifica como uma cidade ou regiao metropolitana
+Mundo globalizado
+	- acelerado desenvolvimento tecnologico
+	- expansão acentuada das redes de comunicação
+	- "qualquer coisa para qualquer um em qualquer lugar e qualque hora"
+
+***REDE DE COMPUTADORES***
+ --> definição: consiste na interconexão entre dois ou mais computadores e dispositivos complementares por meio de recursos de comunicação, geograficamente distribuidos, permitindo a troca de dados entre estas unidades e otimizando recursos de hardware e software.
+
+**DISTRIBUIÇÃO GEOGRÁFICA **
+# PANs (personal area networks) --> dispositivos se comunicam em uma área bastante limitada, exemplo: bluetooth e wifi domésticos.
+
+# LAN (local area networks)-->equipamentos interligados operando em curtas distâncias, por meio de uma linha de comunicação comum com o propósito de compatilhar recursos, dados 
+	- alta velocidade
+	- distribuidos geralmente entre um único prédio ou prédios vizinhos
+
+# MAN(metropolitan area networks)--> abrange uma área geograficamente específica como uma cidade ou região metropolitana, diversas cidades pequenas ou vários bairros
+ -pode estar interligando varias redes locais 
+ - infraestrtura de transmissão =  fundamentada em tecnologias de transmissão de alta capacidade ex:fibra optica
+
 # WAN (wide area networks) -> cobre áreas dispersas.
-                           ->estrutura de maior custo e complexidade.
-                           -> interconexão de vários sub-redes de comunicação.
-**claro,oi,vivo...não fazem wan 
-**downloadxupload
+        ->estrutura de maior custo e complexidade.   
+        -> interconexão de vários sub-redes de comunicação.
+	- conecta computadores em grandes distancias 
+
+
+**claro,oi,vivo...não fazem wan  
+**download x upload !!!!!!
 #tipos de rede -> cliente - servidor
-               ->P2P (peer to peer) - ponto a ponto 
+    aula 03    -> P2P (peer to peer) - ponto a ponto 
+
 ##TOPOLOGIAS 
-  -->Tipos de arranjos: - Ponto a Ponto: conecta dois lugares. exemplo: repetidor de internet 
-                        - Multiponto: conecta vários lugares, exemplo: televisão, rádio,...
+  -->Tipos de arranjos: 
+	- Ponto a Ponto: conecta dois lugares, ligação direta entre dois equipamentos.
+muito utilizado em ligar computadores, servidores e impressoras de uma rede.
+ exemplo: repetidor de internet 
+ 	- Multiponto: conecta vários lugares, exemplo: televisão, rádio (antena),...
+ 	ligaçao entre vários equipamentos
+	possibilita que vários usuários sejam atendidos simultaneamente por ponto base o qual é posicionado em um local estratégico. 
 
   -->Topologias Físicas : Barra, Anel, Estrela, Hibridas
 
-      *BARRA* -> todas as estações estão ligadas em paralelo ao cabo
-             -> problema em uma parte do circuito ocorre problema em toda rede
-             -> atualmente pouca utilizada, necessidade de aplificadores, custo de manutenção alto, fibra optica é melhor
-             -> o comprimento do cabo e o número máximo de estações em uma rede é determinada: - .atenuação. do sinal no cabo
-                                                                                               - qualidade das placas de rede
+      *BARRA* 
+	-> todas as estações estão ligadas em paralelo ao cabo (cabo único = barramento)
+        -> problema em uma parte do circuito ocorre problema em toda rede
+        -> atualmente pouca utilizada, necessidade de aplificadores, custo de manutenção alto, fibra optica é melhor
+        -> o comprimento do cabo e o número máximo de estações em uma rede é determinada: 
+			- .atenuação. do sinal no cabo
+                                                                                           			- qualidade das placas de rede
             -> fluxo de dados bidimensional 
-            -> ????
-**colisão de dados = dados se encontram e um sobrepõe o outro, perde as informações originais pois as informações se mistruram perdendo assim o endereço de destino e as informações contida nels 
+            -> as extremidades do barramento são terminadores dos sinais, tem como função absorver sinais livres, para que após os dados chegarem  a seu destino o cabo seja liberado para os demais cabos enviarem dados.
+	   -> problema: conectar varios dispositivos a rede pode causar problemas de desempenho, o tráfego de dados pode ficar congestionado e pode ocorrer colisão de dados.
+**colisão de dados = dados se encontram e um sobrepõe o outro, perde as informações originais pois as informações se mistruram perdendo assim o endereço de destino e as informações contida nelas 
      |
-     | --> pode ocorre devido a defeitos na  qualidade das placas de rede. ** cada informação/dado é transmitido um de cada vez, se já tiver sendo transmitido algum dado o sistema term que esperar o caminho ficar livre
+     |--> pode ocorre devido a defeitos na  qualidade das placas de rede. ** cada informação/dado é transmitido um de cada vez, se já tiver sendo transmitido algum dado o sistema tem que esperar o caminho ficar livre
+
 **protocolo csma/cd
 
 
-      *ANEL* ->  a saída de cada estação está ligada na entrada da estação seguinte 
-            -> confiabilidade da rede depende da confiabilidade de cada nó (estação) e da confiabilidade da implementação do anel
-            -> um grande comprimento total de xabo é permitido, pelo fato de cada estação ser um repetidor de sinal.
-            -> fluxo de dados em única direção 
+      *ANEL* 
+	->  a saída de cada estação está ligada na entrada da estação seguinte 
+        -> confiabilidade da rede depende da confiabilidade de cada nó (estação) e da confiabilidade da implementação do anel
+        -> um grande comprimento total de cabo é permitido, pelo fato de cada estação ser um repetidor de sinal.
+        -> fluxo de dados em única direção 
+	-> se tiver problema em uma estação toda a rede é impactada, podendo falhar por completo
+	-> número de usuários não impacta diretamente no desempenho   
 
-    *ESTRELA**  -> a que é mais utilizada atualmente
-                -> necessidade de um nó central ou concetrador
-                -> confiabilidade da rede depende extremamente do nó central
-                -> tamanho da rede depende do comprimento máximo do cabo entre o nó central e uma estação, comprimento máximo = 100m
-                -> número de estações limitadas pelo nó central
-                -> fluxo de dados entre o nó central ...
+    *ESTRELA*
+	-> a que é mais utilizada atualmente
+        -> necessidade de um nó central ou concetrador (pode ser um hub ou switch) - é pra onde converge todo tráfego de dados. 
+        -> confiabilidade da rede depende extremamente do nó central
+	-> dados são enviados para o nó central e da lá são encaminhados para o computador destino
+        -> tamanho da rede depende do comprimento máximo do cabo entre o nó central e uma estação, comprimento máximo em geral = 100m
+        -> número de estações limitadas pelo nó central, mas a adição ou exclusão de um computador não interfere diretamente nos outros computadores já existentes na rede.
+        -> fluxo de dados entre o nó central e as estações dependente da topologia de rede
+	-> o sistema entrará em falha se o dispositivo/nó central falhar.
 
     *HIBRIDA*
+	-> combinação de mais de uma topologia.
 
 
 
