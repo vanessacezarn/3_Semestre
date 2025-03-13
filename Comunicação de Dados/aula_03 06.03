@@ -1,87 +1,97 @@
 ###MEIOS DE TRANSMISSÃO  **TEM QUE COMPLENTAR
 
-
-𛈇analógico = apresenta variações continuas de amplitude.  modulação de onda= amplitude, comprimento de onda, frequência 
+➤analógico = apresenta variações continuas de amplitude.  modulação de onda= amplitude, comprimento de onda, frequência 
     X
-𛈇digital = amplitude fixa, dois niveis discretos de tensão para representar os valores lógicos "0" ou "1". utiliza binário para realizar a transmissão.
+➤digital = amplitude fixa, dois niveis discretos de tensão para representar os valores lógicos "0" ou "1". utiliza binário para realizar a transmissão.
 
-principais meios de transmissão atuais: ar, cabo, fibra ótica.
-##MEIOS DE TRANSMISSÃO: 
-	-> cabo coaxial  = antena de tv. --> é um cabo condutor que transmite sinais elétricos ou de radiofrequência.
-			--> composto por cobre central, revestido por camadas isolantes e uma blindagem
-			--> transmite dados através de ondas eletromagnéticas entre o núcleo interno e a blindagem.
+•principais meios de transmissão atuais: ar, cabo, fibra ótica.
 
-        -> par traçado = cabo de internet - 8 fios traçados,cada um de uma cor sólida e com branco, sequência pré estabelecida BrancoeLaranja, laranja, BrancoeVerde,verde,azul,BrancoeAzul,verde,BrancoeMarrom,marrom - cada trança cria seu propio campo eletrico, fazendo com que um não interfira no outro possibilitando um maior fluxo.
-		--> é um tipo de cabo de rede que transmite sinais eletricos entre dispositivos
+➤MEIOS DE TRANSMISSÃO: 
+	🢂 cabo coaxial  = antena de tv. ➞ é um cabo condutor que transmite sinais elétricos ou de radiofrequência.
+		• composto por cobre central, revestido por camadas isolantes e uma blindagem
+		• transmite dados através de ondas eletromagnéticas entre o núcleo interno e a blindagem.
 
+        🢂 par traçado = cabo de internet ➞ 8 fios traçados,cada um de uma cor sólida e com branco, sequência pré estabelecida BrancoeLaranja, laranja, BrancoeVerde,verde,azul,BrancoeAzul,verde,BrancoeMarrom,marrom ➞ cada trança cria seu propio campo eletrico, fazendo com que um não interfira no outro possibilitando um maior fluxo.
+		• é um tipo de cabo de rede que transmite sinais eletricos entre dispositivos
 
-        -> fibra ótica = em uma ponta (modem) é injetado luz a e ela é refletida pelo cabo até chegar na  próxima ponta
-		--> filamento flexível que transmite dados através de pulsos de luz
+        🢂 fibra ótica = em uma ponta (modem) é injetado luz a e ela é refletida pelo cabo até chegar na  próxima ponta
+		• filamento flexível que transmite dados através de pulsos de luz
 
-        -> radiofusão =  torres de antenas, transimissão via rádio, transmissões de televisão
-                 * tansmissão por satélite tambem é feita por radiofusão, entretanto a distância é muito grande logo a transmissão é mais demorada  - antena parabólica
-		--> transmissões de sons, imagens e sinais por meio de ondas eletromagnéticas 
+        🢂 radiofusão =  torres de antenas, transimissão via rádio, transmissões de televisão
+		• transmissões de sons, imagens e sinais por meio de ondas eletromagnéticas 
+                ➞ tansmissão por satélite tambem é feita por radiofusão, entretanto a distância é muito grande logo a transmissão é mais demorada  - antena parabólica
 
-        -> ???backbone(não é um meio de transmissão, mas não deixa de ser uma forma de transmissão). = ligação da vivo com a propia vivo
-		-> backbone da internet é a infraestrutura central que liga as redes de computadores em todo o mundo.
-	      **-> transmissão via internet, existe prioridades entre os dados que estão sendo transmitidos para não ter interferencia entre os dados
-                -> espinha dorsal da internet -->permite que as informações flua entre as redes locais, nacionais, internacionais e intercontinentais. 
-		-> esquema de ligações centrais de um sistema de rede mais ampla, importante para infraestruturas das telecomunicações.
+        🢂 ???backbone(não é um meio de transmissão, mas não deixa de ser uma forma de transmissão). = ligação da vivo com a propia vivo
+		• backbone da internet é a infraestrutura central que liga as redes de computadores em todo o mundo.
+	      **• transmissão via internet, existe prioridades entre os dados que estão sendo transmitidos para não ter interferencia entre os dados
+                • espinha dorsal da internet -->permite que as informações flua entre as redes locais, nacionais, internacionais e intercontinentais. 
+		• esquema de ligações centrais de um sistema de rede mais ampla, importante para infraestruturas das telecomunicações.
 
-##EQUIPAMENTOS !!!!!
-    -> placas de rede:
+➤EQUIPAMENTOS !!!!!
+    🢂 placas de rede:
 
-    -> hubs: 16 portas, cada pacote transmitido por uma porta são enviados para todas as outras portas,exceto a porta que enviou, cada porta verifica se ela é o endereço de destino (executa a tarefa do pacote) ou não (descarta o pacote) = mais rapido que o switch pois joga para todos 
+    🢂 hubs: 16 portas, cada pacote transmitido por uma porta são enviados para todas as outras portas,exceto a porta que enviou, cada porta verifica se ela é o endereço de destino (executa a tarefa do pacote) ou não (descarta o pacote) = mais rapido que o switch pois joga para todos 
         **se tiver muitas máquinas ligadas a mesma rede o hub não é indicado pois pode haver muita colisão de pacotes
 
-    -> switchers: cada pacote é transmitiodo apenas para seu destino, o switch tem o endereço fisico de todos os computadores ligados a ele por isso consegue mandar a informação diretamente, ele consegue gerenciar as informações 
+    🢂 switchers: cada pacote é transmitiodo apenas para seu destino, o switch tem o endereço fisico de todos os computadores ligados a ele por isso consegue mandar a informação diretamente, ele consegue gerenciar as informações 
         **principal diferença entre switch e hub é que uma transmite o pacote para todos as portas e outro apenas para a porta destino
 
-    -> roteadores: 
+    🢂 roteadores: 
 
-    -> bridges ("ponte"): conversor de midia, extensor de midia, 
+    🢂bridges ("ponte"): conversor de midia, extensor de midia, 
     
-    -> repetidores:
+    🢂 repetidores:
 
-    -> modems: sempre tem que ter um na saida
+    🢂 modems: sempre tem que ter um na saida
 
-**Mac Address (media acess control) = é um identificador único que identifica cada dispositivo de rede, como computador, smartphones e roteadores. 
-	-> espécie  de "placa de matrícula digital" que permite que cada dispositivo tenha uma identidade distinta numa rede. 
-	-> é um número de hardware que é fabricado em todas as placas de rede --> é estático e permanece o mesmo durante toda a vida útil do dispositivo
-	-> número é composto por seis números hexadecimais de dois dígitos, separados por dois pontos ex: A1:B4:C5:C1:DD:3E
-	-> é fundamental para tarefas como filtragem de tráfego, segurança de rede e monitoramento. 
+▶Mac Address (media acess control) 
+	• é um identificador único que identifica cada dispositivo de rede, como computador, smartphones e roteadores. 
+	• espécie  de "placa de matrícula digital" que permite que cada dispositivo tenha uma identidade distinta numa rede. 
+	• é um número de hardware que é fabricado em todas as placas de rede --> é estático e permanece o mesmo durante toda a vida útil do dispositivo
+	• número é composto por seis números hexadecimais de dois dígitos, separados por dois pontos ex: A1:B4:C5:C1:DD:3E
+	• é fundamental para tarefas como filtragem de tráfego, segurança de rede e monitoramento. 
 
 
-##ARQUITETUR DE UMA REDE##
+➤ARQUITETUR DE UMA REDE
+	•estrutura que inclui o hardware, as camdas funcionais,as interfaces e os protocolos usados para estabelecer a comunicação entre os nós e garantir uma transferência confiável de informações.
 
-- estrutura que inclui o hardware, as camdas funcionais,as interfaces e os protocolos usados para estabelecer a comunicação entre os nós e garantir uma transferência confiável de informações.
+ 🢂 Arquitetura CLIENTE/SERVIDOR - esse modelo envolve solicitações e respostas
+	➞ cliente = entidade que solicita o serviço
+    	➞ servidor = entidade que presta o serviço 
+		➥ servidor dedicado: não tem mouse e teclado disponiveis, uso exclusivo para a rede
+        	➥ servidor não dedicado: 
 
-* Arquitetura CLIENTE/SERVIDOR - esse modelo envolve solicitações e respostas
-    - cliente = entidade que solicita o serviço
-    - servidor = entidade que presta o serviço 
-	-> servidor dedicado: não tem mouse e teclado disponiveis, uso exclusivo para a rede
-        -> servidor não dedicado: 
+    		🡺tipos de servidore: 
+    			• arquivos: serviços de armazenamento e acesso às informações
+			• banco de dados: banco de dados e processos de consulta
+			• impressão: serviços de impressão
+			• comunicação: procedimentos de acesso à rede e interface com os dispositivos dos usuários
+			• gerenciamento: tráfego de rede, desempenho, identificação de falhas
 
-    tipos de servidore: 
-    -> arquivos: serviços de armazenamento e acesso às informações
-
-    -> banco de dados: banco de dados e processos de consulta
-
-    -> impressão: serviços de impressão
-
-    -> comunicação: procedimentos de acesso à rede e interface com os dispositivos dos usuários
-
-    -> gerenciamento: tráfego de rede, desempenho, identificação de falhas
-
-*Arquitetura PEER-TO-PEER (ponto a ponto): interação entre dispositivos no mesmo nível de comunicação
+🢂 Arquitetura PEER-TO-PEER (ponto a ponto): interação entre dispositivos no mesmo nível de comunicação
     - um ponto pode ser servidor e cliente ao mesmo tempo
 
-##PROTOCOLOS##
-
--> definição: conjunto de padrões de comunicação
--> protocolo de rede é um tipo de linguagem para a comunicação de dados
-|-> para haver intercâmbio de dados entre computadores, estes precisam falar mesma língua.
-
+➤ PROTOCOLOS   ➞  ➣  ▶  ➨  ➪  🡺 🢂  🡺 ➤ ➥ 
+	• definição: conjunto de padrões/regras de comunicação
+	• protocolo de rede é um tipo de linguagem para a comunicação de dados
+	• para haver intercâmbio de dados entre computadores, estes precisam falar mesma língua.
+ 🡺Exemplos de protocolos
+	➞ NetBeui (Redes Microsoft): antigo, não é utilizado mais, imprevisivel não sabia quando ia funcionar ou não
+	➞ IPX/SPX (Redes Netware):antigo, não é muito utilizado 
+	➞ TCP/IP (Qualquer rede): é utilizado até hoje, é a combinação de dois protocolos - Protocolo de Controle de Transmissão (TCP) + Protocolo de Internet (IP)
+ 		➥ TCP = divide os dados em pacotes, numera-os e os envia
+		➥IP = define o endereço IP do dispositivo que irá receber os dados
+ 🡺SOs de Rede (sistemas operacionais de rede)
+	• Windows NT
+	• Windows 2000
+	• Netware
+	• Unix, base para os supercomputadores, usado onde precisa de grande fluxo de dados
+	• Linux, baseado no unix mas para maquinas menores
+ 🡺 Segurança
+	• politica de senhas = quanto mais estupida para o usuario mais forte ela pode ser
+	• criptografia 
+	• firewalls
+	• backups
 
 
 
