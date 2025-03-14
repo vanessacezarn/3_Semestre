@@ -30,9 +30,27 @@ public class ListaLista{
             System.out.println(lista);
         }
 
-        //EXIBINDO A LISTA INTEIRA DA PRIMEIRA POSI
+        //EXIBINDO A LISTA INTEIRA DA PRIMEIRA POSIÇÃO
+        System.out.println("\nEXIBINDO A LISTA INTEIRA NA PRIMERIA POSIÇÃO:");
+        System.out.println(listaPrincipal.get(0));
 
+        //EXIBINDO ITEM A ITEM DA LISTA PRINCIPAL NA PRIMEIRA  POSIÇÃO
+        System.out.println("\n EXIBINDO ITEM A ITEM DA LSITA PRINCIPAL NA PRIMEIRA POSIÇÃO");
+        for(Object i: listaPrincipal.get(0)){
+            System.out.println(i);
+        }
 
+        //EXIBINDO OS PARES DA LISTA PRINCIPAL, ANALISANDO ITEM A ITEM DAS LISTAS INTERNAS
+        System.out.println("EXIBINDO OS PARES DA LISTA PRINCIPAL, ANALISANDO ITEM A ITEM DAS LISTAS INTERNAS");
+        for(ArrayList lista:listaPrincipal){
+            for(Object i : lista){
+
+            System.out.println(lista);
+            }
+        }
+
+        
 
     }
 }
+
