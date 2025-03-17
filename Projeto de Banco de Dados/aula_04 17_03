@@ -2,48 +2,54 @@ Modelagem
 *sempre tentar deixar em uma única tabela -> melhorar o processamento
 * colocar o máximo de atributos não nulos (o usuario tem que preencher os dados)
   ➤exercicio 3 do github Alexandre Zamberlan;  ᐞ = chave primária
-    • Departamento(ᐞidDepartamentoᐞ, nome)
-    • ProcessadorTexto(ᐞidProcessadorTextoᐞ,descrição)
-    • Projeto(ᐞidProjetoᐞ)
-    • Tipo (ᐞidTipoᐞ, descrição)
-        *fazer uma tabela para tipo para facilitar futuras adiçôes de tipo ou alteração nos tipos existentes
-    • Empregado(ᐞidEmpregadoᐞ, nome, cpf, tipo, CREA(null), gerente (null))  
-         ➜ tipo referencia a tabela Tipo
-         ➜ gerente referencia Empregado  * gerente entra pois é o unico tem tem uma ligação direta com empregado
-    • Secretaria_ProcessadorTexto(ᐞsecratariaᐞ, ᐞprocessadorᐞ) *ambos são chaves primarias para que a secretaria possa utilizar mais de um tipo de editor
-          ➜secretaria referencia Empregado
-          ➜processador refencia ProcessadorTexto
-    • Engenheiro_Projeto(ᐞengenheiroᐞ,ᐞprojetoᐞ)
-          ➜ engenheiro referencia Empregado
-          ➜ projeto referencia Projeto
+      • Departamento(ᐞidDepartamentoᐞ, nome)
+      • ProcessadorTexto(ᐞidProcessadorTextoᐞ,descrição)
+      • Projeto(ᐞidProjetoᐞ)
+      • Tipo (ᐞidTipoᐞ, descrição)
+          *fazer uma tabela para tipo para facilitar futuras adiçôes de tipo ou alteração nos tipos existentes
+      • Empregado(ᐞidEmpregadoᐞ, nome, cpf, tipo, CREA(null), gerente (null), departamento)  
+           ➜ tipo referencia a tabela Tipo
+           ➜ gerente referencia Empregado  * gerente entra pois é o unico tem tem uma ligação direta com empregado
+           ➜ departamento referencia Departamento
+      • Secretaria_ProcessadorTexto(ᐞsecratariaᐞ, ᐞprocessadorᐞ) *ambos são chaves primarias para que a secretaria possa utilizar mais de um tipo de editor
+            ➜secretaria referencia Empregado
+            ➜processador refencia ProcessadorTexto
+      • Engenheiro_Projeto(ᐞengenheiroᐞ,ᐞprojetoᐞ)
+            ➜ engenheiro referencia Empregado
+            ➜ projeto referencia Projeto
 
 ➤ CONTINUAÇÃO DO EXERCICIO ANTERIOR
-  ➜ Departamento (idDepartamento, nome)
-                 • 1 - Ciencia da Computação
-                 • 2 - Sistemas de informação
-                 • 3 -Jogos Digitais
+    ➜ Departamento (ᐞidDepartamentoᐞ, nome)
+                     • 1   -   Ciencia da Computação
+                     • 2   -   Sistemas de informação
+                     • 3   -   Jogos Digitais
 
-  ➜ ProcessadorTexto (idProcessador, descrição)
-                        • 10   -  Word MS
-                        • 20   -  Star Office
-                        • 30   -  Libre Office
+    ➜ ProcessadorTexto (ᐞidProcessadorᐞ, descrição)
+                        • 10     -    Word MS
+                        • 20     -    Star Office
+                        • 30     -    Libre Office
 
-  ➜Projeto(idProjeto, descrição)
-            • 100 - Longevos
-            • 102 - Raquetada dos amigos
+    ➜Projeto(ᐞidProjetoᐞ, descrição)
+            • 100   -     Longevos
+            • 102   -   Raquetada dos amigos
 
-  ➜ Tipo(idTipo, descrição)
+    ➜ Tipo(ᐞidTipoᐞ, descrição)
           • 1001 - gerente
           • 1002 - secretaria
           • 1003 - engenheiro
 
- ➜ Empregado (ᐞidEmpregadoᐞ, nome, ᐞcpfᐞ, tipo, CREA, gerente ) *cpf tambem vai ter que ser chave primária para não ter duplicidade de dados cadastrados
-                 • 1, Alexandre, cpf1212, 1001, NULL, NULL
-                 • 2, Pedro, cpf24234, 1003, crea34234, 1
-                 • 
+    ➜ Empregado (ᐞidEmpregadoᐞ, nome, ᐞcpfᐞ, tipo,   CREA,  gerente, departamento ) *cpf tambem vai ter que ser chave primária para não ter duplicidade de dados cadastrados
+                 • 1, Alexandre, cpf1212, 1001,   NULL,   NULL,     1
+                 • 2, Pedro,     cpf2434, 1003, crea3434,  1,       1
+                 • 3, Eric,    cpf36245,  1002,  NULL,     1,       1
 
+    ➜Secretaria_ProcessadorTexto(ᐞsecratariaᐞ, ᐞprocessadorᐞ)
+                                • 3 ,         10
+                                • 3 ,         20
 
-
+    ➜Engenheiro_Projeto(ᐞengenheiroᐞ,ᐞprojetoᐞ)
+                       • 2 ,        102
+                       • 2 ,       100
 
 
 
