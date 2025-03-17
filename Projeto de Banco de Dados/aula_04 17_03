@@ -18,32 +18,32 @@ Modelagem
             ➜ engenheiro referencia Empregado
             ➜ projeto referencia Projeto
 
-➤ CONTINUAÇÃO DO EXERCICIO ANTERIOR
-    ➜ Departamento (ᐞidDepartamentoᐞ, nome)
+   ➤ CONTINUAÇÃO DO EXERCICIO ANTERIOR - modelo Lógico
+       ➜ Departamento (ᐞidDepartamentoᐞ, nome)
                      • 1   -   Ciencia da Computação
                      • 2   -   Sistemas de informação
                      • 3   -   Jogos Digitais
 
-    ➜ ProcessadorTexto (ᐞidProcessadorᐞ, descrição)
+      ➜ ProcessadorTexto (ᐞidProcessadorᐞ, descrição)
                         • 10     -    Word MS
                         • 20     -    Star Office
                         • 30     -    Libre Office
 
-    ➜Projeto(ᐞidProjetoᐞ, descrição)
+      ➜Projeto(ᐞidProjetoᐞ, descrição)
             • 100   -     Longevos
             • 102   -   Raquetada dos amigos
 
-    ➜ Tipo(ᐞidTipoᐞ, descrição)
-          • 1001 - gerente
-          • 1002 - secretaria
-          • 1003 - engenheiro
+      ➜ Tipo(ᐞidTipoᐞ, descrição)
+              • 1001 - gerente
+              • 1002 - secretaria
+              • 1003 - engenheiro
 
-    ➜ Empregado (ᐞidEmpregadoᐞ, nome, ᐞcpfᐞ, tipo,   CREA,  gerente, departamento ) *cpf tambem vai ter que ser chave primária para não ter duplicidade de dados cadastrados
-                 • 1, Alexandre, cpf1212, 1001,   NULL,   NULL,     1
-                 • 2, Pedro,     cpf2434, 1003, crea3434,  1,       1
-                 • 3, Eric,    cpf36245,  1002,  NULL,     1,       1
+      ➜ Empregado (ᐞidEmpregadoᐞ, nome, ᐞcpfᐞ, tipo,   CREA,  gerente, departamento ) *cpf tambem vai ter que ser chave primária para não ter duplicidade de dados cadastrados
+                       • 1, Alexandre, cpf1212, 1001,   NULL,   NULL,     1
+                       • 2, Pedro,     cpf2434, 1003, crea3434,  1,       1
+                       • 3, Eric,    cpf36245,  1002,  NULL,     1,       1
 
-    ➜Secretaria_ProcessadorTexto(ᐞsecratariaᐞ, ᐞprocessadorᐞ)
+      ➜Secretaria_ProcessadorTexto(ᐞsecratariaᐞ, ᐞprocessadorᐞ)
                                 • 3 ,         10
                                 • 3 ,         20
 
@@ -52,6 +52,17 @@ Modelagem
                        • 2 ,       100
 
 
+  ➤EXERCICIO 2 - GITHUB ALEXANDRE - DIAGRAMAS - FARMACIAS
+    ➜ Fabricante(idFabricante, nome)
+    ➜ Fornecedor (idFornecedor, nome, fabricante, lote)
+    ➜ Lote (idLote,numeraçao,produto,fornecedor)
+    ➜ Receita_Medica (idReceita,data,medico)
+    ➜ Venda (idVenda, valor, nomeCliente, tipo) *tipo referncia Tipo
+    ➜ Tipo (medicamento, perfumaria)
+    ➜ Medicamento (idMedicamento, nome, produto, receita, venda) * produto referencia Produto * receita refencia Receita_Medica * venda referencia Venda
+    ➜ Perfumaria (idPerfumaria, nome, produto, venda)
+    ➜ Produto (idProduto, fabricante, lote, tipo)
+    
 
 
 
