@@ -3,11 +3,3 @@
 
 ![ggggg](https://raw.githubusercontent.com/alexandrezamberlan/bancoDeDadosUFN/refs/heads/main/diagramas/ER_Farmacia.jpg)
 
-![gggggg](Projeto de Banco de Dados/Captura de tela 2025-03-17 182151.png)//
-# Mova a imagem para a pasta desejada no repositório
-mv ~/Imagens/DIAGRAMA.png images/
-
-# Adicione a imagem ao Git
-git add images/DIAGRAMA.png
-git commit -m "Adicionando imagem"
-git push origin main
