@@ -1,3 +1,5 @@
+//• 3 - Crie uma classe Pessoa com os atributos nome, idade e gênero. Imprimaas informações da pessoa na tela.
+
 package exercicio3;
 
 import java.util.Scanner;
