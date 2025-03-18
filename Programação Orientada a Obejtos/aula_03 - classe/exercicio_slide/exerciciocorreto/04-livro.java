@@ -1,3 +1,5 @@
+//• 4 - Crie uma classe Livro com os atributos título, autor e ano de publicação.Imprima as informações do livro na tela.
+
 package exercicio4;
 
 import java.util.Scanner;
