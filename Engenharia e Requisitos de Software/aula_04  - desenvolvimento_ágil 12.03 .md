@@ -83,11 +83,11 @@
        					PROJETO: 
 	•projeto simples com cartões *C.R.C. - classe, responsabilidade, colaboração
         • prefere um projeto simples
-					    🡻
+					  	  🡻
         				CODIFICAÇÃO = construção 
               • testes de unidades que exercitam cada uma das historia a ser incluidas na versao corrente
               • *P.P = programação em dupla = tecnica de revisão/ ferramenta de qualidade, uma pessoa está criando o codigo e outra está colaborando para a criação
-	      				   🡻
+	      				 	  🡻
         				 TESTE: 
               • teste de unidade: devem ser implementados usando-se uma metodologia que os capacite a ser automatizados
               • teste de aceitação(TA): são especificados pelo cliente e mantêm o foco nas características e na funcionalidade do sistema total que são visíveis e que podem ser revistaspelo cliente
