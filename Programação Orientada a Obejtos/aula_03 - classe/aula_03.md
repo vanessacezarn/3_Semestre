@@ -1,27 +1,29 @@
-ORM = mapeamento objeto relacional
 # ORIENTAÇÃO A OBJETOS (OO)
 
-   **➤ CLASSE**
-    		
+   	➤ CLASSE:
 	➜ estrutura que abstrai um conjunto de objetos com características similares.
      	➜ define o comportamento dos objetos através de métodos e atributos
            	• métodos = FUNÇÕES na linguagem estruturada ➝ comportamento 
         	• atributo = VARIÁVEIS na linguagem estruturada ➝ define as características do objeto
-   	➜	a classe descreve as características e funcionalidades dos objetos
+   	➜a classe descreve as características e funcionalidades dos objetos
+    
   	➤ Linguagem UML : padrão para modelagem de sistemas, linguagem universal
-   
+   	ORM = mapeamento objeto relacional
+
   	➤ OBJETO
-       			➜ é uma instância da classe 		** como se fosse um struct?? 
-	     		➜ é possível ter vários objetos a partir de uma classe
+       		➜ é uma instância da classe 		** como se fosse um struct?? 
+	     	➜ é possível ter vários objetos a partir de uma classe
+       
   	➤ ESTADO de um objeto é representado por seus atributos
+   
   	➤ COMPORTAMENTO é representando pelos seus métodos
       		exemplo: classe carro
                		objeto gol 
              	  • atributos: modelo, ano, cor, estado
              	  • métodos: ligar e desligar
+	
   	➤ ENCAPSULAMENTO = é o empacotamento dos atributos e métodos numa classe 
-          	➜ proteção de dados:
-			• público (+);    • privado(-)   • protegido(#)
+          	➜ proteção de dados: • público (+);    • privado(-)   • protegido(#)
    
 **➤ em resumo:**
 
