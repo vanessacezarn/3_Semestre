@@ -79,7 +79,7 @@
        					PLANEJAMENTO: 
         • *histórias de usuário: definir quais as caracteristicas e funcionalidades que o cliente deseja ter em seu software
         • criterios de teste de aceitação:
-					   🡻
+					 	  🡻
        					PROJETO: 
 	•projeto simples com cartões *C.R.C. - classe, responsabilidade, colaboração
         • prefere um projeto simples
