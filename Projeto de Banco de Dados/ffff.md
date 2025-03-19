@@ -3,3 +3,5 @@
 
 ![ggggg](https://raw.githubusercontent.com/alexandrezamberlan/bancoDeDadosUFN/refs/heads/main/diagramas/ER_Farmacia.jpg)
 
+![jjjj](https://github.com/vanessacezarn/3_Semestre/issues/5#issue-2931544930)
+
