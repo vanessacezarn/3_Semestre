@@ -75,6 +75,7 @@
 
   	*imagem
         🡺 emprega uma abordagem orientada a objetos como seu paradigma de desenvolvimento preferido e envolve um conjunto de regras e praticas constantes no contexto de quatro atividades metodológicas: planejamento, projeto,codificação e teste
+	
        					PLANEJAMENTO: 
         • *histórias de usuário: definir quais as caracteristicas e funcionalidades que o cliente deseja ter em seu software
         • criterios de teste de aceitação:
