@@ -60,9 +60,10 @@
 ## MODELOS DE PROCESSO EVOLUCIONÁRIO
 
       🡺 fazem circulos de entrega, possibilidando o desnvolvimento de versões cada vez mais completas de software
-      🡺 *PROTOTIPAÇÃO: planejada rapidamente e ocorre a modelagem em forma de um projeto rápido, representação de aspectos do 
-      software que serão visiveis ao usuario final,PROTÓTIPO, o que ao ser mostrado ao cliente pode-se definir mudanças, solicitar
-      novas funções, ou seja, o cliente vai avaliando se é isso mesmo que deseja durante o processo de desenvolvimento do software
+      🡺 *PROTOTIPAÇÃO: planejada rapidamente e ocorre a modelagem em forma de um projeto rápido, representação de aspectos 
+         do software que serão visiveis ao usuario final,PROTÓTIPO, o que ao ser mostrado ao cliente pode-se definir mudanças,
+         solicitar novas funções, ou seja, o cliente vai avaliando se é isso mesmo que deseja durante o processo de 
+         desenvolvimento do software
       🡺 problema: nao é desenvolvida pensando no todo o projeto, não é um processo muito organizado, codigo acaba ficando muito 
       bagunçado e grande o que dificulta a manutenções futuras, isso ocorre devido a rapidez/pressa com que ele foi desenvolvido
 
