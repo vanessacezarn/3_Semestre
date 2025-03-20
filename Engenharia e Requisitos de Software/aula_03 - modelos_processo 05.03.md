@@ -69,13 +69,13 @@
 ## MODELO DE PROCESSO ESPIRAL 
 
       🡺 modelo evolucionario, fusão do modelo incremental com a prototipação.
-      🡺 sabe o projeto final, mas ainda é feito e entregue por parte, a cada novo incremento, volta na espiral - imagem slide,  
+      🡺 sabe o projeto final, mas ainda é feito e entregue por parte, a cada novo incremento, volta na espiral(imagem slide)  
          é entregue parte do projeto ao cliente,
-      🡺 na etapa de planejamento: ANÁLISE DE RISCO - verifica-se se é possivel seguir com o projeto, se ainda tem o desenvolvedor,
-         pagamento, caso de moeda estrangeira desvalorizar
+      🡺 na etapa de planejamento: ANÁLISE DE RISCO - verifica-se se é possivel seguir com o projeto, se ainda tem o 
+         desenvolvedor, pagamento, caso de moeda estrangeira desvalorizar
       🡺 as 5 etapas em estão em circulos 
-      🡺 apesar de saber todo o projeto, cada ciclo tem seu preço própio, o que dificulta a aceitação por parte do cliente, sabe-se 
-         apenas o valor inicial e não o valor total a ser gasto no projeto completo
+      🡺 apesar de saber todo o projeto, cada ciclo tem seu preço própio, o que dificulta a aceitação por parte do cliente, 
+         sabe-se apenas o valor inicial e não o valor total a ser gasto no projeto completo
 
 
 
