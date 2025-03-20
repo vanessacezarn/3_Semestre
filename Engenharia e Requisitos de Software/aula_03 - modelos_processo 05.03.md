@@ -1,4 +1,4 @@
-                                  # MODELOS DE PROCESSO 
+   # MODELOS DE PROCESSO 
 Processo: COMUNICAÇÃO --> PLANEJAMENTO --> MODULAGEM --> CONSTRUÇÃO --> EMEPREGO
 
 engenharia --> processo de fazer algo
