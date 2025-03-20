@@ -6,7 +6,7 @@
       🡺 processo de software--> seguir uma serie de passos --> comunicação, planejamento,modulagem,construção,emprego
       🡺 artefato = tudo que consegue colocar em um documento textual, codigos, dados produzidos,...
    
-   ##FLUXOS DE PROCESSOS 
+   ## FLUXOS DE PROCESSOS 
    
       🡺fluxo de processo: linear, uma etapa depois da outra
       
