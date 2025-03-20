@@ -9,6 +9,7 @@
    ## FLUXOS DE PROCESSOS 
    
       🡺fluxo de processo: linear, uma etapa depois da outra
+      ![linear](https://github.com/vanessacezarn/3_Semestre/blob/main/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_03/linear.png)
       
       🡺fluxo de processo iterativo: é possivel ir e voltar de uma etapa para a outra
                                                                                    
