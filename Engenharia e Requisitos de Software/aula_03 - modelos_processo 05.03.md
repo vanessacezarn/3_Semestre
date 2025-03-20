@@ -27,10 +27,14 @@
    
 ## MODELOS DE PROCESSO PRESCRITIVOS - TRADICIONAIS
 
---> Modelo CASCATA: abordagem sequencial e sistemática, só é possivel passar para a proxima etapa depois de concluir anterior, 3 etapas iniciais demandam mais tempo
-vantagens: tudo muito organizado
-desvantagens: não são realizados muitos teste no processo, apenas nas etapas finais(construção): imagem no slide
---> Modelo V: Garantia de qualidade, cada etapa do processo tem testes (validação para ver se o que está sendo feito esta de acordo com o pedido do cliente)
+**Modelo CASCATA**
+         
+      abordagem sequencial e sistemática, só é possivel passar para a proxima etapa depois de concluir anterior, 3 etapas iniciais demandam mais tempo
+      vantagens: tudo muito organizado
+      desvantagens: não são realizados muitos teste no processo, apenas nas etapas finais(construção): imagem no slide
+
+--> Modelo V:
+Garantia de qualidade, cada etapa do processo tem testes (validação para ver se o que está sendo feito esta de acordo com o pedido do cliente)
      -> VALIDAÇÃO: "segundo lado v, de baixo para cima", teste de aceitação(ultimo teste), o cliente verifica se o software está de acordo com o pedido, teste do sistema,testa se todo o sistema está funcionando de forma correta, teste de integração,verificar se todas as partes do sistema funcionam e integarem entre si, teste de unidades,,verifica se a parte que foi desenvolvida está funcionando de forma correta
       -> VERIFICAÇÃO: "primeiro lado do v, de cima para baixo" -> verifica se a equipe segue o padrão escolhido, codigo devidamente comentado, para o desenvolvimento do software
   --> demora muito mais tempo para ser desenvolvido,devido a grande quantidade de teste, entratanto a quantia de problemas é bem menor, ou seja, possui uma melhor qualidade, modelo linear, 
