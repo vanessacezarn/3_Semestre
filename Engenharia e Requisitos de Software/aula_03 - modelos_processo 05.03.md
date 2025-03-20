@@ -8,17 +8,21 @@
    
    ## FLUXOS DE PROCESSOS 
    
-   🡺fluxo de processo: linear, uma etapa depois da outra
+   🡺 fluxo de processo: linear, uma etapa depois da outra
+   
    ![linear](https://github.com/vanessacezarn/3_Semestre/blob/main/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_03/linear.png)
       
-   🡺fluxo de processo iterativo: é possivel ir e voltar de uma etapa para a outra
+   🡺 fluxo de processo iterativo: é possivel ir e voltar de uma etapa para a outra
+   
    ![iterativo](https://github.com/vanessacezarn/3_Semestre/blob/main/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_03/iterativo.png)
                                                                                    
-      🡺 fluxo de processo evolucionario: executa as atividades de forma circular, cada vez que as 5 atividade são completas o 
+   🡺 fluxo de processo evolucionario: executa as atividades de forma circular, cada vez que as 5 atividade são completas o 
          software passa a ter uma versão mais completa
+   
    ![evolucionario](https://github.com/vanessacezarn/3_Semestre/blob/main/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_03/iterativo.png)
       
-      🡺 fluxo de processo paralelo: pode executar mais de uma atividade ao mesmo tempo 
+   🡺 fluxo de processo paralelo: pode executar mais de uma atividade ao mesmo tempo 
+   
    ![paralelo](https://github.com/vanessacezarn/3_Semestre/blob/main/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_03/paralelo.png)
    
 ## MODELOS DE PROCESSO PRESCRITIVOS - TRADICIONAIS
