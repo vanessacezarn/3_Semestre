@@ -1,18 +1,24 @@
    # MODELOS DE PROCESSO 
-Processo: COMUNICAÇÃO --> PLANEJAMENTO --> MODULAGEM --> CONSTRUÇÃO --> EMEPREGO
 
-engenharia --> processo de fazer algo
-processo de software--> seguir uma serie de passos --> comunicação, planejamento,modulagem,construção,emprego
-artefato = tudo que consegue colocar em um documento textual, codigos, dados produzidos,...
-fluxo de processo: linear, uma etapa depois da outra 
-fluxo de processo iterativo: é possivel ir e voltar de uma etapa para a outra : comunicação <--> planejamento -->modelagem -->construção ---> entrega
-                                                                                    ^                  ^  ^                       ^
-                                                                                    |                  |  |                       |   
-                                                                                    | ---------------- |  |-----------------------
-fluxo de processo evolucionario: executa as atividades de forma circular, cada vez que as 5 atividade são completas o software passa a ter uma versão mais completa
-fluxo de processo paralelo: pode executar mais de uma atividade ao mesmo tempo 
+      Processo: COMUNICAÇÃO 🡺 PLANEJAMENTO 🡺 MODULAGEM 🡺 CONSTRUÇÃO 🡺 EMEPREGO
+      
+      🡺 engenharia --> processo de fazer algo
+      🡺 processo de software--> seguir uma serie de passos --> comunicação, planejamento,modulagem,construção,emprego
+      🡺 artefato = tudo que consegue colocar em um documento textual, codigos, dados produzidos,...
+   
+   ##FLUXOS DE PROCESSOS 
+   
+      🡺fluxo de processo: linear, uma etapa depois da outra
+      
+      🡺fluxo de processo iterativo: é possivel ir e voltar de uma etapa para a outra
+                                                                                   
+      🡺 fluxo de processo evolucionario: executa as atividades de forma circular, cada vez que as 5 atividade são completas o 
+         software passa a ter uma versão mais completa
+      
+      🡺 fluxo de processo paralelo: pode executar mais de uma atividade ao mesmo tempo 
 
-MODELOS DE PROCESSO PRESCRITIVOS - TRADICIONAIS
+## MODELOS DE PROCESSO PRESCRITIVOS - TRADICIONAIS
+
 --> Modelo CASCATA: abordagem sequencial e sistemática, só é possivel passar para a proxima etapa depois de concluir anterior, 3 etapas iniciais demandam mais tempo
 vantagens: tudo muito organizado
 desvantagens: não são realizados muitos teste no processo, apenas nas etapas finais(construção): imagem no slide
