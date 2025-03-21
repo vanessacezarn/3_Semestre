@@ -1,0 +1,12 @@
+ESTRUTURA DE DADOS
+  🡺 fisicas - variaveis e seus tipo
+  🡺 abstratas - algoritmos de manipulação + coleções
+      ➞ listas
+            • conjunto de dados
+                  - inserção + ordenação
+      ➞ pilha
+      ➞ fila
+      ➞ árvore
+      ➞ grafo
+
+conceitos: List, Set, Map
