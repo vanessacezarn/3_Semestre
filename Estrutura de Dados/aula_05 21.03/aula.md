@@ -14,7 +14,8 @@
       ➞  HasMap<String, String> dicionario = new HasMap<>();
 
   # EXERCICIO 
-      Listas: dicionário ou objeto
+      🡺 Listas: dicionário ou objeto
+      
       Fazer um programa em Java, C# ou C++ que receba nomes completos de pessoas (validar se nome foi digitado completo). 
       A partir disso, gerar email da pessoa combinando o primeiro nome com o último nome, separados por '.', mais '@ufn.edu.br'.
       Por exemplo, João Pedro Garcia -> joao.garcia@ufn.edu.br. 
