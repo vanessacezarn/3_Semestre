@@ -9,4 +9,6 @@ ESTRUTURA DE DADOS
       ➞ árvore
       ➞ grafo
 
-conceitos: List, Set, Map
+  🡺 conceitos: List, Set, Map
+      ➞  List <Integer> lista = new ArrayList<>();
+      ➞  HasMap<String, String> dicionario = new HasMap<>();
