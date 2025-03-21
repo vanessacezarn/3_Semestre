@@ -12,3 +12,6 @@ ESTRUTURA DE DADOS
   🡺 conceitos: List, Set, Map
       ➞  List <Integer> lista = new ArrayList<>();
       ➞  HasMap<String, String> dicionario = new HasMap<>();
+
+  🡺 EXERCICIO 
+      
