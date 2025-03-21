@@ -1,0 +1,45 @@
+namespace projeto1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Testando a classe pessoa");
+            Pessoa p = new Pessoa(); //INSTANCIANDO UM OBJETO
+            Console.WriteLine("existe a pessoa p");
+            p.nome = "vanessa";
+            p.email = "vanessaC@ufn.edu.br";
+            p.idade = 22;
+            Console.WriteLine("Nome: "+ p.nome);
+            Console.WriteLine("email: " + p.email);
+            Console.WriteLine("idade: " + p.idade);
+
+            Pessoa p2 = new Pessoa(); //INSTANCIANDO UM OBJETO
+            Console.WriteLine();
+            Console.WriteLine("existe a pessoa p2");
+            p2.nome = "guilherme";
+            p2.email = "GuilhermeF@ufn.edu.br";
+            p2.idade = 19;
+            Console.WriteLine("Nome: " + p2.nome);
+            Console.WriteLine("email: " + p2.email);
+            Console.WriteLine("idade: " + p2.idade);
+
+
+            Pessoa p3 = new Pessoa(); //INSTANCIANDO UM OBJETO
+            Console.WriteLine();
+            Console.WriteLine("existe a pessoa p3");
+            Console.Write("Digite o nome:");
+            p3.nome = Console.ReadLine();
+            Console.Write("Digite o email:");
+            p3.email = Console.ReadLine();
+            Console.Write("Digite a idade:");
+            p3.idade = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Nome: " + p3.nome);
+            Console.WriteLine("email: " + p3.email);
+            Console.WriteLine("idade: " + p3.idade);
+
+
+        }
+    }
+}
