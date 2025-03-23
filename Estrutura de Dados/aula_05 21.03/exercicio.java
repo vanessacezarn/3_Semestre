@@ -1,9 +1,10 @@
 //Listas: dicionário ou objeto
-//Fazer um programa em Java, C# ou C++ que receba nomes completos de pessoas (validar se nome foi digitado completo). A partir disso, gerar email da 
-//pessoa combinando o primeiro nome com o último nome, separados por '.', mais '@ufn.edu.br'. Por exemplo, João Pedro Garcia -> joao.garcia@ufn.edu.br.
-//Uma vez que o email foi gerado, adicionar o par (nome completo e email) em uma lista. Essa lista pode ser composta por dicionários 
-//(email será a chave e nome completo o valor) ou por objetos (da classe Pessoa, com atributos nome e email). Contudo, não pode haver emails repetidos. 
-//Ao final, exibir a lista com os dados (nomes e emails).
+//Fazer um programa em Java, C# ou C++ que receba nomes completos de pessoas (validar se nome foi digitado completo).
+// A partir disso, gerar email da pessoa combinando o primeiro nome com o último nome, separados por '.', mais 
+//'@ufn.edu.br'. Por exemplo, João Pedro Garcia -> joao.garcia@ufn.edu.br.Uma vez que o email foi gerado, adicionar
+// o par (nome completo e email) em uma lista. Essa lista pode ser composta por dicionários (email será a chave e
+// nome completo o valor) ou por objetos (da classe Pessoa, com atributos nome e email). Contudo, não pode haver 
+//emails repetidos.Ao final, exibir a lista com os dados (nomes e emails).
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,9 +22,9 @@ class Pessoa{
 public class exercio {
     public static void main(String[] args) {
 
+        Scanner teclado = new Scanner(System.in);
         List<Pessoa> pessoas = new ArrayList<>();
 
-        Scanner teclado = new Scanner(System.in);
         String nome;
         String email;
         int op=1;// VERIFICA SE DESEJA CADASTRAR MAIS UM NOME
@@ -32,29 +33,42 @@ public class exercio {
 
         do{
             flag=0;
-            System.out.print("Digite o nome comleto: ");
+            System.out.print("Digite o nome completo: ");
             nome = teclado.nextLine().toLowerCase(); // LE O NOME E O TRANFORMA PARA MINUSCULO
-
             vetorNome = nome.split(" ");// DIVIDIR O NOME DIGITADO
 
             if(vetorNome.length<2){ //VERIFICA SE O NOME DIGITADO TEM NOME E SOBRENOME
                 System.out.println("é necessario digitar o nome completo");
                 flag=1; // SE O NOME DIGITADO NÃO FOR COMPLETO, FLAG PASSA A VALER 1 , O QUE FAZ O CODIGO RETORNAR PARA O INICIO DO DO...WHILE
             }
-            if(flag==0){
+            if(flag==0){ //SOMENTE GERA O EMAIL SE O NOME DIGTADO FOR COMPLETO
                 email = vetorNome[0]+"."+vetorNome[vetorNome.length -1]+"@ufn.edu.br";
                 // equals - para comparar emails
-      
+
                 Pessoa p = new Pessoa(nome,email);
+
+                boolean emailexiste = false; //USADO PARA VERIFICAR SE O EMAIL GERADO JÁ EXISTE NA LISTA
+
+                for (Pessoa i : pessoas){
+                    if(i.email.equals(email)){
+                        emailexiste = true;
+                        break;
+                    }
+                }
+                if (emailexiste) {
+                    System.out.println("Este e-mail já está cadastrado! Tente um nome diferente.");
+                    continue;
+                }
+                
                 pessoas.add(p); //ADICIONA O NOME E O EMAIL A LISTA PESSOAS
 
-                System.out.print("Deseja continuar: 1 - sim 2 - não");
+                System.out.print("Deseja continuar: 1 - sim 2 - não"); //PERGUNTA AO USARIO SE ELE DESEJA CADASTRAR MAIS NOMES
                 op = teclado.nextInt();
                 teclado.nextLine();
             }
         }while(op == 1);
 
-        System.out.println("\nPessoas cadastradas:");
+        System.out.println("\nPessoas cadastradas:"); // EXIBI TODOS OS NOMES E EMAIL CADASTRADOS
         for (Pessoa p : pessoas) {
             System.out.println("Nome: " + p.nome + ", E-mail: " + p.email);
         }
