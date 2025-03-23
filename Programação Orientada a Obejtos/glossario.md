@@ -3,7 +3,8 @@
 ## CLASSE  
     • MODELO PARA CRIAR OBJETOS 
     • define as caracteríticas (atributos) e comportamentos (meétodos) que um objeto pode ter
-    ```
+    
+``` .java
     class Carro {
          String marca;   // Atributo
          int ano;        // Atributo
@@ -13,7 +14,7 @@
         }
     }
 
-    ```
+```
 ## OBJETO 
     • INSTâNCIA DA CLASSE
 
