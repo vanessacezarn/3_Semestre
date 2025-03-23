@@ -2,9 +2,14 @@
 
       Processo: COMUNICAÇÃO 🡺 PLANEJAMENTO 🡺 MODULAGEM 🡺 CONSTRUÇÃO 🡺 EMEPREGO
       
-      🡺 engenharia --> processo de fazer algo
-      🡺 processo de software--> seguir uma serie de passos --> comunicação, planejamento,modulagem,construção,emprego
+      🡺 engenharia ➞ processo de fazer algo
+      🡺 processo de software ➞ seguir uma serie de passos afim de criar um resultado de alta qualidade e dentro de um prazo estabelecido
+      🡺 seguir um modelo de processo é importante pois propicia estabilidade, controle e organização para uma atividade.
+      🡺 cada processo dependende do software que deseja-se desenvolver
       🡺 artefato = tudo que consegue colocar em um documento textual, codigos, dados produzidos,...
+      🡺 como garantir que o trabalho foi feito corretamente - atingiu um nível de "maturidade" de seu processo de software
+            ➞ qualidade, cumprimento de prazos e viabilidade a longo prazo são os melhores indicadores de eficácia do processo utilizado.
+         
    
    ## FLUXOS DE PROCESSOS 
    
