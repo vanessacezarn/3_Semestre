@@ -4,7 +4,7 @@
 
 package exercicio02;
 
-import java.util.Scanner;
+
 
 public class Livro {
 	String titulo;
@@ -13,36 +13,25 @@ public class Livro {
 	String genero;
 	boolean emprestado = false;
 	
-	public void emprestimo(Scanner teclado) {
+	public boolean emprestimo() {
+		System.out.println();
         System.out.println("EMPRÉSTIMO");
         if (!emprestado) {
-            System.out.println("Livro disponível.");
-            int op;
-            System.out.println("Deseja pegar emprestado o livro? (1-sim, 2-não)");
-            op = teclado.nextInt();
-            if (op == 1) {
-                emprestado = true;
-                System.out.println("Livro emprestado com sucesso.");
-            } 
+           return false; 
         } else {
-            System.out.println("Livro já está emprestado.");
+        	emprestado=true;
+            return true;
         }
     }
 	
-	public void devolucao(Scanner teclado) {
+	public boolean devolucao() {
+		System.out.println();
 		System.out.println("DEVOLUÇÃO");
 		if(emprestado) {
-			int op;
-            System.out.println("Deseja devolver o livro? (1-sim, 2-não)");
-            op = teclado.nextInt();
-            if (op == 1) {
-			System.out.println("Livro devolvido com sucesso");
-			emprestado=false;
-            }else {
-            	System.out.println("cliente segue com o livro");
-            }
+			return true;
+			
 		}else {
-			System.out.println("Livro não está emprestado, logo não é possível realizar devolução");
+			return false;
 		}
 	}
 	
@@ -64,3 +53,4 @@ public class Livro {
 	}
 
 }
++
