@@ -20,10 +20,41 @@ public class Ex2 {
 		teclado.nextLine();
 		System.out.print("Digite o gênero do livro:");
 		l.genero = teclado.nextLine();
-		l.emprestimo(teclado);
-		l.devolucao(teclado);
+		
+		System.out.println();
 		l.informacoes_livro();
 		
+		boolean retorno;
+		retorno = l.emprestimo();
+		if (!retorno) {
+            System.out.println("Livro disponível.");
+            int op;
+            System.out.println("Deseja pegar emprestado o livro? (1-sim, 2-não)");
+            op = teclado.nextInt();
+            if (op == 1) {
+                System.out.println("Livro emprestado com sucesso!!!.");
+                l.emprestado=true;
+            } 
+        } else {
+            System.out.println("Livro já está emprestado.");
+        }
+		
+		
+		
+		retorno = l.devolucao();
+		if(retorno) {
+			int opd;
+            System.out.println("Deseja devolver o livro? (1-sim, 2-não)");
+            opd = teclado.nextInt();
+            if (opd == 1) {
+			System.out.println("Livro devolvido com sucesso");
+			l.emprestado=false;
+            }else {
+            	System.out.println("cliente segue com o livro");
+            }
+		}else {
+			System.out.println("Livro não está emprestado, logo não é possível realizar devolução");
+		}
 		
 		
 		teclado.close();
