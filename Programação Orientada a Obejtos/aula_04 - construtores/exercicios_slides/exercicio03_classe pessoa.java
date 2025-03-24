@@ -11,10 +11,7 @@ public class Pessoa {
 	String endereco;
 	boolean admin = false;
 	
-	public Pessoa() {
 		
-	}
-	
 	public String Email() {
 		
 		return email;
@@ -23,7 +20,6 @@ public class Pessoa {
 	public void promoverAdmin() {
 		if(!admin) {
 			admin=true;
-			System.out.println("Pessoa 2 promovida a Admin com sucesso");
 		}
 	}
 
