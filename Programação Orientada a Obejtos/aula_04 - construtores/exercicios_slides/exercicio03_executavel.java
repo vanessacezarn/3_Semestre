@@ -34,14 +34,22 @@ public class Ex3 {
 		System.out.print("Digite o endereço:");
 		p2.endereco=teclado.nextLine();
 		p2.Email();
+		p2.promoverAdmin();
 		String retorno2;
 		retorno2 = p2.Email();
 		
 		System.out.println();
-		System.out.println("o email da pessoa 1 é "+retorno);
-		System.out.println("o email da pessoa 2 é "+retorno2);
-		System.out.print("pessoa 2 : ");
-		p2.promoverAdmin();
+		System.out.println("o email de "+p.nome+" é :"+retorno);
+		if (p.admin) {
+			System.out.println(p.nome+" é um admin");
+		}
+		
+		
+		System.out.println("o email de "+p2.nome+" é :"+retorno2);
+		
+		if (p2.admin) {
+			System.out.println(p2.nome+" é um admin");
+		}
 		
 		
 		teclado.close();
