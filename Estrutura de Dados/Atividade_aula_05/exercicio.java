@@ -1,5 +1,3 @@
-//VANESSA CEZAR DO NASCIMENTO
-
 //Listas: dicionário ou objeto
 //Fazer um programa em Java, C# ou C++ que receba nomes completos de pessoas (validar se nome foi digitado completo).
 // A partir disso, gerar email da pessoa combinando o primeiro nome com o último nome, separados por '.', mais 
@@ -38,17 +36,7 @@ public class exercio {
 
             System.out.print("Digite o nome completo: ");
             nome = teclado.nextLine().toLowerCase(); 
-            boolean nomeExiste= false; //PARA VERIFICAR SE O NOME DIGITADO JA EXISTE NA LISTA
-            for (Pessoa a: pessoas){
-                if(a.nome.equals(nome)){
-                    nomeExiste = true;
-                }
-            }
-            if (nomeExiste) { //SE O NOME JÁ EXISTIR É SOLICITADO AO USUARIO DIGITAR UM NOME DIFERENTE
-                System.out.println("Este nome já está cadastrado! Tente um nome diferente.");
-                continue;//RETORNA O LOOP PARA O INICIO 
-            }
-
+           
             vetorNome = nome.split(" ");// DIVIDIR O NOME DIGITADO A CADA ESPAÇO DIGITADO
             if(vetorNome.length<2){ //VERIFICA SE O NOME DIGITADO TEM NOME E SOBRENOME
                 System.out.println("é necessario digitar o nome completo");
@@ -73,7 +61,7 @@ public class exercio {
                 
                 pessoas.add(p); //ADICIONA O NOME E O EMAIL A LISTA PESSOAS
 
-                System.out.print("Deseja continuar: 1 - sim 2 - não"); //PERGUNTA AO USARIO SE ELE DESEJA CADASTRAR MAIS NOMES
+                System.out.print("Deseja continuar: 1 - sim 2 - não: "); //PERGUNTA AO USARIO SE ELE DESEJA CADASTRAR MAIS NOMES
                 op = teclado.nextInt();
                 teclado.nextLine();
                 if(op!=1 &&  op !=2){ //CASO O USUARIO DIGITE ALGO DIFETENTE OPÇÕES VALIDAS
