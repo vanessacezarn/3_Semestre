@@ -15,17 +15,15 @@ public class Ex5 {
 		
 		System.out.println("Qual construtor deseja usar?");
 		int op;
+		do {
 		System.out.println("1 - para construtor 1 (nome e a idade da pessoa)");
 		System.out.println("2 - para construtor 2 (idade da pessoa)");
 		op = teclado.nextInt();
 		teclado.nextLine();
 		if(op!=1 && op!=2) {
 			System.out.println("OPÇÃO INVÁLIDA - escolha uma opção válida");
-			System.out.println("1 - para construtor 1 (nome e a idade da pessoa)");
-			System.out.println("2 - para construtor 2 (idade da pessoa)");
-			op = teclado.nextInt();
-
 		}
+		}while(op!=1 && op!=2);
 		
 		if(op==1) {
 			
@@ -34,12 +32,13 @@ public class Ex5 {
 			System.out.print("Digite a idade: ");
 			idade = teclado.nextInt();
 			Pessoa p = new Pessoa(nome,idade);
+			
 		}else {
 			System.out.print("Digite a idade: ");
 			idade = teclado.nextInt();
 			Pessoa p2 = new Pessoa(idade);
 		}
 		teclado.close();
-	}
 	
+	}
 }
