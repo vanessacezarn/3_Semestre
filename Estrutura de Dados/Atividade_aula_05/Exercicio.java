@@ -1,6 +1,4 @@
 //VANESSA CEZAR DO NASCIMENTO 
-// FOI UTILIZADO O CHAT GPT PARA AUXILIAR NA CRIAÇÃO DA CLASSE verificaemail PARA SOLUCIONAR O PROBLEMA DE QUE SE DUAS PESSOAS TIVESEM O
-//PRIMEIRO E ÚLTIMO NOME IGUAIS, INDEPENDENTE DE QUE SE O NOME DO MEIO FOSSE DIFERENTE,  NÃO SERIA GERADO UM NOVO EMAIL
 
 //Listas: dicionário ou objeto
 //Fazer um programa em Java, C# ou C++ que receba nomes completos de pessoas (validar se nome foi digitado completo).
@@ -9,8 +7,6 @@
 // o par (nome completo e email) em uma lista. Essa lista pode ser composta por dicionários (email será a chave e
 // nome completo o valor) ou por objetos (da classe Pessoa, com atributos nome e email). Contudo, não pode haver 
 //emails repetidos.Ao final, exibir a lista com os dados (nomes e emails).
-//
-
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,9 +21,9 @@ class Pessoa{
         this.email= email;
     }
 }
-//CLASSE PARA VERIFICAR SE O EMIAL GERADO JA EXISTE E CASO JÁ EXISTA GERAR UM NOVO EMAIL COM UM CONTADOR
+//CLASSE PARA VERIFICAR SE O EMIAL GERADO JA EXISTE E CASO JÁ EXISTA GERAR UM NOVO COM UM CONTADOR 
 class verificaemail{ 
-    List<String>listaEmail; // LISTA PARA ARMAZENAR OS EMAIL 
+    List<String>listaEmail;
 
     public verificaemail(){
         listaEmail = new ArrayList<>();
@@ -35,24 +31,23 @@ class verificaemail{
 
     public String verificaAdiconaEmail(String email){
         String emailFinal = email;
-      
-        boolean emailexiste = false; // VERIFICA SE O EMAIL JA EXISTE
+        int contador=1;
+        boolean emailexiste = false;
+
         for(String i: listaEmail){
             if(i.equals(emailFinal)){
                 emailexiste=true;
             }
         }
 
-        int contador=1; 
         if(emailexiste){ //CASO O EMAIL JA EXISTA É ADICIONADO UM CONTADOR AO EMAIL
             emailFinal = email.split("@")[0] + contador + "@ufn.edu.br" ;
-            //DIVIDI O EMAIL ANTES DO @ ADICIONA O CONTADOR E O "@ufn.edu.br" NOVAMENTE
-            contador++; // INCREMENTA O CONTADOR PARA O CASO DE SURGUIR MAIS UMA PESSOA COM NOME E ULTIMO SOBRENOME IGUAIS
+            //DIVIDI O EMAIL ANTES DO @ ADICIONA O CONTADOR E O "@ufn.edu.br"
+            contador++;
         }
 
-        listaEmail.add(emailFinal); // ADICIONA O EMAIL A LISTA DE EMAIL
-      
-        return emailFinal; 
+        listaEmail.add(emailFinal);
+        return emailFinal;
     }
 }
 
@@ -77,16 +72,7 @@ public class exercio {
             flag=0;
             System.out.print("Digite o nome completo: ");
             nome = teclado.nextLine().toLowerCase(); // LE O NOME E O TRANFORMA PARA MINUSCULO
-            boolean nomeExiste= false;
-            for (Pessoa a: pessoas){
-                if(a.nome.equals(nome)){
-                    nomeExiste = true;
-                }
-            }
-            if (nomeExiste) {
-                System.out.println("Este nome já está cadastrado! Tente um nome diferente.");
-                continue;
-            }
+           
             vetorNome = nome.split(" ");// DIVIDIR O NOME DIGITADO
             if(vetorNome.length<2){ //VERIFICA SE O NOME DIGITADO TEM NOME E SOBRENOME
                 System.out.println("é necessario digitar o nome completo");
