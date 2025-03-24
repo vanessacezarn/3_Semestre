@@ -19,11 +19,11 @@ public class Disciplina {
 	}
 	
 	public void recuperar() {
-		
-	}
-	public void exibir() {
 		System.out.println("Nome da disciplina : "+nome);
 		System.out.println("Carga horária : " +cargaHoraria);
 		System.out.println("Professor da disciplina : "+nomeProfessor);
 	}
+	
+	//O METODO RECUPERAR APENAS EXIBI AS INFORMAÇÕES, POIS NÃO COMPREENDI MUITO BEM O QUE ELE DEVERIA FAZER.
+	// FIQUEI EM DUVIDA SE ERA NECESSARIO RECUPERAR ALGUMA INFORMAÇÃO INICIAL OU SE ELE REALMENTE DEVERIA APENAS MOSTRAR AS INFORMAÇÕES.
 }
