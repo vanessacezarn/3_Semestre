@@ -1,3 +1,5 @@
+//  PROBLEMA DO CODIGO --> NÃO GERA EMAIL PARA PESSOAS COM NOME E ULTIMO SOBRENOME IGUAIS, MESMO QUE O NOME DO MEIO SEJA DIFERENTE
+
 //Listas: dicionário ou objeto
 //Fazer um programa em Java, C# ou C++ que receba nomes completos de pessoas (validar se nome foi digitado completo).
 // A partir disso, gerar email da pessoa combinando o primeiro nome com o último nome, separados por '.', mais 
