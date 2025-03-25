@@ -67,5 +67,33 @@ public class Ex1 {
 }
 
 ```
+```.java
+package exemplo1;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		int []  numeros = {1,2,3};
+		try { //TRATADA O ERRO COMO UMA EXCEÇÃO
+		System.out.println(numeros[2]);
+		System.err.println("resultado"+(3/0));
+		} catch(ArrayIndexOutOfBoundsException e) { // SE USAR DESSA MANEIRA ELE TRATA APENAS O ERRO ESPECIFICO
+			System.out.println("Exceção:" + e.getMessage()); //FORMAS DE MOSTRAR QUAL A EXEÇÃO
+			System.out.println("Exceção:" + e.toString());
+		}catch(Exception e ) { // TRATA O ERRO DE FORMA MAIS GENERICA
+			System.out.println("Exceção:" + e.toString());
+
+		}
+		
+		System.out.println("o programa segue em excecução");
+		System.out.println(numeros[3]); //FORA DO TRY, AQUI VAI GERAR UM ERRO FATAL 
+		System.out.println("agora não"); // AQUI JÁ NÃO É MAIS EXECUTADO O PROGRAMA
+
+
+	}
+
+}
+
+```
   
 
