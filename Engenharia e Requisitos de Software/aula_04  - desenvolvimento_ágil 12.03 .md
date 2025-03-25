@@ -28,14 +28,15 @@
 	🡺 mudanças tem muito a ver com desenvolvimento de software ➞ mudança na equipe, mudança na tecnologia, mudança na equipe,...
 
 **➤ AGILIDADE E O CUSTO DAS MUDANÇAS**
-
-	🡺 a sabedoria convencional em desenvolvimento de software afirma que os custos de mudanças aumentam de forma não lineares conforme o projeto avança
+![custo_mudança](https://github.com/vanessacezarn/3_Semestre/blob/00348c4d7ad940cd9fc0a90a4e6d8fe61a73deb1/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_04/custos%20de%20mudan%C3%A7a.png)
+	
+ 	🡺 a sabedoria convencional em desenvolvimento de software afirma que os custos de mudanças aumentam de forma não lineares conforme o projeto avança
     🡺 entrega partes do projeto, sempre está construindo partes logo se precisar fazer alterações não precisa mudar tudo como seria no processo de software convencional   
     🡺 em teoria o custo final dos dois processos é igual, só não está distribuido o pagamento de forma equilibrada
 		• software convencionar tem forma de uma função exponencial - custo bem elevado no final do projeto (grande variação do preço inicial para o final)
 		• software ágil tem alteração nos preço ao decorrer do projeto mas não tem um variação tão grande, pois como vai fazendo e entregando não é necessario mudanças tão bruscras no projeto.
 
-![custo_mudança](https://github.com/vanessacezarn/3_Semestre/blob/00348c4d7ad940cd9fc0a90a4e6d8fe61a73deb1/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_04/custos%20de%20mudan%C3%A7a.png)
+
 
 ## ➤ o que é processo ágil
 
@@ -46,12 +47,12 @@
 		• desenvolvimento incremental
 		• entrega dos protótipos em curtos periodos
 		• adaptações devem acompanhar o mesmo ritmo das mudanças - imprevisibilidade
-## ➤ princípios da agilidade = manifesto agil**
+
 
     
 ## ➤ Manifesto para o desenvolvimento agil de software**
  
-    	➞ 12 mandamentos/princípiod:
+    	➞ 12 mandamentos/princípio do manifesto àgil:
         	• 1º maior prioridade é satisfazer o cliente através da entrega contínua e adiantada de software com valor agregado
         	• 2º aceitar e adequar-se a mudanças para o cliente, deve-se aproveitar as mudanças como uma vantagem competitiva na relação com o cliente
         	• 3º entregar um software em funcionamento frequentemente, semanas ou meses
