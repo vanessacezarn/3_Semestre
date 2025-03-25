@@ -1,7 +1,8 @@
  # DESENVOLVIMENTO ÁGIL
 
-**➤ O QUE É DESENVOLVIMENTO ÁGIL**
+## ➤ O QUE É DESENVOLVIMENTO ÁGIL
 
+	🡺 engenharia de software àgil combina filosofia com um conjunto de princípios de desenvolvimento
 	🡺 é uma filosofia que defende :
 		• satisfação do cliente 
 		• entrega de incremental prévio
@@ -10,19 +11,17 @@
 		• simplicidade no desenolvimento geral ➞ acima de tudo
 	🡺 prioriza a entrega mais do que análise e projeto
 	🡺 prioriza a comunicação ativa ativa e contínua entre desenvolvedores e clientes.
-	🡺 equipe ágil ➞ equipe que se auto=organiza e que controla seu própio destino
-	🡺 a engenharia de software ágil tem se mostrado capaz de entregar sistemas corretos rapidamente.   
+	🡺 equipe ágil (engenheiro de software e outros envolvidos no projeto) ➞ equipe que se auto-organiza e que controla seu própio destino
+	🡺 a engenharia de software ágil tem sido uma razoável alternativa para a engenharia convencional e tem se mostrado capaz de entregar sistemas corretos rapidamente.   
 	🡺 Os métodos ágeis são algumas vezes conhecidos como métodos light ou métodos enxutos (lean methods)
 
-**➤ ETAPAS ENVOLVIDAS**
-
+# ➤ ETAPAS ENVOLVIDAS
 
 	• desenvolvimento ágil pode ser denominado "engenharia de software flexível".
 	**flexibilidade = em relação a tamanho de equipe, da oraganização da equipe, da metodologia 
-	🡺 atividades metodológicas básicas permanecem: comunicação, planejamento, modelagem, construção e emprego
-	➞ Entretanto, estas se transformam em um conjunto de tarefas mínimas que impulsiona a equipe para o desenvolvimento e para a entrega 
+	🡺 atividades metodológicas básicas permanecem: comunicação, planejamento, modelagem, construção e emprego ➞ Entretanto, estas se transformam em um conjunto de tarefas mínimas que impulsiona a equipe para o desenvolvimento e para a entrega 
 
-**➤ AGILIDADE**
+## ➤ AGILIDADE
 
 	• ágil = adaptação a mudanças 
 	🡺 uma equipe ágil é aquela rápida e capaz de responder apropriadamente a mudanças.
@@ -30,58 +29,66 @@
 
 **➤ AGILIDADE E O CUSTO DAS MUDANÇAS**
 
-	**grafico
-
-    🡺 a sabedoria convencional em desenvolvimento de software afirma que os custos de mudanças aumentam de forma não lineares conforme o projeto avança
+	🡺 a sabedoria convencional em desenvolvimento de software afirma que os custos de mudanças aumentam de forma não lineares conforme o projeto avança
     🡺 entrega partes do projeto, sempre está construindo partes logo se precisar fazer alterações não precisa mudar tudo como seria no processo de software convencional   
     🡺 em teoria o custo final dos dois processos é igual, só não está distribuido o pagamento de forma equilibrada
-	• software convencionar tem forma de uma função exponencial - custo bem elevado no final do projeto (grande variação do preço inicial para o final)
-	• software ágil tem alteração nos preço ao decorrer do projeto mas não tem um variação tão grande, pois como vai fazendo e entregando não é necessario mudanças tão bruscras no projeto.
+		• software convencionar tem forma de uma função exponencial - custo bem elevado no final do projeto (grande variação do preço inicial para o final)
+		• software ágil tem alteração nos preço ao decorrer do projeto mas não tem um variação tão grande, pois como vai fazendo e entregando não é necessario mudanças tão bruscras no projeto.
 
-**➤ o que é processo ágil**
+![custo_mudança](https://github.com/vanessacezarn/3_Semestre/blob/00348c4d7ad940cd9fc0a90a4e6d8fe61a73deb1/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_04/custos%20de%20mudan%C3%A7a.png)
 
-**➤ princípios da agilidade = manifesto agil**
+## ➤ o que é processo ágil
+
+	🡺 Um processo ágil de software deve se adaptar incrementalmente.
+	🡺 para uma adaptação incremental é necessário:
+		• feedback do cliente - para poder realizar adaptações
+		• protótipo operacional ou parte de um sistema operacional
+		• desenvolvimento incremental
+		• entrega dos protótipos em curtos periodos
+		• adaptações devem acompanhar o mesmo ritmo das mudanças - imprevisibilidade
+## ➤ princípios da agilidade = manifesto agil**
 
     
-**➤ Manifesto para o desenvolvimento agil de software**
+## ➤ Manifesto para o desenvolvimento agil de software**
  
- 	- https://jorgeaudy.com/wp-content/uploads/2013/01/principios1.jpg  /  https://agilemanifesto.org/iso/ptbr/principles.html
     	➞ 12 mandamentos/princípiod:
-        	• maior prioridade é satisfazer o cliente através da entrega contínua e adiantada de software com valor agregado
-        	•
-        	•
-       		•
-        	•
-        	•
-        	• software funcionando é a medidad primária de progresso
-        	• processos ágeis promovem desenvolvimento sustentável (todos os envolvidos estão ganhando - quem está produzindo, quem está pagando) 			
+        	• 1º maior prioridade é satisfazer o cliente através da entrega contínua e adiantada de software com valor agregado
+        	• 2º aceitar e adequar-se a mudanças para o cliente, deve-se aproveitar as mudanças como uma vantagem competitiva na relação com o cliente
+        	• 3º entregar um software em funcionamento frequentemente, semanas ou meses
+        	• 4º pessoal deo comercial e os desenvolvedores devem trabalhar em conjunto durante todo o projeto
+       		• 5º projetos com individuos motivados, ambiente e apoio necessarios são essencias
+        	• 6º conversas presenciais com a equipe são o método mais eficiente de transmitir informações para a equipe
+        	• 7º software funcionando é a medida primária de progresso
+        	• 8º processos ágeis promovem desenvolvimento sustentável (todos os envolvidos estão ganhando - quem está produzindo, quem está pagando) 			
 	 			➞ os patrocinadores, desenvolvedores e usuarios devem ser capazes de manter um ritmo constante 
-        	• contínua atenção à excelencia tecnica e bom design aumenta a agilidade➞codigo organizado, bem estruturado, classe, atributo,funções com nome acessiveis e de facil compreensão sobre o que está trabalhando
-        	• maximar a quantidade de trabalho que não precisou ser feito
-        	•
-        	• intervalo regulares, o time reflete em como ficar mais efetivo e melhorar.
-		**pessoa de negocio = representante do cliente
+        	• 9º contínua atenção a excelencia técnica e bom design aumenta a agilidade ➞ código organizado, bem estruturado, classe, atributo, funções com nome acessiveis e de facil compreensão sobre o que está trabalhando
+        	• 10º simplicidade -  maximar a quantidade de trabalho que não precisou ser feito
+			• 11º as melhores arquiteturas, requisitos e projetos emergem de equipes que se auto-organizam
+        	• 12º em intervalo regulares, o time reflete em como ficar mais efetivo e melhorar.
+		**pessoa de negócio = representante do cliente
 
  
 
-# MODELOS DE PROCESSO ÁGEIS # 
+# MODELOS DE PROCESSO ÁGEIS 
 
 	• Extreme Programming - XP
 	• Scrum
 	• Método de desenvolvimento de sitemas dinâmicos (Dynamic Systems Development Method, DSDM)
 	• Desenvolvimento dirigido a Funcionalidades (Feature Drive Development, FDD)
 
- **➤ EXTREME PROGRAMMING - XP**
+## ➤ EXTREME PROGRAMMING - XP
 
-  	*imagem
-        🡺 emprega uma abordagem orientada a objetos como seu paradigma de desenvolvimento preferido e envolve um conjunto de regras e praticas constantes no contexto de quatro atividades metodológicas: planejamento, projeto,codificação e teste
+    🡺 emprega uma abordagem orientada a objetos como seu paradigma de desenvolvimento preferido e envolve um conjunto de regras e praticas constantes no contexto de quatro atividades metodológicas: planejamento, projeto codificação e teste
 	
-       					PLANEJAMENTO: 
-        • *histórias de usuário: definir quais as caracteristicas e funcionalidades que o cliente deseja ter em seu software
-        • criterios de teste de aceitação:
+       					PLANEJAMENTO:
+		• levantamento de requisitos
+        • *histórias de usuário* : definir quais as caracteristicas e funcionalidades que o cliente deseja ter em seu software
+        • criterios de teste de aceitação
+		• plano de iteração
 					 	  🡻
        					PROJETO: 
-	•projeto simples com cartões *C.R.C. - classe, responsabilidade, colaboração
+		•projeto simples com cartões *C.R.C. - classe, responsabilidade, colaboração
+			- princípio KIS - 
         • prefere um projeto simples
 					  	  🡻
         				CODIFICAÇÃO = construção 
@@ -96,7 +103,9 @@
        ➨ entrega partes do projeto e recomeça o ciclo 
       🡺 problemas no XP = pagamento para duas pessoas programarem juntas - IA tem ganhado prioridade
 
-**➤ SCRUM -  um dos mais utilizados atualmente**
+![xp](https://github.com/vanessacezarn/3_Semestre/blob/00348c4d7ad940cd9fc0a90a4e6d8fe61a73deb1/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_04/xp.png)
+
+## ➤ SCRUM -  um dos mais utilizados atualmente**
 	
     	🡺 IMAGEM 
 				 BACKLOG do PRODUTO - "caixas"
