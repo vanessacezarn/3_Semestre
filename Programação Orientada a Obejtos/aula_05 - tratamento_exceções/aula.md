@@ -77,7 +77,7 @@ public class Ex1 {
 		try { //TRATADA O ERRO COMO UMA EXCEÇÃO
 		System.out.println(numeros[2]);
 		System.err.println("resultado"+(3/0));
-		} catch(ArrayIndexOutOfBoundsException e) { // SE USAR DESSA MANEIRA ELE TRATA APENAS O ERRO ESPECIFICO
+		} catch(ArrayIndexOutOfBoundsException e) { // SE USAR DESSA MANEIRA ELE TRATA APENAS O ERRO ESPECIFICO - se ocorrer algum outro erro ele não é tratado 
 			System.out.println("Exceção:" + e.getMessage()); //FORMAS DE MOSTRAR QUAL A EXEÇÃO
 			System.out.println("Exceção:" + e.toString());
 		}catch(Exception e ) { // TRATA O ERRO DE FORMA MAIS GENERICA
