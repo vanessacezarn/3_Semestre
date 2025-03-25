@@ -10,7 +10,6 @@
 package exemplo1;
 public class Ex1 {
 	public static void main(String[] args) {
-
 		int []  numeros = {1,2,3} ;
 		System.out.println(numeros[3]); //ERRO ESPERADO : ArrayIndexOutOfBoundsException 
 	}
