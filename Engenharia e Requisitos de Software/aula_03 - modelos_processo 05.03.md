@@ -28,7 +28,7 @@
    🡺 fluxo de processo EVOLUCIONÁRIO: executa as atividades de forma circular, cada vez que as 5 atividade são completas o 
          software passa a ter uma versão mais completa
    
-   ![evolucionario](https://github.com/vanessacezarn/3_Semestre/blob/main/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_03/iterativo.png)
+   ![evolucionario](https://github.com/vanessacezarn/3_Semestre/blob/2bf0d9d962e371106952fb8442cd10cb378c1498/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_03/evolucionario.png)
       
    🡺 fluxo de processo PARALELO: pode executar mais de uma atividade ao mesmo tempo 
 	➞ exemplo: a modelagem pode ser executada em paralelo com a construção de um outro aspecto do software.
