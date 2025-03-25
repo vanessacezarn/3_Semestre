@@ -53,8 +53,8 @@ public class Ex1 {
 		try { //TRATADA O ERRO COMO UMA EXCEÇÃO
 		System.out.println(numeros[3]);
 		} catch(Exception e) {
-			System.out.println("Exceção:" + e.getMessage()); //FORMAS DE MOSTRAR QUAL A EXEÇÃO
-			System.out.println("Exceção:" + e.toString());
+			System.out.println("Exceção:" + e.getMessage()); //FORMAS DE MOSTRAR QUAL A EXEÇÃO - APENAS MOSTRAR O QUE ESTA ERRADO
+			System.out.println("Exceção:" + e.toString()); // MOSTRA O QUE ESTA ERRADO E QUAL É O ERRO
 		}
 		
 		System.out.println("o programa segue em excecução");
@@ -95,5 +95,37 @@ public class Ex1 {
 }
 
 ```
-  
+
+**tratando erro 2**
+```.java
+package exemplo2;
+public class Ex2 {
+	public static void main(String[] args) {
+		int a = 10, b=0;
+		try {
+		System.out.println(a/b); //ERRO ESPERADO : ArithmeticException
+		}catch(ArithmeticException e) {
+			System.out.println("Exceção: "+e.toString());
+		}
+		System.out.println("CONTINUA");
+	}
+}
+
+```
+**tratando erro 3**
+```.java
+package exemplo2;
+public class Ex3 {
+	public static void main(String[] args) {
+		String numero = "abc";
+		try {
+		int valor = Integer.parseInt(numero); // ERRO ESPERADO : NumberFormatException
+		}catch(NumberFormatException e){
+			System.out.println("exceção: "+e.toString() );
+		}
+		System.out.println("CONTINUA");
+	}
+}
+
+```
 
