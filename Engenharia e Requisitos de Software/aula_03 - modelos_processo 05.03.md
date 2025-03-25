@@ -88,8 +88,8 @@
      
 
 ***PROTOTIPAÇÃO***
-	🡺 planejada rapidamente e ocorre a modelagem em forma de um projeto rápido, representação de aspectos do software que serão visíveis ao usuário final, PROTÓTIPO, o que ao ser mostrado ao cliente pode-se definir mudanças,
- solicitar novas funções, ou seja, o cliente vai avaliando se é isso mesmo que deseja durante o processo de desenvolvimento do software, ou seja, pode-se ir aprimorando os requisitos do projeto
+
+	🡺 planejada rapidamente e ocorre a modelagem em forma de um projeto rápido, representação de aspectos do software que serão visíveis ao usuário final, PROTÓTIPO, o que ao ser mostrado ao cliente pode-se definir mudanças,solicitar novas funções, ou seja, o cliente vai avaliando se é isso mesmo que deseja durante o processo de desenvolvimento do software, ou seja, pode-se ir aprimorando os requisitos do projeto
       🡺 problema: 
 		• não é desenvolvida pensando no todo o projeto, não é um processo muito organizado, 	
 		• código acaba ficando muito  bagunçado e grande o que dificulta a manutenções futuras, isso ocorre devido a rapidez/pressa com que ele foi desenvolvido
