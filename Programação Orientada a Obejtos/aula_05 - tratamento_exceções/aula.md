@@ -23,7 +23,7 @@ public class Ex1 {
 
 ```
 
-*** exemplo de erro 2 - divisão por zero***
+**exemplo de erro 2 - divisão por zero**
 
 ```.java
 package exemplo2;
@@ -40,7 +40,7 @@ public class Ex2 {
 }
 
 ```
-*** exemplo de erro 3 - tentando converter uma string em um número***
+**exemplo de erro 3 - tentando converter uma string em um número**
 ```.java
 package exemplo2;
 
@@ -56,5 +56,33 @@ public class Ex3 {
 }
 
 ```
+## TRATANDO EXCEÇÕES
+	🡺
+ 	🡺
+**Tratando erro 1**
+```.java
+package exemplo1;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		int []  numeros = {1,2,3};
+		try { //TRATADA O ERRO COMO UMA EXCEÇÃO
+		System.out.println(numeros[3]);
+		} catch(Exception e) {
+			System.out.println("Exceção:" + e.getMessage()); //FORMAS DE MOSTRAR QUAL A EXEÇÃO
+			System.out.println("Exceção:" + e.toString());
+		}
+		
+		System.out.println("o programa segue em excecução");
+		System.out.println(numeros[3]); //FORA DO TRY, AQUI VAI GERAR UM ERRO FATAL 
+		System.out.println("agora não"); // AQUI JÁ NÃO É MAIS EXECUTADO O PROGRAMA
+
+
+	}
+
+}
 
 ```
+  
+
