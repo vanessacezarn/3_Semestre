@@ -28,6 +28,7 @@
 	🡺 mudanças tem muito a ver com desenvolvimento de software ➞ mudança na equipe, mudança na tecnologia, mudança na equipe,...
 
 **➤ AGILIDADE E O CUSTO DAS MUDANÇAS**
+
 ![custo_mudança](https://github.com/vanessacezarn/3_Semestre/blob/00348c4d7ad940cd9fc0a90a4e6d8fe61a73deb1/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_04/custos%20de%20mudan%C3%A7a.png)
 	
  	🡺 a sabedoria convencional em desenvolvimento de software afirma que os custos de mudanças aumentam de forma não lineares conforme o projeto avança
