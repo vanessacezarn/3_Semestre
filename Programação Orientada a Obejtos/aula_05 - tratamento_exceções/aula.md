@@ -5,7 +5,7 @@
 
 ## Exemplos de erro 
 
-*** exemplo de erro 1 - tentando acessar um elemento fora do indice de um array ***
+**exemplo de erro 1 - tentando acessar um elemento fora do indice de um array**
 ```.java
 package exemplo1;
 
