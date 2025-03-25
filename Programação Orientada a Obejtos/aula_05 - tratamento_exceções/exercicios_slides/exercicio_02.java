@@ -9,8 +9,8 @@ public class Ex2 {
 	public static void main(String[] args) {
 		
 			Scanner teclado = new Scanner(System.in);
-			double n1,n2;
-			double soma,subtracao,multiplicacao,divisao;
+			int n1,n2;
+			int soma,subtracao,multiplicacao,divisao;
 			int opcao;
 					
 			System.out.println("\t***MENU***");
@@ -32,31 +32,35 @@ public class Ex2 {
 			System.out.print("Informe dois números: ");
 			
 			try {
-			n1=teclado.nextDouble();
-			n2=teclado.nextDouble();
-			switch(opcao) {
-			case 1 :
-				soma=n1+n2;
-				System.out.println("SOMA: "+ n1 + " + " + n2 +" = "+ soma);
-				break;
-			case 2 :
-				subtracao=n1-n2;
-				System.out.println("SUBTRAÇÃO: "+ n1 + " - " + n2 +" = "+ subtracao);
-				break;
-			case 3 :
-				multiplicacao=n1*n2;
-				System.out.println("MULTIPLICAÇÃO: "+ n1 + " * " + n2 +" = "+ multiplicacao);
-				break;
-			case 4 :
-				if(n2==0) {
-					System.out.println("DIVISÃO = OPERAÇÃO INVALIDA: não é possivel divisão por 0");
-				}else {
-					divisao=n1/n2;
-					System.out.println("DIVISÃO: "+ n1 + " / " + n2 +" = "+ divisao);
+			n1=teclado.nextInt();
+			n2=teclado.nextInt();
+				switch(opcao) {
+					case 1 :
+						soma=n1+n2;
+						System.out.println("SOMA: "+ n1 + " + " + n2 +" = "+ soma);
+						break;
+					case 2 :
+						subtracao=n1-n2;
+						System.out.println("SUBTRAÇÃO: "+ n1 + " - " + n2 +" = "+ subtracao);
+						break;
+					case 3 :
+						multiplicacao=n1*n2;
+						System.out.println("MULTIPLICAÇÃO: "+ n1 + " * " + n2 +" = "+ multiplicacao);
+						break;
+					case 4 :
+						
+						try {
+						
+							divisao=n1/n2;
+							System.out.println("DIVISÃO: "+ n1 + " / " + n2 +" = "+ divisao);	
+							
+						}catch(Exception e){
+							System.out.println("Exceção:"+e.toString());
+							//System.out.println("DIVISÃO = OPERAÇÃO INVALIDA: não é possivel divisão por 0");
+						}
+						
+						break;
 				}
-				
-				break;
-		}
 			}catch(Exception e) { //InputMismatchException
 				System.out.println("Exceção:"+e.toString());
 			}
