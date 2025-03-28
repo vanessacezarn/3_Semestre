@@ -1,4 +1,5 @@
-## Classe - lampada
+# Exemplo lâmpada
+### Classe
     • criando metodos ligar, desligar, estaLigado
 ``` .cs
 using System;
@@ -49,7 +50,7 @@ namespace aula0601
 }
 
 ```
-## Principal - lampada
+### Principal
 ``` .cs
 namespace aula0601
 {
