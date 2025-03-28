@@ -94,5 +94,61 @@ public class Principal {
 }
 
 ```
+## Classe Aluno - python
+``` .python
+class Aluno:
+    #construtor
+    def __init__(self, matricula,  nome):
+        self.matricula = matricula
+        self.nome = nome
+        self.email = self.gerar_email()
+    
 
+    def gerar_email(self):
+        vetor_nomes = self.nome.lower().split( " ")
+        return vetor_nomes[0]+"."+vetor_nomes[-1]+"ufn.edu.br"
+    
+    def __str__(self):
+        return "Aluno [nome=" + self.nome + ", email=" + self.email + "]"
 
+    def __eq__(self, obj):
+        ## verifica se obj é uma instancia da classe Aluno
+        if not isinstance(obj, Aluno):
+            return False
+        # Comparando o email dos dois objetos
+        return self.email == obj.email
+    
+```
+## Principal Aluno - python
+``` .python
+from aluno import Aluno
+
+class Principal :
+  #alunos = list(Aluno)
+    alunos = []
+    matricula = 1
+  
+    while(True):
+        nome = input("digite nome: ").upper()
+        tmp = Aluno(matricula,nome)
+    
+    
+        if(tmp in alunos):
+            print("Aluno com este email ja cadastrado")
+        else:
+            print("Aluno cadastrado com a matricula de número ",matricula)
+            print("e com email ",tmp.email)
+            alunos.append(tmp)
+            matricula+=1
+                
+        opcao=input("Continua? (1-sim, 2-não)")
+        if (opcao !="1"):
+            break
+            
+    alunos.sort(key = lambda aluno : aluno.nome )
+
+    print("Relacao aluno")
+    for aluno in  alunos:
+        print(aluno)
+        
+```
