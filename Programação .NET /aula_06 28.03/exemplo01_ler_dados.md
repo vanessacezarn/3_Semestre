@@ -32,7 +32,7 @@ namespace exercicio01
             Console.WriteLine("\n EXIBINDO DADOS");
             Console.WriteLine("Nome: "+this.nome);
             Console.WriteLine("CPF: " + this.cpf);
-            Console.WriteLine("Data de nascimento: " + this.data_nascimento.ToString());
+            Console.WriteLine("Data de nascimento: " + this.data_nascimento.ToString("d"));
             Console.WriteLine("RG: " + this.rg);
         }
     }
