@@ -8,7 +8,7 @@
      • Grafos
 # LISTA COM CONTROLE DE DUPLICIDADE - EQUALS E CONTAINS
 
-## Classe aluno
+## Classe aluno - java
 ```.java
 public class Aluno{
     public int matricula;
@@ -40,7 +40,7 @@ public class Aluno{
     } 
 }
 ```
-## Principal_aluno
+## Principal_aluno - java
 ```.java
 import java.util.ArrayList;
 import java.util.List;
