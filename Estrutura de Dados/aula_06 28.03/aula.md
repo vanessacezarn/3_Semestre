@@ -95,7 +95,7 @@ public class Principal {
 
 ```
 ## Classe Aluno - python
-``` .python
+``` py
 class Aluno:
     #construtor
     def __init__(self, matricula,  nome):
@@ -120,7 +120,7 @@ class Aluno:
     
 ```
 ## Principal Aluno - python
-``` .python
+``` py
 from aluno import Aluno
 
 class Principal :
