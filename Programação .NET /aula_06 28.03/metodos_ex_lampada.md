@@ -1,4 +1,5 @@
 ## Classe - lampada
+    • criando metodos ligar, desligar, estaLigado
 ``` .cs
 using System;
 using System.Collections.Generic;
