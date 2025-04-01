@@ -36,16 +36,17 @@ public class Pessoa {
 }
 
 ```
-**exemplo get - retorna valor**
+**exemplo get - retorna valor e set - altera valor**
 ```.java
 package pkg;
 public class Principal {
 	public static void main(String[] args) {
 		Pessoa p = new Pessoa("Vanessa",22);
+		p.setIdade(20); // altera um dado
 		p.apresentarDados();
 
 		int idade, ano;
-		idade = p.getIdade();
+		idade = p.getIdade(); // retorna um dado
 		ano = 2025 - idade;
 		System.out.println("ano de nascimento :"+ano);
 	}
