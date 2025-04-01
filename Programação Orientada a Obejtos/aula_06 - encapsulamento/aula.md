@@ -94,7 +94,11 @@ public class Principal {
 		p.setIdade(-20);
 		p.apresentarDados();
 		p.setNome("LUIZA");
-		p.apresentarDados();	
+		p.apresentarDados();
+		// PRINT DOS DADOS NA MAIN
+		System.out.println("nome: "+p.getNome()+" cezar");
+		System.out.println("idade: "+p.getIdade());
+		System.out.println("cpf: "+p.getCpf());
 	}
 }
 
