@@ -65,7 +65,7 @@ System.out.println(conjunto.size()); // Saída: 2
 ## lista de objetos x map
     ➤ Use List<T> se:
         • Precisa manter a ordem dos elementos.
-        • Pode haver itens duplicados.
+        • Pode haver itens duplicados -->  utilizar equal, contains
         • Vai percorrer a coleção frequentemente.
     ➤  Use Map<K, V> se:
         • Precisa de busca rápida (get(key)).
