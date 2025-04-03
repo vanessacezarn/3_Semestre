@@ -62,3 +62,15 @@ System.out.println(conjunto.size()); // Saída: 2
     ➤ Não possuem sequência fixa.
     ➤ Permitem conexões complexas entre elementos.
     ➤ exemplo: arvores e grafos
+## lista de objetos x map
+    ➤ Use List<T> se:
+        • Precisa manter a ordem dos elementos.
+        • Pode haver itens duplicados.
+        • Vai percorrer a coleção frequentemente.
+    ➤  Use Map<K, V> se:
+        • Precisa de busca rápida (get(key)).
+        • Quer garantir que as chaves sejam únicas.
+        • Está lidando com dados indexados por um identificador único.
+        
+    ◘ Se precisar acessar os dados por um identificador (como um nome ou código), Map é melhor.
+    ◘ Se precisar de uma coleção ordenada e percorrível, use List.
