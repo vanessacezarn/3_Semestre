@@ -49,3 +49,16 @@ System.out.println(conjunto.size()); // Saída: 2
 ```
            
 ![image](https://github.com/user-attachments/assets/110850d9-a0f4-4c6a-89bd-01dce84e8ea5)
+
+## estrutura lineares
+    ➤ As estruturas lineares organizam os elementos de maneira sequencial (um após o outro).
+    ➤ Cada elemento tem um único sucessor e um único antecessor, exceto o primeiro e o último.
+    ➤  Armazenam dados em sequência.
+    ➤ Percorridas de forma ordenada (do início ao fim).
+    ➤ Implementadas com arrays ou listas encadeadas, pilha e filas
+## estruturas não lineares
+    ➤ organizam os elementos de maneira hierárquica ou interconectada.
+    ➤ Cada elemento pode ter mais de um sucessor ou antecessor.
+    ➤ Não possuem sequência fixa.
+    ➤ Permitem conexões complexas entre elementos.
+    ➤ exemplo: arvores e grafos
