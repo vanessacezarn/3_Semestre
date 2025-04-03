@@ -23,3 +23,8 @@
             ➞ Estrutura que armazena pares chave-valor usando uma função hash para acesso rápido
            ➞ Chaves únicas.
            ➞ Usado para dicionários, caches, etc.
+## Estrutura abstrata
+    ➤
+
+
+![image](https://github.com/user-attachments/assets/110850d9-a0f4-4c6a-89bd-01dce84e8ea5)
