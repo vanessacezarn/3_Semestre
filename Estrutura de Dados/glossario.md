@@ -74,3 +74,22 @@ System.out.println(conjunto.size()); // Saída: 2
         
     ◘ Se precisar acessar os dados por um identificador (como um nome ou código), Map é melhor.
     ◘ Se precisar de uma coleção ordenada e percorrível, use List.
+
+## random
+```.java
+import java.util.Random;
+
+public class ExemploRandom {
+    public static void main(String[] args) {
+        Random rand = new Random();
+
+        int inteiro = rand.nextInt(100); // Número aleatório entre 0 e 99
+        double decimal = rand.nextDouble(); // Número aleatório entre 0.0 e 1.0
+        boolean booleano = rand.nextBoolean(); // true ou false
+
+        System.out.println("Inteiro aleatório: " + inteiro);
+        System.out.println("Decimal aleatório: " + decimal);
+        System.out.println("Booleano aleatório: " + booleano);
+    }
+}
+```
