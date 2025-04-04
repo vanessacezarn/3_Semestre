@@ -56,13 +56,15 @@ System.out.println(conjunto.size()); // Saída: 2
     ➤  Armazenam dados em sequência.
     ➤ Percorridas de forma ordenada (do início ao fim).
     ➤ Implementadas com arrays ou listas encadeadas, pilha e filas
+    
 ## estruturas não lineares
     ➤ organizam os elementos de maneira hierárquica ou interconectada.
     ➤ Cada elemento pode ter mais de um sucessor ou antecessor.
     ➤ Não possuem sequência fixa.
     ➤ Permitem conexões complexas entre elementos.
     ➤ exemplo: arvores e grafos
-## lista de objetos x map
+    
+## lista de objetos x dicionario (map)
     ➤ Use List<T> se:
         • Precisa manter a ordem dos elementos.
         • Pode haver itens duplicados -->  utilizar equal, contains
@@ -93,3 +95,40 @@ public class ExemploRandom {
     }
 }
 ```
+## lista
+    • coleções lineares de elementos armazenados emm sequencia -> estatica= aray ou dinamica = lista encadeada
+    • Armazenar coleções de dados onde a ordem importa.
+    • Manipulação sequencial de informações.
+    • Base para estruturas como pilhas, filas, etc.
+    • Não pode ser instanciada diretamente --> Pode ser implementada por várias classes, como ArrayList, LinkedList, etc.
+    • lista com objetos: epresentar entidades do mundo real, com estrutura clara e comportamento encapsulado.
+        - Organização clara do código. -- Reaproveitamento e extensibilidade.
+        - Forte apoio à orientação a objetos (herança, polimorfismo, encapsulamento).
+    • listas com outras listas : representar tabelas, matrizes, grades ou dados com estrutura em camadas
+        - Mais difícil de manipular --> Pode causar confusão se não for bem estruturado.
+
+
+
+## arvores
+    • Estruturas hierárquicas, onde cada nó pode ter filhos. O primeiro nó é chamado de raiz.
+    • Usos: - Estruturas de banco de dados, Sistemas de arquivos (pastas e subpastas), Árvores de decisão, expressões, jogos.
+
+## arrayList
+    • estrutura de dados dinâmica que armazena uma coleção de elementos.
+    • Ela funciona como um vetor (array) que cresce automaticamente quando necessário.
+    • implementação da interface List, usando array dinamico
+    • acesso rapido aos elementos por meio de indices
+
+## linkedList
+    • Também implementa a interface List.
+    • Usa lista duplamente encadeada.
+    • Em vez de armazenar os elementos em blocos contínuos de memória (como um array ou ArrayList), uma LinkedList encadeia os elementos um a um, o que facilita inserções e remoções.
+
+# equals e contains
+    • equals e hashcode : método mais seguro pois permite comparar os valores dos atributos de dois objetos para saber se são "iguais" — mesmo que estejam em locais diferentes da memória.
+    • contains = verificar se o objeto já existe
+
+
+
+
+    
