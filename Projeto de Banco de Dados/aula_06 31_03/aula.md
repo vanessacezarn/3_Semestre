@@ -112,5 +112,8 @@ public class Disciplina {
 ```
 ## Diagramas construidos em aula no MySQL
 
-###exemplo 1
+### exemplo 1 - turma, exemplo acima
+![{D344E59E-586F-4364-A881-69EDC83E224E}](https://github.com/user-attachments/assets/497b7051-3096-40d1-aa06-74ee0f20d8fb)
+
+### exemplo 2 - evento cientifico, aula do dia ...
 ![{FBACDBC3-CEAD-4FCF-AE8B-19400CEF8519}](https://github.com/user-attachments/assets/22db905e-f565-43bd-9289-7ea9864dc17d)
