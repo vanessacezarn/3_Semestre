@@ -36,26 +36,28 @@
 
 # ➤ primeira classe em java -codigo slide/aula
 
-	
-	public class Pessoa{
+```.java
+public class Pessoa{
 		public String nome;
 		public int idade;
 	}
-
-	• nome da classe = pessoa
-	• nome do arquivo = pessoa.java
+```
+	• nome da classe = Pessoa
+	• nome do arquivo = Pessoa.java
 	• classe não pode ter um nome diferente do arquivo
 	• não tem métodos, tem apenas atributos (nome e idade)
 	• como não tem main não é possível executar.
 
 	➜Instanciando a classe pessoa
 
-	public class Principal{
+```.java
+public class Principal{
 		public static void main(String[]args){
 			Pessoa p = new Pessoa();
 			System.out.println("a pessoa foi instanciada")
 		}
 	}
+```
 	
 	• instanciar = criar um objeto
 	• objeto criado = p
