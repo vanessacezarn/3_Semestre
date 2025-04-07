@@ -67,23 +67,23 @@ public class Principal{
 		•System.out.println("Idade: "+p.idade);
 
     ➤ Criando objetos (instanciando classes) e somente depois definindo valores aos atributos.
+    
 ```.java
-	              public class Pessoa{
-		                  public String nome;
-		                  public int idade;
-	                }
+public class Pessoa{
+      public String nome;
+      public int idade;
+  }
 
-	            public class Principal{
-		              public static void main(String [] args){
-			              Pessoa p1 = new Pessoa();
-			              p1.nome = "João";
-			              Pessoa p2 = new Pessoa ();
-			              p2.nome = "Maria";
-			              System.out.println("o nome da pessoa 1 é:"+p1.nome);
-			              System.out.println("o nome da pessoa 2 é:"+p2.nome);
-              }
-          	}  
-
+public class Principal{
+    public static void main(String [] args){
+              Pessoa p1 = new Pessoa();
+              p1.nome = "João";
+              Pessoa p2 = new Pessoa ();
+              p2.nome = "Maria";
+              System.out.println("o nome da pessoa 1 é:"+p1.nome);
+              System.out.println("o nome da pessoa 2 é:"+p2.nome);
+    }
+ }  
 ```
 
 
