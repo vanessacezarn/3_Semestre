@@ -1,11 +1,17 @@
 # ENCAPSULAMENTO
-    • utilizado usando modificadores de acesso
-    • modificadores de acesso
+    • é implementado utilizando modificadores de acesso
+    • modificadores de acesso -> palavras-chaves que determinam o nível de acesso aos membros de uma classe(atributos e métodos)
       - public = qualquer classe pode acessar 
-      - private = somente a propria classe pode acessar o membro
-      - protected = subclasses e classes
-      - default (package)
-    • GET E SET
+      - private = somente a própria classe pode acessar o membro
+      - protected = permite que as subclasses e classes do mesmo pacote possam acessar o membro
+      - default (package) = permite que as classes do mesmo pacote possam acessar o membro (é o modificador padrão, se nenhum outro modificador for especificado) 
+## Getters e Setters
+    • são métodos que permitem o acesso e a modificação dos atributos priados de uma classe, respeitando o conceito de encapsulamento
+    • fundamentais em OO --> pois permite que os dados sejam protegidos e acessados de forma controlada
+    • getters = obter valor de um atributo
+    • setters = alterar o valor de um atributo
+    • Padrão de nomenclatura =  nome do método começa com "get" ou "set", seguido do nome do atributo com a primeira letra em maiúscula.
+	
     • DIAGRAM DE CLASSE
 
   ## Exemplos
