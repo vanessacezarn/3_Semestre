@@ -107,11 +107,10 @@ public class Disciplina {
     public Disciplina(String nome) {
         this.nome = nome;
     }
-
-
-![{FBACDBC3-CEAD-4FCF-AE8B-19400CEF8519}](https://github.com/user-attachments/assets/22db905e-f565-43bd-9289-7ea9864dc17d)
-
 }
 
 ```
+## Diagramas construidos em aula no MySQL
 
+###exemplo 1
+![{FBACDBC3-CEAD-4FCF-AE8B-19400CEF8519}](https://github.com/user-attachments/assets/22db905e-f565-43bd-9289-7ea9864dc17d)
