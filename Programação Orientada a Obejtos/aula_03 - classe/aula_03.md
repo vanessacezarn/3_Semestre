@@ -67,6 +67,7 @@ public class Principal{
 		•System.out.println("Idade: "+p.idade);
 
     ➤ Criando objetos (instanciando classes) e somente depois definindo valores aos atributos.
+```.java
 	              public class Pessoa{
 		                  public String nome;
 		                  public int idade;
@@ -83,7 +84,7 @@ public class Principal{
               }
           	}  
 
-
+```
 
 
 
