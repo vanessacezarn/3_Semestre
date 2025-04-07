@@ -27,6 +27,7 @@
  		• <acesso> = privado: sinal de “-”
  		• <acesso> = protegido: sinal de “#”
 		• <acesso> = default (package): sinal de “~
+![image](https://github.com/user-attachments/assets/59a1db51-41f0-4621-bf0a-de5fa8debe39)
 
   ## Exemplos
   **exemplo 01**
