@@ -5,14 +5,28 @@
       - private = somente a própria classe pode acessar o membro
       - protected = permite que as subclasses e classes do mesmo pacote possam acessar o membro
       - default (package) = permite que as classes do mesmo pacote possam acessar o membro (é o modificador padrão, se nenhum outro modificador for especificado) 
+      • O encapsulamento é um dos conceitos fundamentais da orientação a objetos e é essencial para garantir a integridade dos dados de uma classe. 
+    •  Encapsulamento não impede completamente o acesso aos atributos de uma classe, mas fornece uma camada de proteção adicional e ajuda a tornar o código mais robusto e seguro
+    
 ## Getters e Setters
     • são métodos que permitem o acesso e a modificação dos atributos priados de uma classe, respeitando o conceito de encapsulamento
     • fundamentais em OO --> pois permite que os dados sejam protegidos e acessados de forma controlada
     • getters = obter valor de um atributo
     • setters = alterar o valor de um atributo
     • Padrão de nomenclatura =  nome do método começa com "get" ou "set", seguido do nome do atributo com a primeira letra em maiúscula.
+   
 	
-    • DIAGRAM DE CLASSE
+## DIAGRAM DE CLASSE
+	• digrama de classes é dividido em 3 partes:
+ 		◘ Nome da classe
+   		◘ atributos:
+     			- <acesso> <nome>: <tipo>
+     		◘ métodos
+       			- <acesso> <nome>(<parâmetro>):<tipo>
+	        • <acesso> = público: sinal de “+”
+ 		• <acesso> = privado: sinal de “-”
+ 		• <acesso> = protegido: sinal de “#”
+		• <acesso> = default (package): sinal de “~
 
   ## Exemplos
   **exemplo 01**
