@@ -31,6 +31,7 @@
 ![image](https://github.com/user-attachments/assets/03f77443-5d50-4c72-8bfe-f9751e3b336b)
 
 ◘ cada  cada implementação concreta de uma classe abstrata pode possuir métodos e atributos que são específicos desta implementação:
+
 ![image](https://github.com/user-attachments/assets/88b47804-90ef-49a2-9297-3aa95e28b8a4)
 
 
