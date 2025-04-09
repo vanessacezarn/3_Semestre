@@ -24,7 +24,16 @@
 ![image](https://github.com/user-attachments/assets/1cbcf298-3cea-4c6e-836f-7cce327ffb17)
 
 ## Encapsultamento
+    ◘ É o empacotamento dos atributos e métodos numa classe
+    ◘ Proteção dos dados:
+         • Público (+)
+         • Privado (-)
+         • Protegido (#)
 
+### RESUMIDAMENTE
+     • Classe: representa um conjunto de objetos
+     • Objeto: instância de uma classe
+     • Atributo: características do objeto
+     • Método: funcionalidades do objeto
 
-atributo privado = campo 
   
