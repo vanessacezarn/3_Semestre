@@ -13,4 +13,11 @@
 
 
  
+# HASH
+![{6470BF30-79A0-44E7-9C99-B9DCB93FD1D1}](https://github.com/user-attachments/assets/50db0408-ff3d-4e01-b10e-8dd4beb3b2af)
+
+![{D5F33311-73E9-41EC-8F8E-61BA33F0B2F6}](https://github.com/user-attachments/assets/5350b609-1e80-4bad-96a9-1522436bca47)
+
+![{A274B697-7233-42AD-90F5-4537206D34CA}](https://github.com/user-attachments/assets/8a1798ec-dd4b-4eeb-9496-60b3894d7c20)
+
 
