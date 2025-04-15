@@ -1,14 +1,12 @@
 # Exercicio 10 
-
-
-10) Crie uma classe Tarefa com os atributos: descricao (String), concluida (boolean, inicializado como false)
-Implemente:
-  Um método concluirTarefa() que marca a tarefa como concluída
-  Um método exibirTarefa() que exibe a descrição e se ela está concluída ou não
-Na Main:
-  Crie um vetor ou lista com 3 tarefas (usando entrada via teclado)
-  Marque uma das tarefas como concluída
-  Mostre todas as tarefas com seu status
+	10) Crie uma classe Tarefa com os atributos: descricao (String), concluida (boolean, inicializado como false)
+	Implemente:
+	  Um método concluirTarefa() que marca a tarefa como concluída
+	  Um método exibirTarefa() que exibe a descrição e se ela está concluída ou não
+	Na Main:
+	  Crie um vetor ou lista com 3 tarefas (usando entrada via teclado)
+	  Marque uma das tarefas como concluída
+	  Mostre todas as tarefas com seu status
 **classe - Tarefa**
 ```.java
 package pck10;
