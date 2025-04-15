@@ -133,7 +133,6 @@ public class Pessoa {
 **classe pessoa juridica**
 ```.java
 package jogorapido2;
-
 public class PessoaJuridica extends Pessoa{
 
 	protected String cnpj;
@@ -151,23 +150,18 @@ public class PessoaJuridica extends Pessoa{
 	public String getCnpj() {
 		return cnpj;
 	}
-
 	public void setCnpj(String cnpj) {
 		this.cnpj = cnpj;
 	}
-
 	public String getSocio() {
 		return socio;
 	}
-
 	public void setSocio(String socio) {
 		this.socio = socio;
 	}
-
 	public String getDtAbertura() {
 		return dtAbertura;
 	}
-
 	public void setDtAbertura(String dtAbertura) {
 		this.dtAbertura = dtAbertura;
 	}
@@ -178,9 +172,7 @@ public class PessoaJuridica extends Pessoa{
 **Principal**
 ```.java
 package jogorapido2;
-
 public class Principal {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Pessoa p= new Pessoa("Vanessa ",22);
@@ -193,7 +185,6 @@ public class Principal {
 		pj.setSocio ("Eric");
 		System.out.println("socio: "+pj.socio);
 	}
-
 }
 
 ```
@@ -201,13 +192,64 @@ public class Principal {
 ## Exemplo 4 - DESENHO
 **classe desenho**
 ```.java
+package herancamultipla;
+public class Desenho {
+	protected String nomeAutor;
+
+	public String getNomeAutor() {
+		return nomeAutor;
+	}
+	public void setNomeAutor(String nomeAutor) {
+		this.nomeAutor = nomeAutor;
+	}
+}
+
 ```
 **classe desenho2d**
 ```.java
+package herancamultipla;
+public class Desenho2d extends Desenho {
+	protected int largura;
+	protected int altura;
+	
+	public Desenho2d(int largura, int altura) {
+		super();
+		this.largura = largura;
+		this.altura = altura;
+	}
+}
+
 ```
 **classe quadrado**
 ```.java
+package herancamultipla;
+
+public class Quadrado extends Desenho2d {
+	protected String descricao;
+	public Quadrado(int largura, int altura,String descricao) {
+		super(largura, altura);
+		this.descricao=descricao;
+	}
+	public void exibeDados() {
+		System.out.println("nome autor: "+this.nomeAutor);
+		System.out.println("largura: "+this.largura);
+		System.out.println("altura: "+this.altura);
+		System.out.println("descricao: "+this.descricao);	
+	}
+}
+
 ```
-**Principal**
+**Principal - foi criada em outro pacote**
 ```.java
+package pricipal;
+import herancamultipla.Quadrado;
+public class Principal {
+	public static void main(String[] args) {
+
+		Quadrado q = new Quadrado(100,200,"Quadrado-Vanessa");
+		q.setNomeAutor("luiza");
+		q.exibeDados();
+	}
+}
+
 ```
