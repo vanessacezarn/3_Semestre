@@ -121,44 +121,42 @@ public class Principal {
 		int numeroProcessoGerado;
 		
 		//ROTINA PARA GERAR 10000 PROCESSOS ENTRE 1 E 1000
-				for(int i=0;i<quantidadeProcessos;i++) {
-					numeroProcessoGerado = gerador.nextInt(0, 1001);
-					
-					switch (numeroProcessoGerado) {
-					case 0:
-						//ROTINA PARA RETIRAR DA FILA PRIORITARIA
-						System.out.println("ATENDENDO: "+filaPrioritaria.poll()); //poll = remove
-						break;
-						
-					case 500:
-						//ROTINA PARA RETIRAR DA FILA NORMAL
-						System.out.println("ATENDENDO: "+filaNormal.poll()); //poll = remove
+		for(int i=0;i<quantidadeProcessos;i++) {
+			numeroProcessoGerado = gerador.nextInt(0, 1001);
+			
+			switch (numeroProcessoGerado) {
+			case 0:
+				//ROTINA PARA RETIRAR DA FILA PRIORITARIA
+				System.out.println("ATENDENDO: "+filaPrioritaria.poll()); //poll = remove
+				break;
+				
+			case 500:
+				//ROTINA PARA RETIRAR DA FILA NORMAL
+				System.out.println("ATENDENDO: "+filaNormal.poll()); //poll = remove
 
-						break;
+				break;
 
-					default:
-						//ROTINA PARA INSERIR PROCESSO NA FILA PRIORITÁRIA
-						if(numeroProcessoGerado<500) {
-							Processo processoTmp = new Processo(numeroProcessoGerado,"processo de alta prioritaria");
-							if(!filaPrioritaria.contains(processoTmp)) { //PARA EVITAR A REPETIÇÃO
-								filaPrioritaria.offer(processoTmp); // = filaPrioritaria.add(processoTmp);
-								System.out.println(processoTmp); // VAI EXIBIR O toString DA CLASSE PROCESSO
-							}
-						
-						}else {	//ROTINA PARA INSERIR PROCESSO NA FILA NORMAL
-							Processo processoTmp = new Processo(numeroProcessoGerado,"processo normal");
-							if(!filaNormal.contains(processoTmp)) { //PARA EVITAR A REPETIÇÃO
-								filaNormal.offer(processoTmp); // = filaNormal.add(processoTmp);
-								System.out.println(processoTmp); // VAI EXIBIR O toString DA CLASSE PROCESSO
-							}
-							
-						}
-						break;
+			default:
+				//ROTINA PARA INSERIR PROCESSO NA FILA PRIORITÁRIA
+				if(numeroProcessoGerado<500) {
+					Processo processoTmp = new Processo(numeroProcessoGerado,"processo de alta prioritaria");
+					if(!filaPrioritaria.contains(processoTmp)) { //PARA EVITAR A REPETIÇÃO
+						filaPrioritaria.offer(processoTmp); // = filaPrioritaria.add(processoTmp);
+						System.out.println(processoTmp); // VAI EXIBIR O toString DA CLASSE PROCESSO
 					}
+				
+				}else {	//ROTINA PARA INSERIR PROCESSO NA FILA NORMAL
+					Processo processoTmp = new Processo(numeroProcessoGerado,"processo normal");
+					if(!filaNormal.contains(processoTmp)) { //PARA EVITAR A REPETIÇÃO
+						filaNormal.offer(processoTmp); // = filaNormal.add(processoTmp);
+						System.out.println(processoTmp); // VAI EXIBIR O toString DA CLASSE PROCESSO
+					}
+					
 				}
-		
-		
-		
+				break;
+			}
+		}
+	
 	}
 	/***
 	 * METODO ESTATICO QUE EXIBE MOSTRA PROCESSOS EXISTENTES EM FILA
@@ -188,11 +186,7 @@ public class Principal {
 		gerarProcessosEmFilas(filaPrioritaria,filaNormal,1000);
 		exibirProcessosNaoAtendio(filaPrioritaria,"Fila prioritaria");
 		exibirProcessosNaoAtendio(filaNormal,"Fila normla");
-
-
-		
-		
-		
+	
 	}
 
 }
