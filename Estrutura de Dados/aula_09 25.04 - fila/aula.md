@@ -102,6 +102,70 @@ public class Processo {
 ```
 **classe Principal**
 ```.java
+package fila;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Random;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		/* uso do java docs
+		Processo novo = new Processo(100,"teste");
+		novo.umExemplo(5, "ola");*/
+		
+		Random gerador = new Random();
+		int quantidadeProcessos=10000;
+		int numeroProcessoGerado;
+		
+		//FILA DE PRIORIDADE
+		Queue<Processo>filaPrioritaria = new LinkedList<>();
+		//FILA NORMAL
+		Queue<Processo>filaNormal = new LinkedList<>();
+
+		
+		
+		//ROTINA PARA GERAR 10000 PROCESSOS ENTRE 1 E 1000
+		for(int i=0;i<quantidadeProcessos;i++) {
+			numeroProcessoGerado = gerador.nextInt(0, 1001);
+			
+			switch (numeroProcessoGerado) {
+			case 0:
+				//ROTINA PARA RETIRAR DA FILA PRIORITARIA
+				System.out.println("ATENDENDO: "+filaPrioritaria.poll()); //poll = remove
+				break;
+				
+			case 500:
+				//ROTINA PARA RETIRAR DA FILA NORMAL
+				System.out.println("ATENDENDO: "+filaNormal.poll()); //poll = remove
+
+				break;
+
+			default:
+				//ROTINA PARA INSERIR PROCESSO NA FILA PRIORITÁRIA
+				if(numeroProcessoGerado<500) {
+					Processo processoTmp = new Processo(numeroProcessoGerado,"processo de alta prioritaria");
+					if(!filaPrioritaria.contains(processoTmp)) { //PARA EVITAR A REPETIÇÃO
+						filaPrioritaria.offer(processoTmp); // = filaPrioritaria.add(processoTmp);
+						System.out.println(processoTmp); // VAI EXIBIR O toString DA CLASSE PROCESSO
+					}
+				
+				}else {	//ROTINA PARA INSERIR PROCESSO NA FILA NORMAL
+					Processo processoTmp = new Processo(numeroProcessoGerado,"processo normal");
+					if(!filaNormal.contains(processoTmp)) { //PARA EVITAR A REPETIÇÃO
+						filaNormal.offer(processoTmp); // = filaNormal.add(processoTmp);
+						System.out.println(processoTmp); // VAI EXIBIR O toString DA CLASSE PROCESSO
+					}
+					
+				}
+				break;
+			}
+		}
+	}
+
+}
+
 ```
 
 
