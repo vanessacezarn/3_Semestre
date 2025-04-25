@@ -9,7 +9,7 @@
                       - equals(),     Equals(),      __eq__
                       - hashCode(), GetHashCode(),   __hash__
 # FILAS
-        ◘ filas Queue - classe abstrata ➞ esqueleto com atributos e métodos .... só que não instância objetos
+        ➢ filas Queue - classe abstrata ➞ esqueleto com atributos e métodos .... só que não instância objetos
                 • FIFO - First In, First Out
                     ➜ operações classicas 
                         - inserir na final/cauda ➞ add, push 
@@ -18,7 +18,7 @@
                         - size
                         - contains
                         - indexOf
-                • Cenário de aplicação de filas
+         ➢ Cenário de aplicação de filas
                     1) gerenciar processos ➞ id, descrição
                     2) processos tem prioridades ➞ processos com id entre 1 e 500 tem alta prioridade e processos entre 501 e 100 tem baixa prioridade
                     3) há duas filas ➞ normal (processos entre 501 e 1000) e prioritária (processos entre 1 e 500)
