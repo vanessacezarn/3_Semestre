@@ -18,6 +18,7 @@
                         - size
                         - contains
                         - indexOf
+---
          ➢ Cenário de aplicação de filas
                     1) gerenciar processos ➞ id, descrição
                     2) processos tem prioridades ➞ processos com id entre 1 e 500 tem alta prioridade e processos entre 501 e 100 tem baixa prioridade
