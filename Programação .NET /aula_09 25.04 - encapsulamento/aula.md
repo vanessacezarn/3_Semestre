@@ -68,5 +68,22 @@ namespace encapsulamento
 
 **CLASSE - principal**
 ```.cs
+namespace encapsulamento
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Testanto encapsulamento");
+            Produto p = new Produto();
+            p.Quantidade= 10;
+            p.Codigo = 1;
+            p.Nome = "vanessa";
+            p.Valor = 1222;
+            p.exibir();
+
+        }
+    }
+}
 
 ```
