@@ -17,15 +17,44 @@ namespace encapsulamento
     {
         private int _codigo;
         private string _nome;
-        private string _valor;
+        private double _valor;
 
         //PROPRIEDADE -> privado
         public int Quantidade { get; set; } //atalho prop
-       
 
+        public string Nome {
+            get
+            {
+                return _nome;
+            }
+
+            set
+            {
+                _nome = value;
+            }
+        }
+        public int Codigo {
+            get => _codigo; /* equivale a  get {
+                                        return _codigo;}*/
+            set => _codigo = value;
+            /* equivale a set{
+                _codigo = value; }*/
+        }
+
+        public double Valor
+        {
+            get
+            {
+                return _valor;
+            }
+            set
+            {
+                _valor = value;
+            }
+        }
         public void exibir()
         {
-            Console.WriteLine("Codigo: "+_codigo);
+            Console.WriteLine("Codigo: "+Codigo);
             Console.WriteLine("nome: " + _nome);
             Console.WriteLine("valor: " + _valor);
             Console.WriteLine("quantidade: "+Quantidade);
@@ -33,6 +62,7 @@ namespace encapsulamento
         }
     }
 }
+
 
 ```
 
