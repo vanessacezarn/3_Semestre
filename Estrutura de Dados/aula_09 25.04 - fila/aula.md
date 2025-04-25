@@ -8,7 +8,7 @@
                       - toString(), ToString(),  __str__, __repr__
                       - equals(),     Equals(),      __eq__
                       - hashCode(), GetHashCode(),   __hash__
-# FILAS
+# ➤ FILAS
         ➢ filas Queue - classe abstrata ➞ esqueleto com atributos e métodos .... só que não instância objetos
             • FIFO - First In, First Out
                 ➜ operações classicas 
