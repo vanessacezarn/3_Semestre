@@ -12,8 +12,8 @@
         ➢ filas Queue - classe abstrata ➞ esqueleto com atributos e métodos .... só que não instância objetos
             • FIFO - First In, First Out
                 ➜ operações classicas 
-                    - inserir na final/cauda ➞ add, push 
-                    - remover no inicio/cabeça ➞ remove, pop
+                    - inserir na final/cauda ➞ add, offer 
+                    - remover no inicio/cabeça ➞ remove, 
                 ➜ operações herdadas
                     - size
                     - contains
@@ -34,3 +34,79 @@
                     * demais números seguem a dinâmica acima ➞ controle de replicados
                 - a dinâmica deve repetir 10.000 vezes
                 - exibir as filas ao final, com processos não atendidos (mostrando contadores)
+**classe Processo**
+```.java
+package fila;
+public class Processo {
+	int id;
+	String descricao;
+	/***
+	 * DOCUMENTAÇÃO - CONSTRUTOR DE PROCESSO
+	 * @param id - INTEIRO COM NUMERO ALEATORIO ENTRE 1 E 1000
+	 * @param descricao - EXPLICAÇÃO DO PROCESSO
+	 */
+	
+	public Processo(int id, String descricao) {
+		super();
+		this.id = id;
+		this.descricao = descricao;
+	}
+	
+	/***
+	 * metodo para explicar javadocs para estudantes
+	 * @param id - numero qualquer
+	 * @param texto - texto com 10 palavras
+	 */
+	
+	public void umExemplo(int id, String texto) {
+		
+	}
+	
+	public int getId() {
+		return id;
+	}
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public String getDescricao() {
+		return descricao;
+	}
+	
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	@Override
+	public String toString() {
+		return "Processo [id=" + id + ", descricao=" + descricao + "]";
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Processo other = (Processo) obj;
+		return id == other.id;
+	}
+	
+
+}
+
+```
+**classe Principal**
+```.java
+```
+
+
+
+
+
+
+
