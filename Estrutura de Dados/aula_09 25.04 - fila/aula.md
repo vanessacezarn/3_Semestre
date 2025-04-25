@@ -21,10 +21,16 @@
 ---
          ➢ Cenário de aplicação de filas
             1) gerenciar processos ➞ id, descrição
+                • classe Processo
+                    - atributos ➞ id, descrição
+                    - metodos ➞ toString, equals
+                    
             2) processos tem prioridades ➞ processos com id entre 1 e 500 tem alta prioridade e processos entre 501 e 100 tem baixa prioridade
             3) há duas filas ➞ normal (processos entre 501 e 1000) e prioritária (processos entre 1 e 500)
             4) dinâmica:
                 - um número aleatório será gerado entre 0 e 1000
-                    * se o número sorteado for 0 --> atender/remover a cabeça da fila de prioridade - tratar quando vazia
-                    * se for entre 501 e 100 ➞ atender/remover a cabeça da fila de normal
-                    * se for entre 1 e 500 ➞ atender/remover a cabeça da fila de prioritária
+                    * se o número sorteado for 0 ➞ atender/remover a cabeça da fila de prioridade - tratar quando vazia 
+                    * se o número sorteado for 500 ➞ atender e remover a cabeça da fila normal - tratar quando vazia
+                    * demais números seguem a dinâmica acima ➞ controle de replicados
+                - a dinâmica deve repetir 10.000 vezes
+                - exibir as filas ao final, com processos não atendidos (mostrando contadores)
