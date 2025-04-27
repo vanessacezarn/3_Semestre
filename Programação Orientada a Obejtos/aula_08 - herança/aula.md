@@ -1,5 +1,13 @@
 # HERANÇA
     • é uma forma de reutilização de software
+    • permite reutilização, manutenção simples e eficientes alterações em cascatas
+    • é chamada através da palavra "extends"
+    • não permite herança múltipla --> classe que herda de outra classe, que herda de outra classe é uma alternativa
+    • Comando Super
+    	- usado para chamar o construtor da superclasse --> o da classe que é herdada
+    	- Ele sempre é chamado, mesmo quando não está explícito no código, quando for explicitado deve ser o primeiro item dentro do construtor. 
+    
+    
 
 ## Exemplo 1 - CARRO
 **classe Carro**
