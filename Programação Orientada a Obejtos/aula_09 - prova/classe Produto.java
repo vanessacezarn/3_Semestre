@@ -49,11 +49,7 @@ public class Produto {
 		System.out.println("Exibindo informações do produto");
 		System.out.println("Nome: "+nome);
 		System.out.println("Preço: "+preco);
-		System.out.println("Quantidade em estoque: "+quantidadeEstoque);
-
-		
+		System.out.println("Quantidade em estoque: "+quantidadeEstoque);	
 	}
-	
-	
 	
 }
