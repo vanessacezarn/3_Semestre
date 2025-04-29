@@ -113,3 +113,50 @@ public class Principal {
 }
 
 ```
+
+### Jogo rápido
+**classe pessoa**
+```.java
+package jogoRapido1;
+
+public class Pessoa {
+	public void trabalhar() {
+		System.out.println("trabalhando");
+	}
+}
+
+```
+**classe programador**
+```.java
+package jogoRapido1;
+
+public class Programador extends Pessoa {
+	public void trabalhar() {
+		System.out.println("PROGRAMANDO");
+	}
+}
+
+```
+**classe principal**
+```.java
+package jogoRapido1;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Pessoa p = new Pessoa();
+		p.trabalhar();
+		
+		Programador pp = new Programador();
+		pp.trabalhar();
+	}
+
+}
+
+```
+## SOBRECARGA
+
+
+
+
+
