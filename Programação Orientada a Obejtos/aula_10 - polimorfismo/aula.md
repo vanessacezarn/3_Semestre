@@ -161,32 +161,92 @@ public class Principal {
 **classe calculadora**
 ```.java
 package sobrecarga;
+
 public class Calculadora {
 	public int somar (int x, int y) {
+		System.out.println("int");
 		return x + y;
 	}
+	
 	public int somar(int x, int y, int z) {
+		System.out.println("int");
 		return x+y+z;
 	}
+	
+	public double somar(double a, double b) {
+		System.out.println("double");
+		return a+b;
+	}
+	
+	public int multiplica(int a, int b) {
+		System.out.println("int");
+		return a*b;
+	}
+	
+	public double multiplica(double a, double b) {
+		System.out.println("double");
+		return a*b;
+	}
+
 }
+
 
 ```
 **classe principal**
 ```.java
 package sobrecarga;
-public class Principal {
 
+public class Principal {
 	public static void main(String[] args) {
 		Calculadora c = new Calculadora();
 		int resultado=c.somar(2, 3);
 		int resultado2=c.somar(2, 3, 4);
 		System.out.println("Resultado = "+resultado);
 		System.out.println("Resultado 2 = "+resultado2);
+		
+		double resultado3 = c.somar(3, 7);
+		System.out.println("Resultado 3 = "+resultado3);
+
+		int resultadomulti=c.multiplica(5, 4);
+		System.out.println("Resultado multiplicação = "+resultadomulti);
+
+		double resultadomultiD=c.multiplica(8.2, 4);
+		System.out.println("Resultado multiplicação = "+resultadomultiD);
+				
+	}
+
+}
+
+```
+### jogo rápido
+**classe pessoa**
+```.java
+package jogorapido2;
+public class Pessoa {
+	public String dizerOla(){
+		return "Olá!";
+	}
+	public String dizerOla(String nome) {
+		return "Olá, "+nome+"!";
 	}
 }
 
 ```
+**classe principal**
+```.java
+package jogorapido2;
+public class Principal {
+	public static void main(String[] args) {
+	Pessoa p = new Pessoa();
+	String a = p.dizerOla();
+	String nome = p.dizerOla("Vanessa");
+	
+	System.out.println(a);
+	System.out.println(nome);
+	}
+}
 
+```
 
 
 
