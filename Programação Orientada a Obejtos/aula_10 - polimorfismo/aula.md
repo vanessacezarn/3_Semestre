@@ -3,6 +3,7 @@
 ## sobreescrita de métodos 
     • processo de fornecer uma implementação
     --> override
+    
 ### Exemplo 1 
 **classe Animal**
 ```.java
@@ -155,6 +156,37 @@ public class Principal {
 
 ```
 ## SOBRECARGA
+
+### exemplo 1
+**classe calculadora**
+```.java
+package sobrecarga;
+public class Calculadora {
+	public int somar (int x, int y) {
+		return x + y;
+	}
+	public int somar(int x, int y, int z) {
+		return x+y+z;
+	}
+}
+
+```
+**classe principal**
+```.java
+package sobrecarga;
+public class Principal {
+
+	public static void main(String[] args) {
+		Calculadora c = new Calculadora();
+		int resultado=c.somar(2, 3);
+		int resultado2=c.somar(2, 3, 4);
+		System.out.println("Resultado = "+resultado);
+		System.out.println("Resultado 2 = "+resultado2);
+	}
+}
+
+```
+
 
 
 
