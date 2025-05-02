@@ -34,9 +34,10 @@
     • é uma tecnica de programação que substitui os laços/loop tradicionais - for, while, do..while
     • tecnica baseada em empilhamento do mesmo processo
       - o mesmo método fica se chamando de forma recursiva
-  ◘ Estrtura básica de uma repetição:
-    1) inicialização da variavel de controle da repetição
-    2) teste de parada via variável de controle
-    3) transformação da variávelde controle - incrementar, decrementar, modificar
-  ◘ Tipos de recursão
-    - recursão sem retorno --> via métodos void
+      ◘ Estrtura básica de uma repetição:
+        1) inicialização da variavel de controle da repetição
+        2) teste de parada via variável de controle
+        3) transformação da variávelde controle - incrementar, decrementar, modificar
+      ◘ Tipos de recursão
+        - recursão sem retorno --> via métodos void
+        - recursão com retorno --> via métodos com retorno com um tipo de dado
