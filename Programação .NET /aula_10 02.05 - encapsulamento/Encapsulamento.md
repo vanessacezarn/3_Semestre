@@ -7,6 +7,7 @@
 			 - modificadores de acesso
 			 - campos (fields)
 			 - propiedades (properties)
+    
 ## Modificadores de acesso
 	• ajuda a restringir o acesso direto a campos e métodos internos de classes
 	• private (-)
@@ -24,6 +25,7 @@
 		- limita o acesso a membros para classes dentro do mesmo assembly (conjunto de arquivos compilados)
 		- membros declarados como internos não podem ser acessados por classes em assemblies externos.
 		- do para fornecer um nível intermediário de visibilidade, permitindo que membros sejam usados em um conjunto de classes relacionadas no mesmo assembly
+  
 ## Diagrama de classes
 	• atributos
 		<acesso> <nome> : <tipo>
