@@ -1,4 +1,5 @@
-		 • Prática de ocultar o estado interno de um objeto e permitir o acesso a esse estado apenas por meio de métodos e propriedades específicas.
+# ENCAPSULAMENTO
+   	• Prática de ocultar o estado interno de um objeto e permitir o acesso a esse estado apenas por meio de métodos e propriedades específicas.
 		 • mecanismo de controle sobre como os dados de um objeto são acessados e modificados --> código mais organizado, seguro e manutenível
 		 • fornecer um nível de abstração que separa a implementação interna de uma classe da sua interface pública
 		 • ajuda a proteger os dados de uma classe,permitindo a aplicação de lógica de validação e restrições ao acesso aos campos internos
