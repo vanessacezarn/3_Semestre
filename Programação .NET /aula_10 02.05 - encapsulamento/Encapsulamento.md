@@ -33,6 +33,7 @@
 		<acesso> <nome> (<parametros>) : <tipo>
 	• <acesso> = simbologia dos modificadores de acesso
 
+
 ![image](https://github.com/user-attachments/assets/091a4d90-1296-41ad-a61b-44fa749576e7)
 
 
