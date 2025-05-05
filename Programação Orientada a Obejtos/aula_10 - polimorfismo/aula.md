@@ -1,87 +1,75 @@
 # POLIMORFISMO
-
-## sobreescrita de métodos 
-    • processo de fornecer uma implementação
+    • poli = muitas + morphos = forma --> muitas formas
+    • permite programar no geral ao invés de programas no específico
+    • exemplo de polimorfismo: sobrescrita e sobrecarga
+## Sobrescrita de métodos - override
+    • métodos com o mesmo nome, mesmos parâmetros e mesmo tipo de retorno --> é alterado apenas o comportamento do método
+    • ou seja, TUDO NO MÉTODO É IGUAL, APENAS MUDA A IMPLEMENTAÇÃO
+    • processo de fornecer uma implementação diferente para um método já definido em uma classe base
+    • é feito na classe derivada, que herda o método da classe base
+    • é realizado com a mesma assinatura de método da classe base, mas com uma implementação diferente
+    • permite que a classe derivada substitua o comportamento da classe base para o método em questão
     --> override
     
 ### Exemplo 1 
 **classe Animal**
 ```.java
 package AULA;
-
 public class Animal {
 	public String nome;
-	
 	public void emitirSom() { // programando de forma geral
 		System.out.println("Animal emitindo som...");
 	}
 }
-
 ```
-
 **classe Capivara**
 ```.java
 package AULA;
 
 public class Capivara extends Animal {
-	
 	@Override
-	public void emitirSom() { 
+	public void emitirSom() {  //programado de forma especifica
 		System.out.println("wheek-wheek");
 	}
 }
-
 ```
-
 **classe Cachoroo**
 ```.java
 package AULA;
-
 public class Cachorro extends Animal {
-	public String raca;
-	
+	public String raca;	
 	@Override
 	public void emitirSom() { //programado de forma especifica
 		System.out.println("au au");
 	}
 }
-
 ```
 
 **classe Passarinho**
 ```.java
 package AULA;
-
 public class Passsarinho extends Animal {
-	
 	@Override
-	public void emitirSom() { 
+	public void emitirSom() {  //programado de forma especifica
 		System.out.println("piu piu");
 	}
-
 }
 
 ```
 **classe Peixe**
 ```.java
 package AULA;
-
 public class Peixe extends Animal {
-	
 	@Override
-	public void emitirSom() { 
+	public void emitirSom() { //programado de forma especifica
 		System.out.println("glub glub");
 	}
-
 }
-
 ```
 **classe Principal**
 ```.java
 package AULA;
-
 public class Principal {
-
 	public static void main(String[] args) {
 		Animal a = new Animal();
 		a.nome="Animal 1";
@@ -108,42 +96,35 @@ public class Principal {
 		System.out.println("\nclasse capivara");
 		a = new Capivara();
 		a.emitirSom();
-
 	}
-
 }
-
 ```
 
 ### Jogo rápido
+	Crie uma classe Pessoa com um método trabalhar(). Em seguida, crie uma classe Programador que herda da classe Pessoa e sobrescreve o método trabalhar() para imprimir "Programando...".
+ 
 **classe pessoa**
 ```.java
 package jogoRapido1;
-
 public class Pessoa {
 	public void trabalhar() {
 		System.out.println("trabalhando");
 	}
 }
-
 ```
 **classe programador**
 ```.java
 package jogoRapido1;
-
 public class Programador extends Pessoa {
 	public void trabalhar() {
 		System.out.println("PROGRAMANDO");
 	}
 }
-
 ```
 **classe principal**
 ```.java
 package jogoRapido1;
-
 public class Principal {
-
 	public static void main(String[] args) {
 		Pessoa p = new Pessoa();
 		p.trabalhar();
@@ -151,12 +132,11 @@ public class Principal {
 		Programador pp = new Programador();
 		pp.trabalhar();
 	}
-
 }
-
 ```
-## SOBRECARGA
-
+## SOBRECARGA DE MÉTODOS - overload
+    • métodos com o mesmo nome, pórem com parâmetros e/ou tipos  de retornos diferentes  
+    • dinâmico em tempo de compilação é escolhido
 ### exemplo 1
 **classe calculadora**
 ```.java
