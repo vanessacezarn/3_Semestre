@@ -9,7 +9,6 @@
     • é feito na classe derivada, que herda o método da classe base
     • é realizado com a mesma assinatura de método da classe base, mas com uma implementação diferente
     • permite que a classe derivada substitua o comportamento da classe base para o método em questão
-    --> override
     
 ### Exemplo 1 
 **classe Animal**
@@ -101,7 +100,8 @@ public class Principal {
 ```
 
 ### Jogo rápido
-	Crie uma classe Pessoa com um método trabalhar(). Em seguida, crie uma classe Programador que herda da classe Pessoa e sobrescreve o método trabalhar() para imprimir "Programando...".
+Crie uma classe Pessoa com um método trabalhar(). Em seguida, crie uma classe Programador que herda da classe Pessoa 
+e sobrescreve o método trabalhar() para imprimir "Programando...".
  
 **classe pessoa**
 ```.java
@@ -137,7 +137,11 @@ public class Principal {
 ## SOBRECARGA DE MÉTODOS - overload
     • métodos com o mesmo nome, pórem com parâmetros e/ou tipos  de retornos diferentes  
     • dinâmico em tempo de compilação é escolhido
-### exemplo 1
+    • é o processo de fornecer várias implementações para um método com o mesmo nome, mas com diferentes assinaturas de parâmetros 
+    • permite que a classe tenha vários métodos com o mesmo nome, mas que façam coisas diferentes, dependendo dos parâmetros que são passados
+    • o java decide qual método chamar com base nos parâmetros que são passados durante a chamada do método
+    
+### exemplo 1 - calculadora
 **classe calculadora**
 ```.java
 package sobrecarga;
@@ -167,15 +171,11 @@ public class Calculadora {
 		System.out.println("double");
 		return a*b;
 	}
-
 }
-
-
 ```
 **classe principal**
 ```.java
 package sobrecarga;
-
 public class Principal {
 	public static void main(String[] args) {
 		Calculadora c = new Calculadora();
@@ -191,14 +191,16 @@ public class Principal {
 		System.out.println("Resultado multiplicação = "+resultadomulti);
 
 		double resultadomultiD=c.multiplica(8.2, 4);
-		System.out.println("Resultado multiplicação = "+resultadomultiD);
-				
+		System.out.println("Resultado multiplicação = "+resultadomultiD);			
 	}
-
 }
 
 ```
 ### jogo rápido
+Crie uma classe Pessoa com um método dizerOla() que imprime "Olá!".
+Sobrecarregue o método dizerOla() para aceitar um nome por parâmetro e
+imprimir "Olá, <nome>!".
+
 **classe pessoa**
 ```.java
 package jogorapido2;
