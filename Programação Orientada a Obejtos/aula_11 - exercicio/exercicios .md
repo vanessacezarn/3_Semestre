@@ -1,10 +1,15 @@
+# EXERCICIOS HERANÇA E POLIMORFISMO
+
 1) Escreva um programa orientado a objetos baseado no diagrama de classes da UML apresentado abaixo:
 Dica: no método main das classes herdeiras, crie a opção do usuário inserir a marca do computador. Já, o modelo será sempre “Portátil”
 
 ![{4C104F44-F308-42A9-B7E8-0F0EC1CDF47B}](https://github.com/user-attachments/assets/c8ca11cd-dc22-4e1b-8c6c-1bc7d8077078)
 
+---
 
 2) Crie uma classe Produto com um método desconto(). Em seguida, crie uma classe ProdutoComDesconto que herda da classe Produto e sobrescreve o método desconto() para calcular o desconto do produto com base em um valor predefinido e imprimir o preço com desconto.
+
+---
   
 3) Crie uma classe Funcionario com um método calcularSalario(). Em seguida, crie uma classe Gerente que herda da classe Funcionario e sobrescreve o método calcularSalario() para calcular
 o salário do gerente com base em um bônus e imprimir o resultado.
