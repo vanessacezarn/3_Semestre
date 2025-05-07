@@ -33,7 +33,7 @@ Passo a Passo:
 
 ●	Contato com a Seguradora
 
-  ○	Juca entra em contato com sua seguradora, usando o número de telefone fornecido na apólice para emergências. Ele informa sobre o acidente e fornece os primeiros detalhes. A seguradora inicia o processo de sinistro e orienta Juca sobre os próximos passos, incluindo onde o veículo pode ser rebocado, se necessário.
+    ○	Juca entra em contato com sua seguradora, usando o número de telefone fornecido na apólice para emergências. Ele informa sobre o acidente e fornece os primeiros detalhes. A seguradora inicia o processo de sinistro e orienta Juca sobre os próximos passos, incluindo onde o veículo pode ser rebocado, se necessário.
 
 ●	Envio de Documentação
 
