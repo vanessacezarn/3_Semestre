@@ -11,7 +11,7 @@ O cliente, agora com as chaves do carro, está livre para utilizar o veículo de
 
 Ao final do período de locação, o cliente deve retornar o veículo no horário e local combinados. O carro passará por uma nova inspeção para verificar se houve danos durante o período de uso. Se tudo estiver conforme o acordado, o processo de locação é concluído com a devolução das chaves e o fechamento do contrato.
 
-![diagramas](https://github.com/vanessacezarn/3_Semestre/blob/ce8984231a6bec94ce1630b039b22e788961e942/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/exerc01.png)
+![diagramas](https://github.com/vanessacezarn/3_Semestre/blob/b6a932de0a88f6a92d046abf84cee7f927f46072/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/estado/exercicio01.png)
 
 ---
 
