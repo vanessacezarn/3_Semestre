@@ -1,5 +1,4 @@
-## Exercicio 1
-Desenvolver o diagrama de atividade para o exemplo abaixo - locação de veículo:
+## Exercicio 1 - Desenvolver o diagrama de atividade para o exemplo abaixo - locação de veículo:
 
 Inicialmente, o cliente acessa o website ou a loja física da empresa de locação de veículos. Uma vez no site, ele navega pelo catálogo de carros disponíveis, escolhendo o modelo que melhor atende às suas necessidades, seja em termos de tamanho, estilo ou preço. Durante a seleção, o cliente pode também optar por adicionais como GPS, cadeira de bebê, ou seguro adicional.
 
