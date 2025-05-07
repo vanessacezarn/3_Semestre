@@ -3,7 +3,7 @@
 O processo de locação de veículos envolve diversos estados pelos quais o contrato de locação transita, desde a reserva até a devolução do veículo. O objetivo deste exercício é criar um diagrama de estados UML que represente claramente todas as etapas e transições do processo de locação. Cada transição deve ser acompanhada do evento que a desencadeia, como "pagamento confirmado", "veículo retirado pelo cliente", "veículo devolvido", etc.
 
 
-![diagrama](https://github.com/vanessacezarn/3_Semestre/blob/7743c03bb9369f989d7da1ce0c3b615c31bea033/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/estado/exercicio01.png)
+![diagrama](https://github.com/vanessacezarn/3_Semestre/blob/96dd2182204336d99d4fcfcf9a842118710c9ede/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/estado/exercicio02.png)
 
 
 ## Exercício 2 - Acionamento de seguro
