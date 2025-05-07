@@ -16,6 +16,7 @@ O acionamento de um seguro após um acidente é um processo complexo que envolve
 ![diagrama](https://github.com/vanessacezarn/3_Semestre/blob/e91156d62e4a03db1e95f2be3316cb01e112f261/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/estado/exercicio02.png)
 
 
+
 ---
 
 ## Exercício 3 - Gerenciamento de pedido
