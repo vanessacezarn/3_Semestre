@@ -33,7 +33,7 @@ Passo a Passo:
 ●	Encerramento do Caso
 ○	Após o carro ser reparado ou a indenização ser paga, Juca assina documentos de satisfação e o caso é oficialmente encerrado.
 
-![image](https://github.com/user-attachments/assets/6d022059-e981-4105-8eb7-f0d634c00032)
+![ex1](https://github.com/vanessacezarn/3_Semestre/blob/4bf0824b5350b64e97077d755be03378d6327fd9/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/exerc01.png)
 
 ---
 
