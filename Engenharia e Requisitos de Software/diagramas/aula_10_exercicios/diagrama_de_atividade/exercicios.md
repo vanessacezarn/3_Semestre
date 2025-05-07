@@ -31,13 +31,9 @@ Passo a Passo:
 
   ○	Com a situação controlada, Juca registra o ocorrido. Ele tira fotos do local, dos danos no veículo e de qualquer sinalização relevante na via. Juca também coleta informações de possíveis testemunhas e, se aplicável, dos outros envolvidos no acidente.
 
-●	Contato com a Seguradora
+●	Contato com a Seguradora: 	Juca entra em contato com sua seguradora, usando o número de telefone fornecido na apólice para emergências. Ele informa sobre o acidente e fornece os primeiros detalhes. A seguradora inicia o processo de sinistro e orienta Juca sobre os próximos passos, incluindo onde o veículo pode ser rebocado, se necessário.
 
-    ○	Juca entra em contato com sua seguradora, usando o número de telefone fornecido na apólice para emergências. Ele informa sobre o acidente e fornece os primeiros detalhes. A seguradora inicia o processo de sinistro e orienta Juca sobre os próximos passos, incluindo onde o veículo pode ser rebocado, se necessário.
-
-●	Envio de Documentação
-
-  ○	Após o primeiro contato, Juca envia para a seguradora toda a documentação necessária para o processo de sinistro. Isso inclui um relatório do acidente, fotos, informações das testemunhas, e um boletim de ocorrência, que é obtido junto à polícia.
+●	Envio de Documentação :	Após o primeiro contato, Juca envia para a seguradora toda a documentação necessária para o processo de sinistro. Isso inclui um relatório do acidente, fotos, informações das testemunhas, e um boletim de ocorrência, que é obtido junto à polícia.
 
 ●	Avaliação dos Danos
 
