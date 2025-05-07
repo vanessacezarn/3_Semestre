@@ -11,7 +11,7 @@ O cliente, agora com as chaves do carro, está livre para utilizar o veículo de
 
 Ao final do período de locação, o cliente deve retornar o veículo no horário e local combinados. O carro passará por uma nova inspeção para verificar se houve danos durante o período de uso. Se tudo estiver conforme o acordado, o processo de locação é concluído com a devolução das chaves e o fechamento do contrato.
 
-![diagramas](https://github.com/vanessacezarn/3_Semestre/blob/b6a932de0a88f6a92d046abf84cee7f927f46072/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/estado/exercicio01.png)
+![diagramas](https://github.com/vanessacezarn/3_Semestre/blob/d3d94cbb6b4260899dc911300aa8164e32faacf8/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/atividade/exerc01.png)
 
 ---
 
@@ -39,7 +39,7 @@ Passo a Passo:
 
 ➤ Encerramento do Caso : Após o carro ser reparado ou a indenização ser paga, Juca assina documentos de satisfação e o caso é oficialmente encerrado
 
-![diagramas](https://github.com/vanessacezarn/3_Semestre/blob/d3c4e2a24bf319d68aa7309ab75d77eecb34b6ab/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/exercicio02.png)
+![diagramas](https://github.com/vanessacezarn/3_Semestre/blob/d3d94cbb6b4260899dc911300aa8164e32faacf8/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/atividade/exercicio02.png)
 
 ---
 
@@ -47,7 +47,7 @@ Passo a Passo:
 
 Imagine um cliente acessando um site de compras, realizando login, navegando pelas categorias de produtos, escolhendo itens e adicionando-os ao carrinho. Após a seleção dos produtos, o cliente prossegue para o checkout, fornece detalhes de pagamento e aguarda a verificação do mesmo pelo sistema. Uma vez confirmado o pagamento, o cliente recebe uma confirmação por email e o pedido é preparado para envio. Descreva esse processo em um diagrama de atividade UML.
 
-![diagramas](https://github.com/vanessacezarn/3_Semestre/blob/1fce2ed581849029d111ac3983cedd826b5a19f0/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/exercicio03.png)
+![diagramas](https://github.com/vanessacezarn/3_Semestre/blob/d3d94cbb6b4260899dc911300aa8164e32faacf8/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/atividade/exercicio03.png)
 
 
 
