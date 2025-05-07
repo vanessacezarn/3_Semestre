@@ -6,15 +6,12 @@ O processo de locação de veículos envolve diversos estados pelos quais o cont
 ![diagrama](https://github.com/vanessacezarn/3_Semestre/blob/7743c03bb9369f989d7da1ce0c3b615c31bea033/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/estado/exercicio01.png)
 
 
-
 ## Exercício 2 - Acionamento de seguro
 
 O acionamento de um seguro após um acidente é um processo complexo que envolve a avaliação do sinistro, a determinação da cobertura, entre outros fatores. Este exercício solicita a criação de um diagrama de estados UML que detalhe os diferentes estados pelos quais uma reclamação de seguro pode passar desde o momento do acidente até a resolução final. As transições devem incluir eventos como "reclamação aceita", "documentação recebida", "avaliação concluída", entre outros.
 
 
 ![diagrama](https://github.com/vanessacezarn/3_Semestre/blob/96dd2182204336d99d4fcfcf9a842118710c9ede/Engenharia%20e%20Requisitos%20de%20Software/imagens/aula_10/estado/exercicio02.png)
-
-
 
 
 ## Exercício 3 - Gerenciamento de pedido
