@@ -5,5 +5,5 @@
 * passagem por Parâmetro
   * 1 - por valor - cópia
   * 2 - por referência - endereço
-          * implícita - objetos e arrays
-          * explicita (&) - *        
+    * implícita - objetos e arrays
+    * explicita (&) - *        
