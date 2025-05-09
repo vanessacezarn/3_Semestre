@@ -6,4 +6,4 @@
   * 1 - por valor - cópia
   * 2 - por referência - endereço
     * implícita - objetos e arrays
-    * explicita (&) - *        
+    * explicita (&) --> *        
