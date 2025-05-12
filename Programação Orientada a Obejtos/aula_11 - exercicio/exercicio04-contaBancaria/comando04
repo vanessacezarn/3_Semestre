@@ -1,0 +1,2 @@
+Crie uma classe ContaBancaria com um método depositar(double valor) que adiciona o valor passado como parâmetro ao saldo da conta.
+Sobrecarregue o método depositar() para aceitar um objeto Cheque e adicionar o valor do cheque ao saldo da conta.
