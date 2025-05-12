@@ -1,0 +1,2 @@
+Crie uma classe Produto com um método calcularPrecoFinal(double preco) que retorna o preço final do produto com base no preço passado como parâmetro. 
+Sobrecarregue o método calcularPrecoFinal() para aceitar um objeto Cliente e calcular o preço final do produto com base no desconto do cliente.
