@@ -1,0 +1,4 @@
+Crie uma classe Notificacao com um método enviar. Derive classes como NotificacaoEmail e NotificacaoApp que extendem Notificacao.
+  • Sobrecarregue o método enviar em NotificacaoEmail para aceitar um ou mais destinatários. 
+  • Sobrescreva o método enviar em cada classe derivada para implementar a lógica específica de envio. 
+  • Demonstre o envio de diferentes tipos de notificações usando objetos das classes derivadas.
