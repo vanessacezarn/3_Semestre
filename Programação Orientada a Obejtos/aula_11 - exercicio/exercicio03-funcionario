@@ -1,0 +1,2 @@
+Crie uma classe Funcionario com um método calcularSalario(). Em seguida, crie uma classe Gerente que herda da classe Funcionario e sobrescreve o 
+método calcularSalario() para calcular o salário do gerente com base em um bônus e imprimir o resultado.
