@@ -1,1 +1,2 @@
-Crie uma classe Produto com atributos nome, preco e quantidade. Crie uma lista de produtos e adicione alguns produtos nessa lista. Em seguida, percorra a lista e imprima os dados de cada produto.
+Crie uma classe Produto com atributos nome, preco e quantidade. Crie uma lista de produtos e adicione alguns produtos
+nessa lista. Em seguida, percorra a lista e imprima os dados de cada produto.
