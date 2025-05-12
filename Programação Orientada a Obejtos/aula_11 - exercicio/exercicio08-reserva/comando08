@@ -1,0 +1,4 @@
+Crie uma classe Reserva com métodos para adicionar e cancelar reservas. Derive classes como ReservaDeHotel e ReservaDeVoo da classe Reserva. 
+• Sobrecarregue o método adicionar em ReservaDeVoo para aceitar diferentes tipos de classes (econômica, executiva). 
+• Sobrescreva o método cancelar em ambas as classes derivadas para tratar políticas de cancelamento específicas. 
+• Demonstre como criar e cancelar diferentes tipos de reservas usando polimorfismo.
