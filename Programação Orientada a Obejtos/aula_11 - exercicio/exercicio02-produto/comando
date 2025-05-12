@@ -1,1 +1,2 @@
-Crie uma classe Produto com um método desconto(). Em seguida, crie uma classe ProdutoComDesconto que herda da classe Produto e sobrescreve o método desconto() para calcular o desconto do produto com base em um valor predefinido e imprimir o preço com desconto.
+Crie uma classe Produto com um método desconto(). Em seguida, crie uma classe ProdutoComDesconto que herda da classe Produto e sobrescreve o método desconto() 
+para calcular o desconto do produto com base em um valor predefinido e imprimir o preço com desconto.
