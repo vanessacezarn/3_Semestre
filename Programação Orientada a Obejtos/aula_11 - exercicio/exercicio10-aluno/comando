@@ -1,0 +1,3 @@
+Crie uma classe Aluno com atributos nome, nota1 e nota2. Crie uma lista de alunos e adicione alguns alunos nessa lista. 
+  Em seguida, percorra a lista e calcule a média de cada aluno. Se a média for maior ou igual a 6, imprima que o aluno 
+foi aprovado. Caso contrário, imprima que o aluno foi reprovado.
