@@ -4,14 +4,13 @@
 * para poder fazer essa passagem por parâmetro é necessário
 	* definir o objeto que será passado como parâmetro
  	* definir o método que receberá o objeto como parâmetro
-  	* declarar o parâmetro como o tipo de objeto que será 	 
-public static --> metodo qu efunciona como uma função,não deoende da classe
+  	* declarar o parâmetro como o tipo de objeto que serápassado
+  	  
+* public static --> metodo qu efunciona como uma função,não deoende da classe
               --> não é uma boa pratica para POO
               --> "corrigir uma gambiarra com outra gambiarra"
-
-### retorno de objetos
-
-## EXEMPLOS SLIDES
+* Os métodos static ou métodos da classe são funções que não dependem de nenhuma variável de instância, quando invocados executam uma função sem a dependência do conteúdo de um objeto ou a execução da instância de uma classe, conseguindo chamar direto qualquer método da classe e também manipulando alguns campos da classe.
+  
 
 **Exemplo 1 - pessoa**
 ```.java
@@ -51,6 +50,9 @@ public class Principal {
 }
 
 ```
+## Retornando Objetos
+* é possível retornar objetos em métodos
+* útil para envio e recebimento de novos objetos para serem trabalhados em outra clases
 
 **Exemplo 2 - produto -retornando uma copia do objeto**
 ```.java
@@ -167,7 +169,6 @@ public class Principal {
 ## RELACIONAMENTO ENTRE CLASSES
 * é possivel termos objetos objetos como atributos de classes, além de somente tipos primitivos (int,double,char)
 
-## Exemplos slides
 **Exemplo 4 - endereço**
 ```.java
 package pkg4;
@@ -236,13 +237,11 @@ public class Principal {
 
 # LISTA
 * estrutura de daos que permite armazenar e manipular coleções de objetos
-* são implementadas usando interface ...
-## métodos 
-* add
-* 
-
-### exemplos
-**exemplo 1 - pessoa**
+* são implementadas usando interface List e pode ser criadas usando classes como ArrayList, LinkedList e Vector
+* interface List é uma subinterface da interface Collection e define um contrato para classes que implementam listas em Java. Ela estende a interface Iterable, o que significa que as listas podem ser percorridas usando um loop for-each.
+* listas podem conter objetos de qualquer tipo, incluindo tipos primitivos, como int, double e boolean.
+  
+**exemplo 5 - pessoa**
 ```.java
 package pkg5;
 	public class Pessoa {
@@ -293,7 +292,7 @@ public class Principal {
 			System.out.println("idade: "+p.getIdade());		
 			}
 	}
-
+	// OUTRA FORMA DE PERCORRER A LISTA E EXIBIR SEU CONTEÚDO
 	public static void exibirPessoas2(List<Pessoa> lista) {
 		for(int i=0;i<lista.size();i++) {
 			System.out.println("nome: "+lista.get(i).getNome());
@@ -303,3 +302,12 @@ public class Principal {
 }
 
 ```
+## Métodos mais comuns para manipular elementos da lista - interface List
+* add(Object elemento): adiciona um elemento à lista.
+* add(int indice, Object elemento): adiciona um elemento à lista em um índice específico.
+* remove(Object elemento): remove um elemento da lista.
+* remove(int indice): remove um elemento da lista em um índice específico.
+* get(int indice): retorna o elemento da lista no índice especificado.
+* set(int indice, Object elemento): substitui o elemento na lista no índice especificado pelo elemento especificado.
+* size(): retorna o número de elementos na lista.
+
