@@ -229,3 +229,71 @@ public class Principal {
 ```
 
 # LISTA
+* estrutura de daos que permite armazenar e manipular coleções de objetos
+* são implementadas usando interface ...
+## métodos 
+* add
+* 
+
+### exemplos
+**exemplo 1 - pessoa**
+```.java
+package pkg5;
+	public class Pessoa {
+		private String nome;
+		private int idade;
+		
+		public Pessoa(String nome, int idade) {
+			this.nome = nome;
+			this.idade = idade;
+		}
+
+		public String getNome() {
+			return nome;
+		}
+
+		public int getIdade() {
+			return idade;
+		}
+
+}
+
+```
+```.java
+package pkg5;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		List<Pessoa> listaPessoa = new ArrayList<Pessoa>();
+		
+		Pessoa pessoa1 = new Pessoa ("Vanessa",22);
+		Pessoa pessoa2 = new Pessoa ("Maria",25);
+		Pessoa pessoa3 = new Pessoa ("Pedro",40);
+		
+		listaPessoa.add(pessoa1);
+		listaPessoa.add(pessoa2);
+		listaPessoa.add(pessoa3);
+		
+		// CHAMANDO UM METODO E PASSANDO A LISTA COMO PARÂMETRO
+		exibirPessoas(listaPessoa);
+	}
+	public static void exibirPessoas(List<Pessoa> lista) {
+		for(Pessoa p : lista) {
+			System.out.println("nome: "+p.getNome());
+			System.out.println("idade: "+p.getIdade());		
+			}
+	}
+
+	public static void exibirPessoas2(List<Pessoa> lista) {
+		for(int i=0;i<lista.size();i++) {
+			System.out.println("nome: "+lista.get(i).getNome());
+			System.out.println("idade: "+lista.get(i).getIdade());		
+			}
+	}
+}
+
+```
