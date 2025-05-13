@@ -167,7 +167,7 @@ public class Principal {
 
 ```
 ## RELACIONAMENTO ENTRE CLASSES
-* é possivel termos objetos objetos como atributos de classes, além de somente tipos primitivos (int,double,char)
+* é possivel termos objetos como atributos de classes, além de somente tipos primitivos (int,double,char)
 
 **Exemplo 4 - endereço**
 ```.java
@@ -236,7 +236,7 @@ public class Principal {
 ```
 
 # LISTA
-* estrutura de daos que permite armazenar e manipular coleções de objetos
+* estrutura de dados que permite armazenar e manipular coleções de objetos
 * são implementadas usando interface List e pode ser criadas usando classes como ArrayList, LinkedList e Vector
 * interface List é uma subinterface da interface Collection e define um contrato para classes que implementam listas em Java. Ela estende a interface Iterable, o que significa que as listas podem ser percorridas usando um loop for-each.
 * listas podem conter objetos de qualquer tipo, incluindo tipos primitivos, como int, double e boolean.
