@@ -1,4 +1,10 @@
-## aula
+## PASSAGEM E RECEBIMENTO DE OBJETOS
+* quando passa um objeto por parâmetro --> está sendo passado uma referência para esse objeto
+* quando chama um método e passa um objeto por parâmetro para ele, o método passa a ter acesso a todas as propiedades e métodos desse objeto
+* para poder fazer essa passagem por parâmetro é necessário
+	* definir o objeto que será passado como parâmetro
+ 	* definir o método que receberá o objeto como parâmetro
+  	* declarar o parâmetro como o tipo de objeto que será 	 
 public static --> metodo qu efunciona como uma função,não deoende da classe
               --> não é uma boa pratica para POO
               --> "corrigir uma gambiarra com outra gambiarra"
