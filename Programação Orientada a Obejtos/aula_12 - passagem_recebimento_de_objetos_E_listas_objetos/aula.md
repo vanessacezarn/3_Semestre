@@ -4,7 +4,7 @@
 * para poder fazer essa passagem por parâmetro é necessário
 	* definir o objeto que será passado como parâmetro
  	* definir o método que receberá o objeto como parâmetro
-  	* declarar o parâmetro como o tipo de objeto que serápassado
+  	* declarar o parâmetro como o tipo de objeto que será passado
   	  
 * public static --> metodo qu efunciona como uma função,não deoende da classe
               --> não é uma boa pratica para POO
