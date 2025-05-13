@@ -6,9 +6,9 @@
  	* definir o método que receberá o objeto como parâmetro
   	* declarar o parâmetro como o tipo de objeto que será passado
   	  
-* public static --> metodo qu efunciona como uma função,não deoende da classe
-              --> não é uma boa pratica para POO
-              --> "corrigir uma gambiarra com outra gambiarra"
+* public static --> metodo que funciona como uma função,não depende da classe
+                --> não é uma boa pratica para POO
+                --> "corrigir uma gambiarra com outra gambiarra"
 * Os métodos static ou métodos da classe são funções que não dependem de nenhuma variável de instância, quando invocados executam uma função sem a dependência do conteúdo de um objeto ou a execução da instância de uma classe, conseguindo chamar direto qualquer método da classe e também manipulando alguns campos da classe.
   
 
