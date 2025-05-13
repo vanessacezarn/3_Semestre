@@ -103,6 +103,7 @@ public class Principal {
 ```
 
 **Exemplo 3 - produto - retornando o propio objeto**
+como se fosse ponteiro --> aponta para o endereço de armazenamento, não para o conteudo armazenado
 ```.java
 package pkg3;
 public class Produto {
@@ -157,7 +158,74 @@ public class Principal {
 }
 
 ```
+## RELACIONAMENTO ENTRE CLASSES
+* é possivel termos objetos objetos como atributos de classes, além de somente tipos primitivos (int,double,char)
 
-**Exemplo 4**
+## Exemplos slides
+**Exemplo 4 - endereço**
 ```.java
+package pkg4;
+
+public class Endereco {
+	private String rua;
+	private int numero;
+	
+	public Endereco(String rua, int numero) {
+		this.rua = rua;
+		this.numero = numero;
+	}
+
+	public String getRua() {
+		return rua;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+}
+
 ```
+```.java
+package pkg4;
+
+public class Pessoa2 {
+
+		private String nome;
+		private int idade;
+		private Endereco endereco;
+		public Pessoa2(String nome, int idade, Endereco endereco) {
+			this.nome = nome;
+			this.idade = idade;
+			this.endereco = endereco;
+		}
+
+		public String getNome() {
+			return nome;
+		}
+
+		public int getIdade() {
+			return idade;
+		}
+
+		public Endereco getEndereco() {
+			return endereco;
+		}		
+	}
+```
+```.java
+package pkg4;
+public class Principal {
+
+	public static void main(String[] args) {
+		// INICIALIZA O OBJETO ENDERECO DENTRO DA PASSAGEM DE PARAMETROS
+		Pessoa2 p = new Pessoa2("João",30,new Endereco("rua 1",123));
+		
+		System.out.println("nome: "+p.getNome());
+		System.out.println("idade: "+p.getIdade());
+		System.out.println("endereço: "+p.getEndereco().getRua()+", "+p.getEndereco().getNumero());
+		// SE FOR SOMENTE getEndereco() IRA RETORNAR O ENDEREÇO DE MEMORIA,NÃO O CONTEUDO
+	}
+}
+```
+
+# LISTA
