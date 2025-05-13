@@ -111,7 +111,7 @@ public class Principal {
 ```
 
 **Exemplo 3 - produto - retornando o propio objeto**
-como se fosse ponteiro --> aponta para o endereço de armazenamento, não para o conteudo armazenado
+* como se fosse ponteiro --> aponta para o endereço de armazenamento, não para o conteudo armazenado
 ```.java
 package pkg3;
 public class Produto {
