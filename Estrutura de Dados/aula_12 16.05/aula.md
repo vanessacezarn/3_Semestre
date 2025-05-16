@@ -15,3 +15,5 @@ for(Celula *i = lista; i != NULL; i = i ->prox){
 ```
 * alocação estática
   * tempo programação 
+
+
