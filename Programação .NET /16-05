@@ -1,0 +1,63 @@
+produto.cshtml
+
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace web.Pages
+{
+    public class ProdutoModel : PageModel
+    {
+        public List<Produto> Produtos { get; set; }
+
+        public void OnGet()
+        {
+            //Logica para a requisão GET
+            Produtos = new List<Produto>
+            {
+                new Produto {Descricao = "coca cola", Preco = 8.99m},
+                new Produto {Descricao = "Pepsi", Preco = 5.55m},
+                new Produto {Descricao = "feijão", Preco = 3.49m}
+            };
+        }
+
+    }
+    public class Produto
+    {
+        public string Descricao { get; set; }
+        public decimal Preco { get; set; }
+    }
+
+}
+
+---
+
+produto cshtml
+
+@page
+@model web.Pages.ProdutoModel
+@{
+	ViewData["Title"] = "cadastro de produtos";
+	ViewData["Teste"] = " estou aqui testando essa forma de dados";
+
+}
+
+<h2>@ViewData["Title"] </h2>
+<table>
+	<thead>
+		<tr>
+			<th>Nome do produto	</th>
+			<th>Preco</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var produto in Model.Produtos)
+		{
+			<tr>
+				<td>@produto.Descricao</td>
+				<td>@produto.Preco.ToString("C")</td>
+			</tr>
+		}
+	</tbody>
+
+</table>
+
