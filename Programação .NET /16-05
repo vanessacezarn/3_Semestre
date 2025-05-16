@@ -61,3 +61,25 @@ produto cshtml
 
 </table>
 
+--
+Frazzon
+--
+<h2>@ViewData["Title"] </h2>
+<table>
+	<thead>
+		<tr>
+			<th>Nome do produto	</th>
+			<th>Preco</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var produto in Model.Produtos)
+		{
+			<tr>
+				<td>@produto.Descricao</td>
+				<td>@produto.Preco.ToString("C")</td>
+			</tr>
+		}
+	</tbody>
+
+</table>
