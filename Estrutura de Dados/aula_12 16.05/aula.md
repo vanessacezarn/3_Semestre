@@ -90,11 +90,11 @@ Celula *inserir(int dado, Celula *lista){
     for (Celula *p = lista; p!= NULL; p = p->prox){
         if(dado == p->dado){
             cout<<"numero " <<dado<<" ja esta na lista"<< endl;
-            break;
+            free(novo);
+            return lista;
         }
     }
 
-    
     novo->dado = dado; // dado que esta no inserir
     novo->prox = NULL; // todo dado adicionado sempre aponta para o último, null
 
@@ -179,6 +179,20 @@ float mediaLista(Celula *lista){
     media=soma/contador;
     return media;
 }       
+
+// ALTERAR O INSERIR PARA QUE CONTROLE DUPLICADOS - criado for para fazer essa verificação
+
+// CRIAR UM MÉTODO DE ORDENAÇÃO DA LISTA ENCADEADA
+
+
+
+
+
+
+
+
+
+
 
 // ALTERAR O INSERIR PARA QUE CONTROLE DUPLICADOS - criado for para fazer essa verificação
 
