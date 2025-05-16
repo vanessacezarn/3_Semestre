@@ -160,6 +160,15 @@ float mediaLista(Celula *lista){
 
 
 * alocação estática
-  * tempo programação 
+  * tempo programação
+ 
+  *  /*for (Celula *p = lista; p!= NULL; p = p->prox){
+        if(dado == p->dado){
+            cout<<"\n numero ja esta na lista"<<endl;
+            free(novo);
+            return lista; 
+        }
+        
+    }*/
 
 
