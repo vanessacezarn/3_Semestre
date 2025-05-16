@@ -1,5 +1,6 @@
 ## alocação dinâmica X alocação estática
 * alocação dinâmica
+    * java e c# --> new | dispose ou garbage collector 
     * c e cc++ --> malloc-free
 ```.c
 typedef struct no{
@@ -12,6 +13,5 @@ for(Celula *i = lista; i != NULL; i = i ->prox){
    ## contar dados
 } 
 ```
-    * java e c# --> new | dispose ou garbage collector
 * alocação estática
   * tempo programação 
