@@ -187,26 +187,6 @@ float mediaLista(Celula *lista){
 
 
 
-
-
-
-
-
-
-
-// ALTERAR O INSERIR PARA QUE CONTROLE DUPLICADOS - criado for para fazer essa verificação
-
-// CRIAR UM MÉTODO DE ORDENAÇÃO DA LISTA ENCADEADA
-
-
-
-
-
-
-
-
-
-
 ```
 
 
