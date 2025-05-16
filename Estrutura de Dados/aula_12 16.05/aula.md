@@ -17,6 +17,7 @@ for(Celula *i = lista; i != NULL; i = i ->prox){
 **exemplo 1**
 ```.c
 
+
 #include<iostream>
 using namespace std;
 
@@ -28,19 +29,38 @@ int main(){
     lista = inserir(7,lista);
     lista = inserir(10,lista);
     lista = inserir(5,lista);
-    lista = inserir(66,lista);
+    lista = inserir(7,lista);
     lista = inserir(48,lista);
     lista = inserir(99,lista);
 
 
+    //LISTAR OS ELEMENTOS DA LISTA
     cout <<"lista contem "<< contarLista(lista)<< " elementos\n";
     exibir(lista);
 
+    // VERIFICAR SE UM NÚMERO ESTA NA LISTA
     int numero;
     cout<<"digite numero para pesquisa: ";
     cin >> numero;
 
-    cout<<numero<<" esta na lista?"<<estaNaLista(numero,lista)<<endl;
+    cout<<numero<<" esta na lista? "<<estaNaLista(numero,lista)<<endl;
+
+    // CONTAR OCORRENCIAS DE UM NÚMERO
+    int numerop;
+    cout<<"digite numero para verificar quantas vezes ele aparece na lista: ";
+    cin >> numerop;
+
+    cout<<numerop<<" esta na lista "<<contNaLista(numerop,lista)<<" vezes"<<endl;
+
+    //VERIFICAR SE A LISTA ESTÁ OU NÃO ORDENADA
+    cout<<"a lista esta ordenada? "<<ordenaLista(lista)<<endl;
+
+    // CALCULAR A MÉDIA DOS ELEMENTOS DA LISTA
+    cout<<"a media dos elementos da lista eh  "<<mediaLista(lista)<<endl;
+
+    // ALTERAR O INSERIR PARA QUE CONTROLE DUPLICADOS
+
+    // CRIAR UM MÉTODO DE ORDENAÇÃO DA LISTA ENCADEADA
 
     return 1;
 
@@ -62,6 +82,14 @@ Celula *inserir(int dado, Celula *lista){
     Celula *novo = (Celula *)malloc(sizeof(Celula));
 
     // DEPOSITAR VALORES QUE VEM DO PARÂMETRO
+    
+    for (Celula *p = lista; p!= NULL; p = p->prox){
+        if(dado == p->dado){
+            cout<<"numero " <<dado<<" ja esta na lista"<< endl;
+            break;
+        }
+    }
+
     
     novo->dado = dado; // dado que esta no inserir
     novo->prox = NULL; // todo dado adicionado sempre aponta para o último, null
@@ -148,9 +176,14 @@ float mediaLista(Celula *lista){
     return media;
 }       
 
-// ALTERAR O INSERIR PARA QUE CONTROLE DUPLICADOS
+// ALTERAR O INSERIR PARA QUE CONTROLE DUPLICADOS - criado for para fazer essa verificação
 
 // CRIAR UM MÉTODO DE ORDENAÇÃO DA LISTA ENCADEADA
+
+
+
+
+
 
 
 
@@ -162,13 +195,4 @@ float mediaLista(Celula *lista){
 * alocação estática
   * tempo programação
  
-  *  /*for (Celula *p = lista; p!= NULL; p = p->prox){
-        if(dado == p->dado){
-            cout<<"\n numero ja esta na lista"<<endl;
-            free(novo);
-            return lista; 
-        }
-        
-    }*/
-
 
