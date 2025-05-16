@@ -1,4 +1,8 @@
 ## alocação dinâmica X alocação estática
+
+* alocação estática
+  * tempo programação
+    
 * alocação dinâmica
     * java e c# --> new | dispose ou garbage collector 
     * c e cc++ --> malloc-free
@@ -192,7 +196,5 @@ float mediaLista(Celula *lista){
 ```
 
 
-* alocação estática
-  * tempo programação
  
 
