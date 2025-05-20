@@ -138,6 +138,13 @@ public class Principal {
   
 **Exemplo 1 - Animal**
 ```.java
+package pkg3;
+
+public interface Animal {
+	 void emitirSom();
+	 void exibiDados();
+}
+
 ```
 ```.java
 ```
