@@ -1,5 +1,5 @@
 # CLASSES ABSTRATAS 
-* classe abstrata em java é uma classe que **não****pode** **ser** **INSTANCIADA**, ou seja, não é possivel criar objetos a partir dela
+* classe abstrata em java é uma classe que **não** **pode** **ser** **INSTANCIADA**, ou seja, não é possivel criar objetos a partir dela
 * é projetada para ser estendida por outras classes que podem ser instanciada
 * para criar uma classe abstrata usa-se **abstract** antes da palavra class na declaração da classe
 * pode-se definir métodos abstratos dentro de uma classe abstrata
