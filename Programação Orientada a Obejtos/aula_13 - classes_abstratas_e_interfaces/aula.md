@@ -145,3 +145,4 @@ public class Principal {
 ```
 ```.java
 ```
+# DIFERNÇAS ENTRE CLASSE ABSTRATA E INTERFACE
