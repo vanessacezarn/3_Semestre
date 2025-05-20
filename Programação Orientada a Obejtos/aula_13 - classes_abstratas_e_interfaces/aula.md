@@ -144,12 +144,75 @@ public interface Animal {
 	 void emitirSom();
 	 void exibiDados();
 }
+```
+```.java
+package pkg3;
+public class Cachorro implements Animal {
+	public String nome;
+	public int idade;
+	public Cachorro(String nome, int idade) {
+		super();
+		this.nome = nome;
+		this.idade = idade;
+	}
+	@Override
+	public void emitirSom() {
+		System.out.println("AU AU");
+	}
+	public void cuidarPatio() {
+		System.out.println("o cachorro está cuidando do patio");
+	}
+	@Override
+	public void exibiDados() {
+		System.out.println("CACHORRO: ");
+		System.out.println("Nome:: "+nome);		
+		System.out.println("Idade: "+idade);
+	}
+}
 
 ```
 ```.java
+package pkg3;
+public class Gato implements Animal {
+	public String nome;
+	public int idade;
+	public Gato(String nome, int idade) {
+		super();
+		this.nome = nome;
+		this.idade = idade;
+	}
+	@Override
+	public void emitirSom() {
+		System.out.println("MIAU ");
+	}
+	@Override
+	public void exibiDados() {
+		System.out.println("GATO: ");
+		System.out.println("Nome:: "+nome);		
+		System.out.println("Idade: "+idade);		
+	}
+}
+
 ```
 ```.java
-```
-```.java
+package pkg3;
+public class Principal {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Animal c = new Cachorro("TOBI",5);
+		c.exibiDados();
+		c.emitirSom();
+		// COMO ESTA SENDO USADO UM METODO DA CLASSE CACHORRO TEM QUE IMPLENTAR CACHORRO E NÃO ANIMAL
+		Cachorro cc = new Cachorro("a",8);
+		cc.exibiDados();
+		cc.emitirSom();
+		cc.cuidarPatio();
+		
+		Animal g = new Gato("lala",3);
+		g.exibiDados();
+		g.emitirSom();
+	}
+}
+
 ```
 # DIFERNÇAS ENTRE CLASSE ABSTRATA E INTERFACE
