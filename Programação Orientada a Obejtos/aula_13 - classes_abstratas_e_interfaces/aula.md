@@ -4,7 +4,8 @@
 * para criar uma classe abstrata usa-se **abstract** antes da palavra class na declaração da classe
 * pode-se definir métodos abstratos dentro de uma classe abstrata
   * um método abstrato é um método sem implementação que deve ser implementado por qualquer classe que estanda a classe abstrata
-** exemplo 1 - Animal **
+    
+**exemplo 1 - Animal**
 ```.java
 package pkg;
 abstract class Animal {
@@ -58,7 +59,7 @@ public class Principal {
 }
 
 ```
-** exemplo 2 - Forma **
+**exemplo 2 - Forma**
 ```.java
 package pkg2;
 abstract class Forma {
