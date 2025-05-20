@@ -215,4 +215,49 @@ public class Principal {
 }
 
 ```
+**Exemplo 2 - mais de uma interface implementada em uma mesma classe**
+```.java
+package pkg4;
+public interface Celular {
+	public void realizaChamada();
+}
+```
+```.java
+package pkg4;
+public interface PC {
+	public void verificaEmail();
+}
+
+```
+```.java
+package pkg4;
+public class Smartphone implements Celular,PC{
+	public String tel;
+	public String email;
+	public Smartphone(String tel, String email) {
+		super();
+		this.tel = tel;
+		this.email = email;
+	}
+	@Override
+	public void verificaEmail() {
+		System.out.println("verificando emails: "+email);
+	}
+	@Override
+	public void realizaChamada() {
+		System.out.println("realizando chamadas: "+tel);
+	}
+}
+```
+```.java
+package pkg4;
+public class Principal {
+	public static void main(String[] args) {
+		Smartphone s = new Smartphone("555","@gmail");
+		s.verificaEmail();
+		s.realizaChamada();
+	}
+}
+```
+
 # DIFERNÇAS ENTRE CLASSE ABSTRATA E INTERFACE
