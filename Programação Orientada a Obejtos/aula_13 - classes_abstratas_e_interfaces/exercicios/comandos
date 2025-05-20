@@ -1,10 +1,18 @@
 1) Crie uma classe abstrata chamada Conta com as propriedades Saldo e Limite. Crie também métodos abstratos para Depositar e Sacar.
+
 2) Faça implementação concreta desta classe com os métodos Depositar e sacar
+
 3) Crie uma classe chamada Animal com os atributos privadas Nome e Idade. Também deve possuir os métodos get e set para encapsulamento. Crie também um método abstrato chamado EmitirSom. Crie duas classes que herdam de Animal, uma chamada Cachorro e outra chamada Gato, que implementam o método EmitirSom.
+
 4) Faça as implementações dos métodos para uma ContaInvestimento e ContaCorrente e apresente mensagens na tela.
+
 5) Crie uma classe abstrata chamada Veiculo com as propriedades Marca, Modelo e Ano. Crie dois métodos abstratos chamados Acelerar e Frear. Crie duas classes que herdam de Veiculo, uma chamada Carro e outra chamada Moto, que implementam os métodos Acelerar e Frear.
+
 6) Crie uma classe abstrata chamada Pessoa com as propriedades Nome e Cidade. Crie também um método abstrato chamado EfetuarCompra. Crie duas classes que herdam de Pessoa, uma chamada PessoaFIsica e outra chamada PessoaJuridica, que implementam o método EfetuarCompra. Crie atributos específicos para cada uma das novas classes, por exemplo, CPF em PessoaFisica e CNPJ em PessoaJuridica.
+
 7) Crie uma classe abstrata chamada Funcionario com as propriedades Nome e Salário. Crie também um método abstrato chamado CalcularSalario. Crie duas classes que herdam de Funcionario, uma chamada Gerente e outra chamada Vendedor, que implementam o método CalcularSalario.
+
 8) Analisando os exercícios anteriores, quais implementações podem ser desenvolvidas com interface?
+
 9) Crie uma interface chamada AcessoDados que contenha os seguintes métodos: conectar(), desconectar(), inserir(), atualizar() e excluir().
 Crie uma classe BancoDeDados que implemente a interface AcessoDados. Implemente os métodos da interface para que eles realizem as operações de conectar-se ao banco de dados, desconectar-se, inserir dados, atualizar dados e excluir dados.
