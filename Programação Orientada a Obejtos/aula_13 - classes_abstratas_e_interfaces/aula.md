@@ -132,9 +132,16 @@ public class Principal {
 * é definida atraves da palavra-chave **interface**
 * permite que diferentes classes possam implementar seus proópios comporatamentos para um
 * j
-* os métodos definidos na interface são por padrão public e abstract --> não sendo necessário especificar esses modificadores de acesso --> eles são implicitamente definidos
+* os métodos definidos na interface são por padrão public e abstract 🠖 não sendo necessário especificar esses modificadores de acesso 🠖 eles são implicitamente definidos
 * para implementar uma interface em uma classe, utiliza-se a palavra chave **implements**
 * a classe deve então implementar **TODOS** os métodos definidos na interface
-
+  
+**Exemplo 1 - Animal**
+```.java
+```
+```.java
+```
+```.java
+```
 ```.java
 ```
