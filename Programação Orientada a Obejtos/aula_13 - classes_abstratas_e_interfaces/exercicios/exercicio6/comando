@@ -1,0 +1,1 @@
+6) Crie uma classe abstrata chamada Funcionario com os atributos Nome e Salário. Crie também um método abstrato chamado CalcularSalario. Crie duas classes que herdam de Funcionario, uma chamada Gerente e outra chamada Vendedor, que implementam o método CalcularSalario.
