@@ -3,7 +3,7 @@
 * é projetada para ser estendida por outras classes que podem ser instanciada
 * para criar uma classe abstrata usa-se **abstract** antes da palavra class na declaração da classe
 * pode-se definir métodos abstratos dentro de uma classe abstrata
-  * um método abstrato é um método **sem implementação** que DEVE ser implementado por qualquer classe que estanda a classe abstrata
+  * um **método abstrato** é um método **sem implementação** que DEVE ser implementado por qualquer classe que estanda a classe abstrata
 * são úteis quando deseja-se definir um comportamento padrão que deve ser implementado por outras classes
 * permite definir uma interface comum para as classes que as estendem e garantir que essas classes implementem determinados métodos 
     
@@ -130,10 +130,10 @@ public class Principal {
 
 ```
 # INTERFACES
-* é uma espécie de contrato que define um conjunto de métodos que uma classe deve implementar
+* é uma espécie de contrato que define um conjunto de métodos que uma classe **deve** implementar
 * é definida atraves da palavra-chave **interface**
-* permite que diferentes classes possam implementar seus proópios comporatamentos para um
-* j
+* permite que diferentes classes possam implementar seus proópios comporatamentos para um conjunto de métodos definidos em comum
+* permite que as classes possam ser tratadas de forma polimórfica, ou seja, uma referência 
 * os métodos definidos na interface são por padrão public e abstract 🠖 não sendo necessário especificar esses modificadores de acesso 🠖 eles são implicitamente definidos
 * para implementar uma interface em uma classe, utiliza-se a palavra chave **implements**
 * a classe deve então implementar **TODOS** os métodos definidos na interface
