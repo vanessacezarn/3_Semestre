@@ -271,6 +271,10 @@ select *
 from ranking;
 select *
 from ranking_semanal;
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+```
 
 # Respondendo as 25 perguntas
 
@@ -420,7 +424,4 @@ and (ranking.idRanking = ranking_semanal.idRanking);
 ```
 
 
-SET SQL_MODE=@OLD_SQL_MODE;
-SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
-SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
-```
+
