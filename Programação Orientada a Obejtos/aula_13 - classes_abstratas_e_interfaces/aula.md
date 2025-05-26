@@ -137,6 +137,10 @@ public class Principal {
 * os métodos definidos na interface são por padrão public e abstract 🠖 não sendo necessário especificar esses modificadores de acesso 🠖 eles são implicitamente definidos
 * para implementar uma interface em uma classe, utiliza-se a palavra chave **implements**
 * a classe deve então implementar **TODOS** os métodos definidos na interface
+* **vantagens** do uso de interface
+	* permite o polimorfismo de objetos de diferentes classes que implementam a mesma interface
+ 	* favorece a modularizção do código, pois as classes que implementam a mesma interface são agrupadas de forma lógica
+  	* promove a independência de implementação, pois uma classe pode implementar várias interfaces diferentes 
   
 **Exemplo 1 - Animal**
 ```.java
@@ -263,5 +267,18 @@ public class Principal {
 ```
 
 # DIFERENÇAS ENTRE CLASSE ABSTRATA E INTERFACE
-* <ins>classe abstrata</ins> pode ter métodos abstratos e não abstratos X  <ins>interface</ins> pode ter apenas métodos abstratos
-* 
+* <ins>classe abstrata</ins> pode ter métodos abstratos e não abstratos   **X**    <ins>interface</ins> pode ter apenas métodos abstratos
+* <ins>classe abstrata</ins> pode ter construtores, pois pode ser instânciada por uma classe que a extenda   **X**    <ins>interface</ins> não pode ter construtores
+*  uma classe pode implementar váriasinterfaces, mas só pode herdar de uma classe abstrata
+*  uma <ins>classe abstrata</ins> pode conter atributos com diferentes níveis de visibilidade (public, protected, private)   **X**   interface os atributos são sempre public e static, e podem ser final ou não
+*  <ins>classe abstrata</ins> é utilizada quando se deseja criar uma classe base com algumas implementações e comportamentos já definidos, que serão herdados por suas subclasses, mas que permite que elas implementem comportamentos diferentes.
+*  <ins>interface</ins> e é utilizada quando se deseja definir um conjunto de métodos que devem ser implementados por classes distintas, que podem ter diferentes comportamentos, mas que apresentam alguma característica em comum.
+*  <ins>interface</ins> é mais restritiva, pois exige que todas as classes que a implementam implementem todos os seus métodos   **X** <ins>classe abstrata</ins>  permite que alguns métodos sejam abstratos e outros não, sendo assim uma opção menos restritiva.
+
+
+
+
+
+
+
+
