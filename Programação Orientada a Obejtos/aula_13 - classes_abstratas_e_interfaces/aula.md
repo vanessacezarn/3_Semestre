@@ -263,3 +263,5 @@ public class Principal {
 ```
 
 # DIFERENÇAS ENTRE CLASSE ABSTRATA E INTERFACE
+* classe abstrata pode ter métodos abstratos e não abstratos X  interface pode ter apenas métodos abstratos
+* 
