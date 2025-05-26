@@ -11,6 +11,7 @@
 6) Crie uma classe abstrata chamada Funcionario com os atributos Nome e Salário. Crie também um método abstrato chamado CalcularSalario. Crie duas classes que herdam de Funcionario, uma chamada Gerente e outra chamada Vendedor, que implementam o método CalcularSalario.
 
 7) Analisando os exercícios anteriores, quais implementações podem ser desenvolvidas com interface?
-
+exercicio 1, 2,3
+4,5,6 não pode pois utilizei construtor
 8) Crie uma interface chamada AcessoDados que contenha os seguintes métodos: conectar(), desconectar(), inserir(), atualizar() e excluir().
 Crie uma classe BancoDeDados que implemente a interface AcessoDados. Implemente os métodos da interface para que eles realizem as operações de conectar-se ao banco de dados, desconectar-se, inserir dados, atualizar dados e excluir dados.
