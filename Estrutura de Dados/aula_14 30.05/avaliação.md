@@ -8,5 +8,5 @@
 Ao final, os códigos devem estar disponibilizados nos githubs pessoais e o link deve se enviado para alexz@ufn.edu.br com o assunto da mensagem ED CC.
 
 Critérios de avaliação:
-  1.os códigos desenvolvidos devem estar no padrão ou no esquema utilizado nos códigos trabalhados em sala/aula;
-  2.edentação e bom uso de variáveis
+ * 1.os códigos desenvolvidos devem estar no padrão ou no esquema utilizado nos códigos trabalhados em sala/aula;
+ * 2.edentação e bom uso de variáveis
