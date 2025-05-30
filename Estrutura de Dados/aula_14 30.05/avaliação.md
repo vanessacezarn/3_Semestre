@@ -3,7 +3,7 @@
  * 1.Faça um método que exclua todos os números pares da lista1 ou listaA
  * 2.Faça um método que una a lista1 ou listaA na lista2 ou listaB. Ou seja, todos os elementos da primeira lista devem vir primeiro dos elementos da segunda lista
  * 3.Faça um método que receba o resultado da união da lista1 com a lista2 e aplique um método de ordenação
- * 4.Faça um método que delete todos os elementos da lista criada da união entre lista1 e lista2.
+ * 4.Faça um método que delete - free- todos os elementos da lista criada da união entre lista1 e lista2.
 
 Ao final, os códigos devem estar disponibilizados nos githubs pessoais e o link deve se enviado para alexz@ufn.edu.br com o assunto da mensagem ED CC.
 
