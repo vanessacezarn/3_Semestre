@@ -1,0 +1,1 @@
+* 1 - Crie uma classe Pessoa com atributos nome e idade. Crie um construtor que inicialize esses atributos e um método validarIdade que lance uma exceção caso a idade informada seja menor que zero ou maior que 120.
