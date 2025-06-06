@@ -5,8 +5,8 @@
    * o lado não escolhido automatimante não vai ser usado na comparação
 * mais recomendado para guardar e buscar dados em sistema
 * ao entrar na árvore tem que empilhar os dados e para sair dela tem que desempilhar os dados
-  * para cada nó sem filho "nó folha" o empilhamento tem que passar por ele, é contabilizado como se ele tivesse dois filhos, pois ele é uma árvore binária
-# exemplo visual de árvore
+  * para cada nó sem filhos **"nó folha"**, sem filho para direita ou esqueda, o empilhamento tem que passar por ele, é contabilizado como se ele tivesse dois filhos, pois ele é uma árvore binária
+### exemplo visual de árvore
  ```mermaid
 graph TD;
     10-->17;
