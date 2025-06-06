@@ -31,7 +31,7 @@ graph TD;
     50-->60;
     
 ```
-* pré-fixado ou RED - visita a raiz e vai para esquerda e vai para direita --> 50,35,40,60
+* **pré-fixado ou RED** - visita a raiz e vai para esquerda e vai para direita --> 50,35,40,60
     * tem raiz? sim, print = 50, 
     * vai para esquerda tem a raiz? sim, print = 35, 
     * vai para esquerda, tem raiz? não volta para a ultima raiz, 
@@ -41,9 +41,36 @@ graph TD;
     * e então vai para direita, tem raiz? sim, print = 60;
     * vai para esquerda, tem raiz? não volta para a ultima raiz, 
     * vai para direita tem raiz? não, volta até a primeira raiz.
+```
+void red(Arvore * raiz){
+  if(raiz){
+      cout<< raiz->dado <<endl;
+      red(raiz->esq);
+      red(raiz->dir);
+```
     
-* in-fixado ou ER - vai esquerda, visita raiz e vai direita --> 35,40,50,60
-* pós-fixado ou EDR - vai esquerda, vai direita e visita raiz, empilha tudo e desempilha tudo antes de ir para a raiz-->40,35,60,50
+* **in-fixado ou ERD** - vai esquerda, visita raiz e vai direita --> 35,40,50,60
+    * vai para esquerda, tem raiz? sim, print=35
+    * vai para direita, tem raiz? não, volta para a raiz
+    * vai da
+    *  
+```
+void erd(Arvore * raiz){
+  if(raiz){
+      erd(raiz->esq);
+      cout<< raiz->dado <<endl;
+      erd(raiz->dir);
+```
+
+* **pós-fixado ou EDR** - vai esquerda, vai direita e visita raiz, empilha tudo e desempilha tudo antes de ir para a raiz-->40,35,60,50
+
+```
+void edr(Arvore * raiz){
+  if(raiz){
+      edr(raiz->esq);
+      edr(raiz->dir);
+      cout<< raiz->dado <<endl;
+```
 
 
 
