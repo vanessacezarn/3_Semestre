@@ -1,4 +1,4 @@
-# ÁRVORES
+# ÁRVORES Binárias
 * tem que estar balanceado ---> vai rodando a árvore conforme vai adicionando dados, para que tenha-se uma certo equilibrio entre os lados
 * menor vai sendo preenchido a esquerda e o maior a direita do seus respectivos numeros proximos
 * para procurar um determinado numero não precisa compara-lo com todos, compara com o primeiro da arvore e escolhe para que lado vai
