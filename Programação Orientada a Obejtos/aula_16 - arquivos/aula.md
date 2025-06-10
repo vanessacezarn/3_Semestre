@@ -27,11 +27,9 @@
 **aluno**
 ```java
 package exemplo1;
-
 public class Aluno {
 	private String nome;
 	private int idade;
-	
 	public Aluno(String nome, int idade) {
 		this.nome = nome;
 		this.idade = idade;
@@ -42,19 +40,15 @@ public class Aluno {
 	public int getIdade() {
 		return idade;
 	}
-	
-
 }
 
 ```
 **principal**
 ``` java
 package exemplo1;
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-
 public class Principal {
 
 	public static void main(String[] args) {
@@ -83,10 +77,8 @@ public class Principal {
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
-	
-	
 	}
-
 }
 
 ```
+# SERIALIAÇÃO
