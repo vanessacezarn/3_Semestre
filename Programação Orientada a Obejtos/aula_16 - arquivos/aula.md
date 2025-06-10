@@ -5,9 +5,6 @@
     * FileReader
     * BufferedReader
 * primeiro escreve no buffererWriter para não precisar ficar sempre abrindo o arquivo txt por isso usa
-```java
-
-```
 * padrão na escrita de dados --> ; ou , --> para quando for ler o arquivo ou usar o split saber onde estam cada um dos dados
 * escritor.close -> encerra o buffer e manda para o file
 * arquivo.close --> encerra o file e salva o arquivo
