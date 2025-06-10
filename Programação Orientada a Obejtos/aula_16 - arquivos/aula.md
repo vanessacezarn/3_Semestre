@@ -47,30 +47,24 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 public class Principal {
-
 	public static void main(String[] args) {
-
 		Aluno a1 = new Aluno("Vanessa",22);
 		Aluno a2 = new Aluno("João",20);
 		Aluno a3 = new Aluno("Maria",19);
-
 		try {
-			FileWriter arquivo = new FileWriter("alunos.txt");
+			FileWriter arquivo = new FileWriter("C:\\Users\\laboratorio\\eclipse-workspace\\arquivos\\src\\exemplo1\\alunos.txt", true);
+			//true para não sobreescrever o que ja tem no arquivo --> dessa forma ele sempre adiciona os novos dados no final do arquivo um append
 			BufferedWriter escritor = new BufferedWriter(arquivo);
 			
 			escritor.write(a1.getNome()+","+a1.getIdade());
 			escritor.newLine();
-			
 			escritor.write(a2.getNome()+","+a2.getIdade());
 			escritor.newLine();
-			
 			escritor.write(a3.getNome()+","+a3.getIdade());
 			escritor.newLine();
-			
 			escritor.close();
 			arquivo.close();
-
-			
+			System.out.println("Alunos salvos com sucesso no arquivo .txt");
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
