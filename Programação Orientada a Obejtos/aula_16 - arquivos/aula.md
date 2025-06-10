@@ -48,7 +48,7 @@ public class Aluno {
 
 ```
 **principal**
-```
+``` java
 package exemplo1;
 
 import java.io.BufferedWriter;
