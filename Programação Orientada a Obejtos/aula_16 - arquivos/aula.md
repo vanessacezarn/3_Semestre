@@ -78,4 +78,36 @@ public class Principal {
 }
 
 ```
+**Principal 2**
+```.java
+package exemplo1;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+public class Principal2 {
+	public static void main(String[] args) {
+		try {
+			FileReader arquivo = new FileReader("C:\\Users\\laboratorio\\eclipse-workspace\\arquivos\\src\\exemplo1\\alunos.txt");
+			BufferedReader leitor = new BufferedReader(arquivo);
+			
+			System.out.println("Alunos lidos no arquivo");
+			String linha;
+			while((linha = leitor.readLine()) != null ) {
+				String [] campo = linha.split(",");
+				
+				String nome = campo[0];
+				int idade = Integer.parseInt(campo[1]);
+				Aluno a = new Aluno(nome,idade);
+				System.out.println("Nome: "+a.getNome() + ", idade: "+a.getIdade());
+			}
+			leitor.close();
+			arquivo.close();			
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+}
+
+```
 # SERIALIAÇÃO
