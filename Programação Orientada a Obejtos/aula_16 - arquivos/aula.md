@@ -105,3 +105,65 @@ public class Principal2 {
 
 ```
 # SERIALIAÇÃO
+package serializacaoJson;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Pessoa p = new Pessoa("vanessa",22);
+		
+		JSONObject json = new JSONObject();
+		json.put("nome",p.getNome());
+		json.put("idade",p.getIdade());
+		String jsonString =  json.toJSONString();
+		
+		gravaArquivo(jsonString);
+		
+		try {
+			lerArquivo();
+		}catch(org.json.simple.parser.ParseException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public static void gravaArquivo(String jsonString) {
+		try(FileWriter fileWriter = new FileWriter("pessoa.json")) {
+			fileWriter.write(jsonString);
+			System.out.println("Arquivo person.json salvo com sucesso");
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void lerArquivo() throws org.json.simple.parser.ParseException  {
+		try(FileReader fileReader = new FileReader("pessoa.json")) {
+			JSONParser jsonParser = new JSONParser();
+			JSONObject jsonObject = (JSONObject) jsonParser.parse(fileReader);
+			
+			// CRIANDO UM OBJETO PERSON A PARTIR DO JSON
+					
+			String nome = (String) jsonObject.get("nome");
+			long idade = (long) jsonObject.get("idade");
+			
+			Pessoa deserializedPerson = new Pessoa(nome, (int)idade);
+			System.out.println("OBJETO desserializado: "+deserializedPerson);
+
+			
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}
