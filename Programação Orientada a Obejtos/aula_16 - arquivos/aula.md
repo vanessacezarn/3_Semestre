@@ -4,7 +4,13 @@
     * BufferedWriter
     * FileReader
     * BufferedReader
-    * 
+* primeiro escreve no buffererWriter para não precisar ficar sempre abrindo o arquivo txt por isso usa
+```java
+
+```
+* padrão na escrita de dados --> ; ou , --> para quando for ler o arquivo ou usar o split saber onde estam cada um dos dados
+* escritor.close -> encerra o buffer e manda para o file
+* arquivo.close --> encerra o file e salva o arquivo
 ### FileWriter
 * escrever caracteres em um arquivo
 * é uma classe especializada que deriva da classe abstrata Writer
@@ -16,3 +22,71 @@
 ### BufferedReader
 * grnade quantidade de caracteres de um fluxo de entrada com melhor desempenho
 * melhora o desempenho lendo os dados de um buffer interno
+
+## exemplo 1
+**aluno**
+```java
+package exemplo1;
+
+public class Aluno {
+	private String nome;
+	private int idade;
+	
+	public Aluno(String nome, int idade) {
+		this.nome = nome;
+		this.idade = idade;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	
+
+}
+
+```
+**principal**
+```
+package exemplo1;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Aluno a1 = new Aluno("Vanessa",22);
+		Aluno a2 = new Aluno("João",20);
+		Aluno a3 = new Aluno("Maria",19);
+
+		try {
+			FileWriter arquivo = new FileWriter("alunos.txt");
+			BufferedWriter escritor = new BufferedWriter(arquivo);
+			
+			escritor.write(a1.getNome()+","+a1.getIdade());
+			escritor.newLine();
+			
+			escritor.write(a2.getNome()+","+a2.getIdade());
+			escritor.newLine();
+			
+			escritor.write(a3.getNome()+","+a3.getIdade());
+			escritor.newLine();
+			
+			escritor.close();
+			arquivo.close();
+
+			
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	
+	
+	}
+
+}
+
+```
