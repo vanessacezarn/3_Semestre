@@ -4,7 +4,6 @@
 -- https://github.com/alexandrezamberlan/bancoDeDadosUFN/blob/main/bancosDeDados/2.2%20-%20scriptEditora_insertsSelects.sql
 
 -- 1)selecione autores (nomes) que escrevem livros do genero ficcao
-
 select autor.nome
 from autor, livro, genero,livro_autor
 where (genero.descricao ="Ficção") and  genero.idGenero = livro.idGenero and livro_autor.idLivro= livro.idLivro and livro_autor.idAutor=autor.idAutor;
@@ -20,8 +19,6 @@ from livro, genero,editora,livro_autor, autor
 where (autor.nome = "Francisco") and autor.idAutor = livro_autor.idAutor and livro_autor.idLivro = livro.idLivro and genero.idGenero = livro.idGenero and editora.idEditora = livro.idEditora;
 
 -- 4) nome do autor que mais escreveu livro 
-
-
 select autor.nome
 from autor, livro_autor
 where autor.idAutor = livro_autor.idAutor
@@ -29,11 +26,7 @@ group by autor.idAutor
 order by count(livro_autor.idLivro) desc
 limit 1;
 
-
-
 -- 5) genero mais publicado em todas as editora 
-
-
 select genero.descricao
 from genero, livro
 where genero.idGenero = livro.idGenero
