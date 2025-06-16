@@ -1,3 +1,7 @@
+-- PROVA 2 - PROVA TEÓRICA, ESCRITA, E PARTE PRÁTICA, 5 QUESTÕES ABAIXO
+-- FOI UTILIZADO OS SCRIPTS DISPONIBILIZADOS PELA PROFESSOR NO GITHUB
+-- https://github.com/alexandrezamberlan/bancoDeDadosUFN/blob/main/bancosDeDados/2%20-%20scriptEditora.sql
+-- https://github.com/alexandrezamberlan/bancoDeDadosUFN/blob/main/bancosDeDados/2.2%20-%20scriptEditora_insertsSelects.sql
 
 -- 1)selecione autores (nomes) que escrevem livros do genero ficcao
 
