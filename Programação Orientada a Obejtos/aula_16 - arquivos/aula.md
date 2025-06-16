@@ -105,6 +105,7 @@ public class Principal2 {
 
 ```
 # SERIALIAÇÃO
+``` .java
 package serializacaoJson;
 
 import java.io.FileReader;
@@ -167,3 +168,5 @@ public class Principal {
 	}
 
 }
+
+``` 
