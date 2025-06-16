@@ -105,6 +105,14 @@ public class Principal2 {
 
 ```
 # SERIALIAÇÃO
+* é o processo de converter um objeto em fluxo de bytes para armazenar o objeto ou transmiti-lo para a memória, um banco de dados ou um arquivo
+* finalidade --> salvar o estado de um objeto para recriá-lo quando necessário
+* o processo inverso é chamado de desserialização
+* o objeto é serealizado para um fluxo que carrega os dados
+* o fluxo também pode ter informações sobre o tipo do objeto, como sua versão, cultura e nome do assembly
+* desse fluxo, o objeto pode ser armazenado em um banco de dados, um arquivo ou memória
+* o processo de serialização é independente da aplicação, um dado serializado em uma plataforma deve poder ser deserializada por qualquer outra
+
 ``` .java
 package serializacaoJson;
 
