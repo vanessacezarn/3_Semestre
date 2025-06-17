@@ -1,5 +1,5 @@
 # ARQUIVOS 
-* biblioteca java.io
+* a manipulação de arquivos se dá através de algumas classes existentes dentro da biblioteca java.io
     * FileWriter
     * BufferedWriter
     * FileReader
@@ -8,17 +8,26 @@
 * padrão na escrita de dados --> ; ou , --> para quando for ler o arquivo ou usar o split saber onde estam cada um dos dados
 * escritor.close -> encerra o buffer e manda para o file
 * arquivo.close --> encerra o file e salva o arquivo
-### FileWriter
+### Classe FileWriter
 * escrever caracteres em um arquivo
 * é uma classe especializada que deriva da classe abstrata Writer
-### BufferedWriter
+* ao criar uma instância do FileWriter, você precisa fornecer o caminho do arquivo que deseja escrever
+* permite gravar dados de caracteres diretamente em um arquivo, substituindo conteúdo existente,, se houver
+### Classe BufferedWriter
 * escrever grande quantidade de dados de caracteres em um fluxo de saida com melhor desempenho
-* escreve os dados em um buffer interno antes de gravalos fisicamente no dispositivo interno de armazenamento
-### FileReader
-* ler caracteres de um arquivo precisa fornecer o caminho do arquivo
-### BufferedReader
-* grnade quantidade de caracteres de um fluxo de entrada com melhor desempenho
-* melhora o desempenho lendo os dados de um buffer interno
+* escreve os dados em um buffer interno antes de gravalos fisicamente no dispositivo interno de armazenamento --> MELHORA o desesempenho
+* também é derivada da classe abstrata Writer
+* minimiza o número de operações de gravação física, tornando a gravação mais eficiente
+### Classe FileReader
+* ler caracteres de um arquivo
+* é uma classe especializada que deriva da classe abstrata Reader
+* precisa fornecer o caminho do arquivo que deseja ler
+* permite ler os caracteres do arquivo de forma sequencial
+### Classe BufferedReader
+* usada para ler grande quantidade de caracteres de um fluxo de entrada com melhor desempenho
+* também é uma classe derivada da classe abstrata Reader
+* melhora o desempenho lendo os dados de um buffer interno antes de retorná-lo ao chamador
+* minimiza o numero de operações de leitura física, tornando a leitura mais eficiente
 
 ## exemplo 1
 **aluno**
@@ -113,68 +122,3 @@ public class Principal2 {
 * desse fluxo, o objeto pode ser armazenado em um banco de dados, um arquivo ou memória
 * o processo de serialização é independente da aplicação, um dado serializado em uma plataforma deve poder ser deserializada por qualquer outra
 
-``` .java
-package serializacaoJson;
-
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-
-
-
-public class Principal {
-
-	public static void main(String[] args) {
-
-		Pessoa p = new Pessoa("vanessa",22);
-		
-		JSONObject json = new JSONObject();
-		json.put("nome",p.getNome());
-		json.put("idade",p.getIdade());
-		String jsonString =  json.toJSONString();
-		
-		gravaArquivo(jsonString);
-		
-		try {
-			lerArquivo();
-		}catch(org.json.simple.parser.ParseException e) {
-			e.printStackTrace();
-		}
-		
-	}
-	
-	public static void gravaArquivo(String jsonString) {
-		try(FileWriter fileWriter = new FileWriter("pessoa.json")) {
-			fileWriter.write(jsonString);
-			System.out.println("Arquivo person.json salvo com sucesso");
-		}catch(IOException e) {
-			e.printStackTrace();
-		}
-	}
-	
-	public static void lerArquivo() throws org.json.simple.parser.ParseException  {
-		try(FileReader fileReader = new FileReader("pessoa.json")) {
-			JSONParser jsonParser = new JSONParser();
-			JSONObject jsonObject = (JSONObject) jsonParser.parse(fileReader);
-			
-			// CRIANDO UM OBJETO PERSON A PARTIR DO JSON
-					
-			String nome = (String) jsonObject.get("nome");
-			long idade = (long) jsonObject.get("idade");
-			
-			Pessoa deserializedPerson = new Pessoa(nome, (int)idade);
-			System.out.println("OBJETO desserializado: "+deserializedPerson);
-
-			
-		}catch(IOException e) {
-			e.printStackTrace();
-		}
-	}
-
-}
-
-``` 
