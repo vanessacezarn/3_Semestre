@@ -11,5 +11,9 @@
   * um construtor qeu receba nome e preço
   * em todos os construtores o estoque deve ser inicializado com zero unidades
 * Implemente também os métodos get e set para todos os atributos da classe
-* Além disso, crie um método chamado **exibirInformacoes**  
+* Além disso, crie um método chamado **exibirInformacoes** que apresente todos od dados atuais
+* A seguir, desenvolva uma classe principal com um menu interativo que permaneça em execução até que seja escolhida a opção de sair (opção 0).
+* o menu deve seguir o seguinte formato:
+   ***MENU**
+  
   
