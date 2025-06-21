@@ -1,4 +1,4 @@
-# prova foi dividida em duas partes:
+# Prova foi dividida em duas partes:
 * parte teorica --> 9 questões objetivas
 * parte prátrica --> desenvolvimento de uma programa em java
 # Parte PRÁTICA
@@ -6,5 +6,10 @@
   * nome - String
   * preco - double
   * quantidadeEstoque - int
-*Implemente os seguintes construtores sobrecarregados:
+* Implemente os seguintes construtores sobrecarregados:
+  * um construtor que receba apenas o nome do produto]
+  * um construtor qeu receba nome e preço
+  * em todos os construtores o estoque deve ser inicializado com zero unidades
+* Implemente também os métodos get e set para todos os atributos da classe
+* Além disso, crie um método chamado **exibirInformacoes**  
   
