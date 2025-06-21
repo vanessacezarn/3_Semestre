@@ -14,6 +14,16 @@
 * Além disso, crie um método chamado **exibirInformacoes** que apresente todos od dados atuais
 * A seguir, desenvolva uma classe principal com um menu interativo que permaneça em execução até que seja escolhida a opção de sair (opção 0).
 * o menu deve seguir o seguinte formato:
-   ***MENU**
+   * **MENU**
+   * 1 - Criar produto informando nome
+   * 2 - Criar produto informando nome e preço
+   * 3 - Exibir informações do produto
+   * 4 - Atribuir nome do produto
+   * 5 - Obter nome do produto
+   * 6- Atribuir prelo do produto
+   * 7 - Obter preço do produto
+   * 8 - Atribuir quantidade em estoque
+   * 9 - Obter quantidade em estoque
+   * 0 - Sair
   
   
