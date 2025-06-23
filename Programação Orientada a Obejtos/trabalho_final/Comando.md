@@ -6,13 +6,7 @@
   * 2 - Alterar quilometragem do veículo
   * 3 - Excluir veículo pelo número da placa
   * 4 - Sair do sistema
-
-* Requisitos:
-  * O sistema deve seguir as boas práticas de programação com orientação a objetos.
-  * A manipulação deve ser feita através de objetos da classe Veiculo e de uma lista de veículos.
-  * Antes de gravar os dados no arquivo, o veículo deve ser instanciado como objeto, adicionado à lista e a lista deve ser atualizada no arquivo.
-  * O armazenamento dos dados deve ser feito em um arquivo texto. Será considerado um diferencial se o aluno utilizar serialização.
-
+    
 * A classe Veiculo deve conter os seguintes atributos privados:
   * placa (String)
   * modelo (String)
@@ -20,10 +14,17 @@
   * ano de fabricação (int)
   * quilometragem (double)
 
+ ## Requisitos:
+  * O sistema deve seguir as boas práticas de programação com orientação a objetos.
+  * A manipulação deve ser feita através de objetos da classe Veiculo e de uma lista de veículos.
+  * Antes de gravar os dados no arquivo, o veículo deve ser instanciado como objeto, adicionado à lista e a lista deve ser atualizada no arquivo.
+  * O armazenamento dos dados deve ser feito em um arquivo texto. Será considerado um diferencial se o aluno utilizar serialização.
+
+
   * Todos os atributos devem ter métodos get.
   * Apenas a quilometragem poderá ter um método set.
 
-* Apresentação:
+## Apresentação:
   * O trabalho deverá ser apresentado individualmente para o professor.
   * O aluno deverá demonstrar domínio completo do funcionamento do código.
 
