@@ -13,6 +13,9 @@
   * marca (String)
   * ano de fabricação (int)
   * quilometragem (double)
+    
+* Todos os atributos devem ter métodos get.
+* Apenas a quilometragem poderá ter um método set.
 
  ## Requisitos:
   * O sistema deve seguir as boas práticas de programação com orientação a objetos.
@@ -21,8 +24,6 @@
   * O armazenamento dos dados deve ser feito em um arquivo texto. Será considerado um diferencial se o aluno utilizar serialização.
 
 
-  * Todos os atributos devem ter métodos get.
-  * Apenas a quilometragem poderá ter um método set.
 
 ## Apresentação:
   * O trabalho deverá ser apresentado individualmente para o professor.
