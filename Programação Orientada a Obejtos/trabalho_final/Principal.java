@@ -8,11 +8,14 @@ public class Principal {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
+		System.out.println("*** SISTEMA DE CADASTRO DE VEÍCULOS ***");
+
 		Veiculo vei;
 		List<Veiculo>listaVeiculos = new ArrayList<Veiculo>();
-		
-		System.out.println("***SISTEMA DE CADASTRO DE VEÍCULOS***");
+		Arquivo arquivo = new Arquivo("Veiculos");
+		listaVeiculos = arquivo.leArquivo();
 		String opc;
+		
 		do {
 			System.out.println("\tMENU");
 			System.out.println("1 - Cadastrar veículo");
@@ -27,44 +30,52 @@ public class Principal {
 				System.out.println("\tCADASTRANDO VEÍCULOS");
 				System.out.print("Digite a placa do veículo : ");
 				String placa = teclado.nextLine().toUpperCase();
-				System.out.print("Digite o modelo do veículo : ");
-				String modelo = teclado.nextLine();
-				System.out.print("Digite a marca do veículo : ");
-				String marca = teclado.nextLine();
-				System.out.print("Digite o ano de fabricação do veículo : ");
-				int anoFabricacao = teclado.nextInt();
-				System.out.print("Digite a quilometragem do veículo : ");
-				Double quilometragem = teclado.nextDouble();
-				teclado.nextLine();
-				
-				vei = new Veiculo(placa,modelo,marca,anoFabricacao,quilometragem);
-				
-				listaVeiculos.add(vei);
-				System.out.println("CADASTRO REALIZADO COM SUCESSO!!!");
-				for(Veiculo p : listaVeiculos) {
-					System.out.println(p);
+				int encontrado = 0;
+				for (Veiculo v : listaVeiculos) {
+					if(v.getPlaca().equals(placa)) {
+						encontrado = 1;
 					}
-						
-				System.out.println("\n---------------------------------------------");
+				}
+				if(encontrado == 0) {
+					System.out.print("Digite o modelo do veículo : ");
+					String modelo = teclado.nextLine();
+					System.out.print("Digite a marca do veículo : ");
+					String marca = teclado.nextLine();
+					System.out.print("Digite o ano de fabricação do veículo : ");
+					int anoFabricacao = teclado.nextInt();
+					System.out.print("Digite a quilometragem do veículo : ");
+					Double quilometragem = teclado.nextDouble();
+					
+					vei = new Veiculo(placa,modelo,marca,anoFabricacao,quilometragem);
+					listaVeiculos.add(vei);
+					System.out.println("CADASTRO REALIZADO COM SUCESSO!!!");
+					arquivo.gravaArquivo(listaVeiculos);
+				}else {
+					System.out.println("A placa digitada já está cadastrada no sistema");
+				}
+				System.out.println("---------------------------------------------");
 
 			}else if(opc.equals("2")) {
 				System.out.println("----------------------------------------------");
 				System.out.println("\tALTERAR QUILOMETRAGEM");
 				System.out.print("Digite a placa do veículo que deseja fazer a alteração : ");
 				String alterar = teclado.nextLine().toUpperCase();
+				int encontrado = 0 ;
 				for (Veiculo v : listaVeiculos) {
 					if(v.getPlaca().equals(alterar)) {
+						encontrado = 1;
 						System.out.print("Digite a nova quilometragem : ");
 						double nova = teclado.nextDouble();
 						v.setQuilometragem(nova);
+						arquivo.gravaArquivo(listaVeiculos);
 						System.out.println("ALTERAÇÃO REALIZADA COM SUCESSO!!!");
-					}else {
-						System.out.println("Placa digitada não pertence a nenhum carro cadastrado no sistema");
 					}
 				}
+				if(encontrado == 0) {
+					System.out.println("Placa digitada não pertence a nenhum carro cadastrado no sistema");
+				}
 				
-				teclado.nextLine();
-				System.out.println("\n---------------------------------------------");
+				System.out.println("---------------------------------------------");
 
 				
 			}else if (opc.equals("3")) {
@@ -72,20 +83,18 @@ public class Principal {
 				System.out.println("\tEXCLUIR VEÍCULO");
 				System.out.print("Digite a placa do veículo que deseja excluir do sistema:");
 				String excluir = teclado.nextLine().toUpperCase();
+				int encontrado = 0 ;
 				for(Veiculo v : listaVeiculos) {
 					if(v.getPlaca().equals(excluir)) {
 						listaVeiculos.remove(v);
+						arquivo.gravaArquivo(listaVeiculos);
 						System.out.println("VEÍCULO EXCLUIDO COM SUCESSO!!!!");
-					}else {
-						System.out.println("Placa digitada não pertence a nenhum carro cadastrado no sistema");
 					}
 				}
-				
-				for(Veiculo p : listaVeiculos) {
-					System.out.println(p);
+				if(encontrado == 0) {
+					System.out.println("Placa digitada não pertence a nenhum carro cadastrado no sistema");
 				}
-				System.out.println("\n----------------------------------------------");
-
+				System.out.println("----------------------------------------------");
 				
 			}else if(opc.equals("4")) {
 				System.out.println("----------------------------------------------");
